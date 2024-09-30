@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/shape_white_bottom_curved" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/layout_oops" android:background="@color/pure_white" android:paddingTop="@dimen/dp_10" android:paddingBottom="@dimen/dp_10" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="180.0dip" android:layout_height="180.0dip" android:src="@drawable/ic_oops" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/item_title_gray" android:gravity="center" android:id="@id/tv_oops_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="3" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/pure_white" android:id="@id/tv_oops_click" android:background="@drawable/selector_red_curved" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <pl.droidsonroids.gif.GifImageView android:id="@id/gif_loading" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/gif_loading" android:layout_centerInParent="true" />
+        <TextView android:textColor="@color/gradient_red" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading" android:layout_below="@id/gif_loading" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.ilulutv.fulao2.other.custom.CustomLimitHeightWebView android:scrollbarThumbVertical="@color/gradient_red" android:layout_gravity="center" android:id="@id/wv_html_content" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ScrollView android:scrollbarThumbVertical="@color/gradient_red" android:scrollbarStyle="outsideOverlay" android:id="@id/sv_text_content" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_marginEnd="30.0dip">
+                <TextView android:textSize="18.0sp" android:textColor="@color/gradient_red" android:id="@id/tv_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_new_version_adjust_problem" />
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textColor="@color/dialog_adult_text_message_gray" android:autoLink="email|web" android:id="@id/tv_notice_message" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <pl.droidsonroids.gif.GifImageView android:id="@id/iv_announce" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <View android:id="@id/rl_notice_interval" android:background="@color/dialog_adult_line_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="3.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/rl_notice_btn" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <Button android:textSize="14.0sp" android:textColor="@color/dialog_adult_text_ok_red" android:gravity="center" android:id="@id/rl_notice_positive_tv" android:background="@drawable/selector_dialog_center" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/dialog_welcome_positive" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/left_button_layout" app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/left_button_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/rl_notice_positive_tv" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <Button android:textSize="14.0sp" android:textColor="@color/black_0_t38" android:gravity="center" android:id="@id/rl_notice_negative_tv" android:background="@drawable/selector_dialog_center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/favorite_cancel" android:layout_weight="1.0" android:layout_marginEnd="2.0dip" />
+            <View android:id="@id/rl_notice_line" android:background="@color/dialog_adult_line_gray" android:layout_width="1.0dip" android:layout_height="50.0dip" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

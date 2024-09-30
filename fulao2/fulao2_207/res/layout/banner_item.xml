@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/banner_cv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="4.899994dip" android:layout_marginBottom="8.799988dip" android:layout_above="@id/text_title" android:layout_marginStart="6.1999817dip" android:layout_marginEnd="6.1999817dip" app:cardCornerRadius="10.0dip" app:cardElevation="5.0dip">
+        <pl.droidsonroids.gif.GifImageView android:id="@id/banner_image" android:background="@drawable/ic_image_default_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    </androidx.cardview.widget.CardView>
+    <TextView android:textStyle="bold" android:textColor="@color/item_title_gray" android:id="@id/text_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/dp_10" />
+</RelativeLayout>

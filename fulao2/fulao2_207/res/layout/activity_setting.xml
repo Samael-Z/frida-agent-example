@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/black_0_t8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layout_toolbar" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/toolbar_general" />
+    <ScrollView android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_below="@id/layout_toolbar">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/layout_toolbar">
+            <View android:background="@color/white_1" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+            <RelativeLayout android:id="@id/layout_switch_account" android:background="@drawable/selector_setting_item" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="@color/pure_black" android:id="@id/tv_switch_account_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/setting_switch_account" android:layout_marginStart="4.0dip" android:layout_alignParentStart="true" />
+                <TextView android:textSize="@dimen/sp_14" android:textColor="@color/black_0_t38" android:id="@id/tv_switch_account_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:text="@string/setting_switch_account_subtitle" android:layout_below="@id/tv_switch_account_title" android:layout_marginStart="@dimen/dp_4" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right_grey" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View android:background="@color/black_0_t8" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="@dimen/dp_10" android:layout_marginEnd="@dimen/dp_10" />
+            <RelativeLayout android:id="@id/layout_bind_account" android:background="@drawable/selector_setting_item" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="@color/pure_black" android:id="@id/tv_bind_account_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/setting_bind_account" android:layout_marginStart="4.0dip" android:layout_alignParentStart="true" />
+                <TextView android:textSize="@dimen/sp_14" android:textColor="@color/black_0_t38" android:id="@id/tv_bind_account_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:text="@string/setting_bind_account_subtitle" android:layout_below="@id/tv_bind_account_title" android:layout_marginStart="@dimen/dp_4" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right_grey" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View android:id="@id/v_interval_change_pw" android:background="@color/black_0_t8" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="@dimen/dp_10" android:layout_marginEnd="@dimen/dp_10" />
+            <RelativeLayout android:id="@id/layout_change_pw" android:background="@drawable/selector_setting_item" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="@color/pure_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/forget_password_change_pw" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" android:layout_alignParentStart="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right_grey" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View android:background="@color/white_1" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+            <RelativeLayout android:background="@drawable/selector_setting_item" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="@color/pure_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_text_screen_lock" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_4" android:layout_alignParentStart="true" />
+                <androidx.appcompat.widget.SwitchCompat android:theme="@style/SettingSwitch" android:id="@id/switch_screen_lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dp_10" android:layout_alignParentEnd="true" app:trackTintMode="src_atop" />
+            </RelativeLayout>
+            <View android:background="@color/black_0_t8" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+            <RelativeLayout android:orientation="vertical" android:id="@id/ll_change_screen_lock_pw" android:background="@drawable/selector_setting_item" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="@color/pure_black" android:id="@id/change_lock_pw_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_text_change_screen_lock" android:layout_marginStart="@dimen/dp_4" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/black_0_t38" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:text="@string/setting_text_change_screen_lock_description" android:layout_below="@id/change_lock_pw_title" android:lineSpacingExtra="4.0sp" android:layout_marginStart="@dimen/dp_4" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right_grey" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View android:background="@color/white_1" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+            <RelativeLayout android:background="@drawable/selector_setting_item" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="@color/pure_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_text_auto_play_title" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_4" android:layout_alignParentStart="true" />
+                <androidx.appcompat.widget.SwitchCompat android:theme="@style/SettingSwitch" android:id="@id/switch_auto_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dp_10" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View android:background="@color/black_0_t8" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="@dimen/dp_10" android:layout_marginEnd="@dimen/dp_10" />
+            <RelativeLayout android:id="@id/layout_interval" android:background="@drawable/selector_setting_item" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="@color/pure_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_text_switch_time" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_4" android:layout_alignParentStart="true" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/primary_gray" android:id="@id/text_interval_current" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_10" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View android:background="@color/black_0_t8" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="@dimen/dp_10" android:layout_marginEnd="@dimen/dp_10" />
+            <RelativeLayout android:id="@id/player_layout_adjustment" android:background="@drawable/selector_setting_item" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="@color/pure_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_player_layout" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_4" android:layout_alignParentStart="true" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/primary_gray" android:id="@id/text_player_layout_current" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_10" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View android:background="@color/white_1" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+            <RelativeLayout android:id="@id/layout_change_icon" android:background="@drawable/selector_setting_item" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="@color/pure_black" android:id="@id/change_icon_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_text_change_icon" android:layout_alignTop="@id/switch_change_icon" android:layout_marginStart="@dimen/dp_4" android:layout_alignParentStart="true" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/black_0_t38" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/setting_text_change_icon_description" android:layout_below="@id/change_icon_text" android:lineSpacingExtra="4.0sp" android:layout_marginStart="@dimen/dp_4" />
+                <androidx.appcompat.widget.SwitchCompat android:theme="@style/SettingSwitch" android:id="@id/switch_change_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dp_10" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View android:background="@color/black_0_t8" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="@dimen/dp_10" android:layout_marginEnd="@dimen/dp_10" />
+            <RelativeLayout android:id="@id/layout_notification" android:background="@drawable/selector_setting_item" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="@color/pure_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/push_notification_title" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_4" android:layout_alignParentStart="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right_grey" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View android:background="@color/black_0_t8" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="@dimen/dp_10" android:layout_marginEnd="@dimen/dp_10" />
+            <RelativeLayout android:id="@id/layout_clear_cache" android:background="@drawable/selector_setting_item" android:padding="12.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="@color/pure_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_text_clear_cache" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_4" android:layout_alignParentStart="true" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/black_0_t38" android:id="@id/cache_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_10" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View android:background="@color/black_0_t8" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="@dimen/dp_10" android:layout_marginEnd="@dimen/dp_10" />
+            <RelativeLayout android:id="@id/layout_policy" android:background="@drawable/selector_setting_item" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="@color/pure_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/policy_text_title" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_4" android:layout_alignParentStart="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right_grey" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/layout_test_zone" android:padding="12.0dip" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="@color/black_0_t38" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="測試區域" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/layout_test_zone_2" android:padding="12.0dip" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="@color/black_0_t38" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="測試區域2" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="@color/white_1" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+            <View android:background="@color/white_1" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

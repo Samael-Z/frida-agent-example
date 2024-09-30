@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="center_horizontal" android:background="@drawable/shape_white_round" android:layout_width="@dimen/dp_40" android:layout_height="4.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@drawable/shape_white_top_curved_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="8.0dip">
+        <LinearLayout android:id="@id/ll_options_container" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_filter_black" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_options" />
+        </LinearLayout>
+        <androidx.core.widget.NestedScrollView android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="@dimen/dp_10" app:layout_constraintBottom_toTopOf="@id/fl_options_send" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ll_options_container">
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_options_rv_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </androidx.core.widget.NestedScrollView>
+        <FrameLayout android:id="@id/fl_options_send" android:layout_width="264.0dip" android:layout_height="44.0dip" android:layout_marginBottom="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+            <TextView android:textSize="16.0sp" android:textColor="@color/pure_white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_options_send" android:background="@drawable/shape_red_curved" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/search_options_send" />
+            <View android:id="@id/v_options_send_mask" android:background="@drawable/shape_red_curved_pressed" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

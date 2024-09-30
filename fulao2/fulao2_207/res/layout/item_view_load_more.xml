@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/load_more_loading_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/item_load_more" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/load_more_load_fail_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="16.0sp" android:textColor="@color/general_gray" android:layout_gravity="center" android:id="@id/tv_prompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/g_toast_load_fail" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/load_end_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="16.0sp" android:textColor="@color/general_gray" android:layout_gravity="center" android:paddingBottom="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/video_play_no_more" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/load_end_view_wh" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="16.0sp" android:textColor="@color/general_gray" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/watch_history_footer" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/load_more_no_animation" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

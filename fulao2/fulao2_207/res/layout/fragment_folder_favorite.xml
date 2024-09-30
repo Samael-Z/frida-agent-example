@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler" android:background="@color/white_1" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <include android:id="@id/v_loading" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/item_load_more" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/cdl_fragment_snack_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:layout_alignParentBottom="true" />
+    <FrameLayout android:id="@id/fl_import_container" android:background="@color/black_0_t38" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/dialog_text_input" />
+    </FrameLayout>
+</RelativeLayout>

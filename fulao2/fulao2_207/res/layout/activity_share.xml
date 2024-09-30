@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/shape_red_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout_toolbar" layout="@layout/toolbar_general" />
+    <RelativeLayout android:id="@id/share_page_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/layout_toolbar">
+        <ImageView android:id="@id/share_page_top_iv" android:background="@drawable/bg_share_page_boobs" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_qrcode" android:background="@android:color/white" android:layout_width="83.29999dip" android:layout_height="83.29999dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/pure_white" android:layout_gravity="center_horizontal" android:id="@id/share_page_your_exclusive_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/share_page_your_exclusive_code" />
+            <RelativeLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/share_page_invitation_code_rl" android:background="@drawable/selector_white_frame_grey" android:layout_width="280.0dip" android:layout_height="40.0dip" android:layout_marginTop="10.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/share_page_invitation_code_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/pure_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_page_copy" android:layout_centerInParent="true" android:layout_marginEnd="20.0dip" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/share_page_title" android:background="@drawable/shape_white_top_curved" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_below="@id/share_page_top">
+        <TextView android:textSize="16.0sp" android:textColor="@color/order_text_red" android:gravity="center" android:id="@id/textView2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/share_page_share_and_get_benefit" android:layout_centerHorizontal="true" />
+        <View android:id="@id/view" android:background="@color/item_title_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="15.0dip" android:layout_below="@id/textView2" android:layout_centerHorizontal="true" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+        <ScrollView android:id="@id/share_page_content_sv" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="10.0dip" android:fillViewport="true" android:layout_above="@id/share_page_share_link" android:layout_below="@id/view" android:layout_centerHorizontal="true" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+            <TextView android:textColor="@color/item_title_gray" android:id="@id/share_page_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="2.0dip" />
+        </ScrollView>
+        <TextView android:textSize="16.0sp" android:textColor="@color/pure_white" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/share_page_share_link" android:background="@drawable/selector_red_curved" android:layout_width="280.0dip" android:layout_height="40.0dip" android:layout_marginBottom="10.0dip" android:text="@string/share_page_share_link" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

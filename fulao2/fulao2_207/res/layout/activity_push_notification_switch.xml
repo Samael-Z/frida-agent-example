@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar" layout="@layout/toolbar_general" />
+    <View android:background="@color/white_1" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="@color/pure_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:text="@string/push_notification_content" android:layout_marginStart="@dimen/dp_10" />
+        <androidx.appcompat.widget.SwitchCompat android:theme="@style/SettingSwitch" android:id="@id/switch_pn_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_10" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:background="@color/black_0_t8" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="@dimen/dp_10" android:layout_marginEnd="@dimen/dp_10" />
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="@color/pure_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:text="@string/push_notification_discount" android:layout_marginStart="@dimen/dp_10" />
+        <androidx.appcompat.widget.SwitchCompat android:theme="@style/SettingSwitch" android:id="@id/switch_pn_discount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_10" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:background="@color/black_0_t8" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="@dimen/dp_10" android:layout_marginEnd="@dimen/dp_10" />
+    <RelativeLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/pure_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="測試" android:layout_marginStart="@dimen/dp_10" />
+        <androidx.appcompat.widget.SwitchCompat android:theme="@style/SettingSwitch" android:id="@id/switch_pn_test" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dp_10" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

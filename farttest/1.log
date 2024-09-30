@@ -1,0 +1,16 @@
+     ____
+    / _  |   Frida 16.4.10 - A world-class dynamic instrumentation toolkit
+   | (_| |
+    > _  |   Commands:
+   /_/ |_|       help      -> Displays the help system
+   . . . .       object?   -> Display information about 'object'
+   . . . .       exit/quit -> Exit
+   . . . .
+   . . . .   More info at https://frida.re/docs/home/
+   . . . .
+   . . . .   Connected to Pixel 4 (id=9B211FFAZ004FG)
+Spawning `com.zj.wuaipojie`...
+Spawned `com.zj.wuaipojie`. Resuming main thread!
+[Pixel 4::com.zj.wuaipojie ]-> exit
+
+Thank you for using Frida!

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar_filter" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentInsetEnd="0.0dip" app:contentInsetStart="0.0dip" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:titleTextColor="@android:color/white">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/search_bar" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" layout="@layout/item_search_bar" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/item_title_gray" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/text_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_text_cancel" android:layout_centerVertical="true" android:lineSpacingExtra="10.0sp" android:layout_marginEnd="10.0dip" android:layout_toEndOf="@id/search_bar" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+</com.google.android.material.appbar.AppBarLayout>

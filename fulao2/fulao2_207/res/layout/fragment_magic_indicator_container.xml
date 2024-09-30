@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/general_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_magic_indicator_container" android:background="@drawable/shape_pink_oval" android:layout_width="fill_parent" android:layout_height="@dimen/dp_40" android:layout_marginTop="12.0dip" android:paddingStart="1.0dip" android:paddingEnd="1.0dip" android:layout_marginStart="@dimen/dp_10" android:layout_marginEnd="@dimen/dp_10" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <net.lucode.hackware.magicindicator.MagicIndicator android:id="@id/magic_indicator" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <androidx.viewpager.widget.ViewPager android:id="@id/view_pager" android:background="@color/colorPrimary" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="5.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/fl_magic_indicator_container" />
+</androidx.constraintlayout.widget.ConstraintLayout>

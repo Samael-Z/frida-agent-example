@@ -1,0 +1,35 @@
+(frida15) G:\android\frida-agent-example\umpackjs>frida -U -l myunpack.js -f com.hello.qqc  --no-pause
+     ____
+    / _  |   Frida 15.2.2 - A world-class dynamic instrumentation toolkit
+   | (_| |
+    > _  |   Commands:
+   /_/ |_|       help      -> Displays the help system
+   . . . .       object?   -> Display information about 'object'
+   . . . .       exit/quit -> Exit
+   . . . .
+   . . . .   More info at https://frida.re/docs/home/
+   . . . .
+   . . . .   Connected to Pixel 4 (id=9B211FFAZ004FG)
+Spawned `com.hello.qqc`. Resuming main thread!
+[Pixel 4::com.hello.qqc ]-> 
+
+base =  0xc972f030
+size =  0x3e818
+magic1 dex035
+dex_size =  256024(0x0x3e818)
+
+
+base =  0xc6794000
+size =  0x78ca74
+magic1 dex035
+dex_size =  7916148(0x78ca74)
+
+base =  0xc6474000
+size =  0x31ff00
+magic1 dex035
+dex_size =  3276544(0x31ff00)
+
+base =  0xc640e000
+size =  0x65a60
+magic1 dex035
+dex_size =  416352(0x65a60)

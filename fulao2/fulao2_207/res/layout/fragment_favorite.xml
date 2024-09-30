@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <include android:id="@id/layout_oops" android:visibility="gone" layout="@layout/item_oops" />
+    <TextView android:textStyle="bold" android:textColor="@color/pure_white" android:gravity="center" android:id="@id/favorite_reload_tv" android:background="@drawable/shape_red_round" android:visibility="visible" android:layout_width="90.0dip" android:layout_height="30.0dip" android:layout_marginTop="10.0dip" android:text="@string/favorite_click_and_update" android:layout_centerHorizontal="true" />
+    <include android:id="@id/loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/item_load_more" />
+</RelativeLayout>

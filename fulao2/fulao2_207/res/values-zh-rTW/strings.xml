@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">瀏覽首頁</string>
+    <string name="abc_action_bar_up_description">向上瀏覽</string>
+    <string name="abc_action_menu_overflow_description">更多選項</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">選擇應用程式</string>
+    <string name="abc_capital_off">關閉</string>
+    <string name="abc_capital_on">開啟</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">Delete 鍵</string>
+    <string name="abc_menu_enter_shortcut_label">Enter 鍵</string>
+    <string name="abc_menu_function_shortcut_label">Fn +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Shift +</string>
+    <string name="abc_menu_space_shortcut_label">空格鍵</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Menu +</string>
+    <string name="abc_search_hint">搜尋…</string>
+    <string name="abc_searchview_description_clear">清除查詢</string>
+    <string name="abc_searchview_description_query">搜尋查詢</string>
+    <string name="abc_searchview_description_search">搜尋</string>
+    <string name="abc_searchview_description_submit">提交查詢</string>
+    <string name="abc_searchview_description_voice">語音搜尋</string>
+    <string name="abc_shareactionprovider_share_with">分享對象</string>
+    <string name="abc_shareactionprovider_share_with_application">與「%s」分享</string>
+    <string name="abc_toolbar_collapse_description">收合</string>
+    <string name="ad_wording">品牌贊助</string>
+    <string name="app_name">Fulao2</string>
+    <string name="backpress_notice_main">再按一次返回鍵離開</string>
+    <string name="backpress_notice_verify_code">"請留在此頁等候驗證碼
+離開後即無法驗證"</string>
+    <string name="before_days">%1$d天前</string>
+    <string name="before_months">%1$d個月前</string>
+    <string name="before_years">%1$d年前</string>
+    <string name="bottom_tab_title_censored">有碼</string>
+    <string name="bottom_tab_title_discover">發現</string>
+    <string name="bottom_tab_title_favorite">收藏</string>
+    <string name="bottom_tab_title_me">會員</string>
+    <string name="bottom_tab_title_uncensored">無碼</string>
+    <string name="bottomsheet_action_expand_halfway">展開一半</string>
+    <string name="buy_vip_content">清晰畫質｜高速線路｜極速緩存｜精選好片</string>
+    <string name="category_empty">很抱歉，目前無相關視頻</string>
+    <string name="category_long_title_censored">有碼</string>
+    <string name="category_long_title_uncensored">無碼</string>
+    <string name="change_password_btn_submit">變更密碼</string>
+    <string name="change_password_change_success">變更成功</string>
+    <string name="change_password_edit_hint_password">請輸入密碼(6位以上)</string>
+    <string name="change_password_old_password_title">舊密碼</string>
+    <string name="change_password_text_forget_password"><u>忘記密碼</u></string>
+    <string name="change_password_text_password_confirm">確認密碼</string>
+    <string name="change_password_toolbar">密碼變更</string>
+    <string name="change_register_country_code_hint">請選擇您的國碼</string>
+    <string name="change_register_phone_btn_submit">獲取短信驗證碼</string>
+    <string name="change_register_phone_edit_hint_phone">請輸入您的手機號碼</string>
+    <string name="change_register_phone_text_country_code">國碼</string>
+    <string name="change_register_phone_text_phone_title">手機號碼</string>
+    <string name="change_register_toolbar">變更綁定號碼</string>
+    <string name="channel_text_all_videos">視頻：%d</string>
+    <string name="channel_text_cup">罩杯：%s</string>
+    <string name="channel_text_title">頻道視頻</string>
+    <string name="character_counter_content_description">已輸入 %1$d 個字元 (上限為 %2$d 個字元)</string>
+    <string name="character_counter_overflowed_content_description">超過字元限制 (共 %1$d 字元，上限 %2$d 字元)</string>
+    <string name="check">查看</string>
+    <string name="check_password_edit_password">請輸入密碼(6位以上)</string>
+    <string name="check_password_text_description">為了確保本人持有，請先輸入您的帳號密碼</string>
+    <string name="check_password_text_password">密碼</string>
+    <string name="check_password_text_submit">送出</string>
+    <string name="check_value_country_code_cant_empty">國碼不可為空</string>
+    <string name="check_value_phone_cant_empty">請輸入手機</string>
+    <string name="check_value_phone_wrong_format">手機格式錯誤</string>
+    <string name="check_value_pw_cant_empty">請輸入密碼</string>
+    <string name="check_value_pw_cant_low6">密碼不得少於6碼</string>
+    <string name="check_value_pw_confirm_fail">兩次輸入密碼不相同</string>
+    <string name="clear_text_end_icon_content_description">清除文字</string>
+    <string name="common_google_play_services_enable_button">啟用</string>
+    <string name="common_google_play_services_enable_text">您必須啟用 Google Play 服務，才能執行「%1$s」。</string>
+    <string name="common_google_play_services_enable_title">啟用 Google Play 服務</string>
+    <string name="common_google_play_services_install_button">安裝</string>
+    <string name="common_google_play_services_install_text">您的裝置並未安裝 Google Play 服務，因此無法執行「%1$s」。</string>
+    <string name="common_google_play_services_install_title">取得 Google Play 服務</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play 服務可用性</string>
+    <string name="common_google_play_services_notification_ticker">Google Play 服務發生錯誤</string>
+    <string name="common_google_play_services_unknown_issue">「%1$s」無法存取 Google Play 服務，請再試一次。</string>
+    <string name="common_google_play_services_unsupported_text">您的裝置不支援 Google Play 服務，因此無法執行「%1$s」。</string>
+    <string name="common_google_play_services_update_button">更新</string>
+    <string name="common_google_play_services_update_text">您必須更新 Google Play 服務，才能執行「%1$s」。</string>
+    <string name="common_google_play_services_update_title">更新 Google Play 服務</string>
+    <string name="common_google_play_services_updating_text">執行「%1$s」所需的 Google Play 服務正在更新。</string>
+    <string name="common_google_play_services_wear_update_text">必須使用新版 Google Play 服務。該服務稍後就會自動更新。</string>
+    <string name="common_open_on_phone">在手機上開啟</string>
+    <string name="common_signin_button_text">登入</string>
+    <string name="common_signin_button_text_long">使用 Google 帳戶登入</string>
+    <string name="confirm_verify_code">确认验证码</string>
+    <string name="congrats">恭喜獲得</string>
+    <string name="contract_management_current_close">方案結束</string>
+    <string name="contract_management_current_date">有效日期</string>
+    <string name="contract_management_current_in_progress">方案進行中</string>
+    <string name="contract_management_current_name">方案名稱</string>
+    <string name="contract_management_current_no_plan">尚無方案</string>
+    <string name="contract_management_current_pay_by">付款方式</string>
+    <string name="contract_management_current_title">目前方案</string>
+    <string name="contract_management_history_current_complaint_one">付款超過十分鐘但VIP方案仍未開通嗎？</string>
+    <string name="contract_management_history_current_complaint_three">(請您截圖會員帳號與交易明細並上傳圖片，我們將於24小時內替您開通方案)</string>
+    <string name="contract_management_history_current_complaint_two">※ 歡迎使用支付申訴功能：</string>
+    <string name="contract_management_history_current_complaint_two_link">" "<u>點擊此處</u></string>
+    <string name="contract_management_history_date">交易時間 %1$s</string>
+    <string name="contract_management_history_no_record">尚無訂單記錄</string>
+    <string name="contract_management_history_title">歷史訂單</string>
+    <string name="contract_management_toolbar_title">訂單記錄</string>
+    <string name="coupon_dialog_confirm">确认</string>
+    <string name="coupon_dialog_title">兌換結果</string>
+    <string name="coupon_item_amount">数量：%d</string>
+    <string name="coupon_item_bind_reward">帳號綁定回饋</string>
+    <string name="coupon_item_exp">有效日期：</string>
+    <string name="coupon_item_invitation_code">好友邀請碼：</string>
+    <string name="coupon_item_no_avaiable_coupon">沒有任可使用的優惠券</string>
+    <string name="coupon_item_no_exp">無期限</string>
+    <string name="coupon_item_no_invalid_coupon">沒有任何無效的優惠券</string>
+    <string name="coupon_item_no_used_coupon">沒有任何已使用的優惠券</string>
+    <string name="coupon_item_one_day_vip_voucher">一日 VIP 體驗券</string>
+    <string name="coupon_item_please_wait">前笔兑换处理中，请稍后再试</string>
+    <string name="coupon_item_share_and_get_coupon">分享拿優惠券</string>
+    <string name="coupon_item_shared_reward">分享推廣回饋</string>
+    <string name="coupon_item_use">使用</string>
+    <string name="coupon_my_invitation_code">"
+我的邀請碼："</string>
+    <string name="coupon_please_input_code">請輸入邀請碼或活動代碼</string>
+    <string name="coupon_tab_available">可使用</string>
+    <string name="coupon_tab_invalid">失效</string>
+    <string name="coupon_tab_used">已使用</string>
+    <string name="coupon_text_redeem">兌換</string>
+    <string name="coupon_toast_code_not_found">查無此邀請碼</string>
+    <string name="coupon_toast_code_used">邀請碼僅能兌換一次</string>
+    <string name="coupon_toast_do_not_input_own_code">請勿輸入自己的邀請碼</string>
+    <string name="coupon_toast_point_not_enough">您的數量不足</string>
+    <string name="coupon_toast_redeem_successful">兌換成功</string>
+    <string name="day">第 %s 天</string>
+    <string name="dialog_Like_and_Share_app_cancel">狠心拒絕</string>
+    <string name="dialog_Like_and_Share_app_message">這麼優質的軟件您忍心藏著掖著？分享給您的鐵哥們一同享受最新最速的火燙視頻吧！ （成功分享後將不再提示）</string>
+    <string name="dialog_Like_and_Share_app_share_now">立即分享</string>
+    <string name="dialog_Like_and_Share_app_title">喜歡我們的軟件嗎？</string>
+    <string name="dialog_Share_app_cancel">取消</string>
+    <string name="dialog_Share_app_message">此為付費功能，升級 VIP 即可享受最完整的服務！</string>
+    <string name="dialog_Share_app_message_share_mode">此為付費功能，分享軟件您即可獲得一日 VIP 體驗最完整的服務</string>
+    <string name="dialog_Share_app_share_now">立即分享</string>
+    <string name="dialog_Share_app_title">VIP限定功能</string>
+    <string name="dialog_Share_app_vip">升級 VIP</string>
+    <string name="dialog_action_offline">離線模式</string>
+    <string name="dialog_action_reconnect">重新連接</string>
+    <string name="dialog_action_renew">立即續約</string>
+    <string name="dialog_allow_message">目前系統維修中，請稍後再試哦！</string>
+    <string name="dialog_allow_ok">確認</string>
+    <string name="dialog_allow_title">很抱歉</string>
+    <string name="dialog_announcement_ok">確認</string>
+    <string name="dialog_announcement_title">公告訊息</string>
+    <string name="dialog_binding_cancel">今日不顯示</string>
+    <string name="dialog_binding_message">"注意！您的帳號為VIP會員，若未完成綁定，遺失帳號將無法回復！
+
+請您儘速進行帳號綁定，完成後將贈送您一日VIP。"</string>
+    <string name="dialog_binding_ok">前往綁定</string>
+    <string name="dialog_binding_success_button">前往領取</string>
+    <string name="dialog_binding_success_message">恭喜親！您的帳號已成功綁定，即刻就前往領取一日VIP體驗券。</string>
+    <string name="dialog_binding_success_title">綁定手機號碼完成</string>
+    <string name="dialog_binding_title">綁定帳號送VIP體驗券</string>
+    <string name="dialog_change_password_success_message">恭喜您！密碼已經變更成功，請重新登入！</string>
+    <string name="dialog_change_password_success_ok">確認</string>
+    <string name="dialog_change_password_success_title">密碼變更成功</string>
+    <string name="dialog_check_verify_code_error_already_used">驗證碼已使用</string>
+    <string name="dialog_check_verify_code_error_message">驗證碼錯誤，請重新輸入。</string>
+    <string name="dialog_check_verify_code_error_no_more">本日驗證碼次數已用完，請於20分鐘內儘速使用</string>
+    <string name="dialog_check_verify_code_error_no_more_and_time_up">本日驗證碼次數已用完</string>
+    <string name="dialog_check_verify_code_error_no_user">查無使用者</string>
+    <string name="dialog_check_verify_code_error_ok">確認</string>
+    <string name="dialog_check_verify_code_error_time_up">驗證碼已過期</string>
+    <string name="dialog_check_verify_code_error_title">驗證碼錯誤</string>
+    <string name="dialog_clarity_change_no_hd">高清HD(暫不開放)</string>
+    <string name="dialog_clarity_choose_title">選擇畫質</string>
+    <string name="dialog_copy_failed_message">發生了未知的錯誤導致緩存複製失敗，請您再試一次，或跳過此步驟</string>
+    <string name="dialog_copy_failed_retry">再試一次</string>
+    <string name="dialog_copy_failed_skip">跳過</string>
+    <string name="dialog_copy_failed_title">複製緩存失敗</string>
+    <string name="dialog_copy_skip_cancel">取消</string>
+    <string name="dialog_copy_skip_confirm">確定</string>
+    <string name="dialog_copy_skip_message">若跳過此步驟，您將遺失先前的視頻緩存</string>
+    <string name="dialog_copy_skip_title">跳過緩存複製</string>
+    <string name="dialog_copy_storage_inadequate_close">關閉</string>
+    <string name="dialog_copy_storage_inadequate_message">您的儲存空間不足無法複製，請先清理後再重試</string>
+    <string name="dialog_copy_storage_inadequate_retry">重試</string>
+    <string name="dialog_copy_storage_inadequate_title">無法複製緩存及轉移位置</string>
+    <string name="dialog_delete_folder_confirmation_cancel">取消</string>
+    <string name="dialog_delete_folder_confirmation_confirm">刪除</string>
+    <string name="dialog_delete_folder_confirmation_title">確認刪除收藏夾？</string>
+    <string name="dialog_delete_video_confirmation_cancel">取消</string>
+    <string name="dialog_delete_video_confirmation_confirm">確認移除</string>
+    <string name="dialog_delete_video_confirmation_content">選取的視頻將從其他收藏夾一併移除</string>
+    <string name="dialog_delete_video_confirmation_title">取消收藏視頻？</string>
+    <string name="dialog_email_format_err_message">請重新確認郵件地址，需包含@。</string>
+    <string name="dialog_email_format_err_ok">確認</string>
+    <string name="dialog_email_format_err_title">郵件格式錯誤</string>
+    <string name="dialog_error_message">發生錯誤，請稍候幾分鐘再重試一次，或聯絡客服中心尋求協助。</string>
+    <string name="dialog_error_negative">取消</string>
+    <string name="dialog_error_positive">聯絡客服</string>
+    <string name="dialog_error_title">發生錯誤</string>
+    <string name="dialog_family_package_binding_message">"注意！您的帳號為家庭包會員，若未完成綁定將無法共享帳號，帳號遺失也將無法找回！
+
+請儘速綁定，完成後將贈送您一日VIP。"</string>
+    <string name="dialog_family_package_binding_title">使用家庭包前請先綁定帳號</string>
+    <string name="dialog_family_package_logout_message">您已從本装置上登出!請先確認是否其他成員正在使用中，重新登入即可!</string>
+    <string name="dialog_family_package_logout_title">家庭包已達上限4人</string>
+    <string name="dialog_favorite_cannot_find_folder_content">該序號無對應的收藏夾，請您重新嘗試</string>
+    <string name="dialog_favorite_cannot_find_folder_title">找不到收藏夾</string>
+    <string name="dialog_favorite_copy_video_to_folder_failed">複製視頻失敗</string>
+    <string name="dialog_favorite_create_folder_failed_failed">新建收藏夾失敗</string>
+    <string name="dialog_favorite_delete_folder_failed">刪除收藏夾失敗</string>
+    <string name="dialog_favorite_delete_liked_video_failed">取消收藏失敗</string>
+    <string name="dialog_favorite_imporyt_folder_failed">匯入收藏夾失敗</string>
+    <string name="dialog_favorite_like_video_failed">收藏失敗</string>
+    <string name="dialog_favorite_message" />
+    <string name="dialog_favorite_ok">確認</string>
+    <string name="dialog_favorite_remove_video_to_folder_failed">移除視頻失敗</string>
+    <string name="dialog_favorite_version_2_cencel">暫時不要</string>
+    <string name="dialog_favorite_version_2_confirm">即刻升級</string>
+    <string name="dialog_favorite_version_2_content_free_member">一般會員最多可收藏 %s 部視頻，升級尊榮VIP即可享受最完整的服務</string>
+    <string name="dialog_favorite_version_2_content_vip_1">體驗VIP最多可收藏 %s 部視頻，升級尊榮VIP即可享受最完整的服務</string>
+    <string name="dialog_favorite_version_2_title">收藏視頻空間不足</string>
+    <string name="dialog_first_purchase_btn">學妹我要</string>
+    <string name="dialog_folder_cencel">暫時不要</string>
+    <string name="dialog_folder_confirm">即刻升級</string>
+    <string name="dialog_folder_content_free_member">一般會員最多可新建 %s 個收藏夾，升級尊榮VIP即可享受最完整的服務</string>
+    <string name="dialog_folder_content_vip_1">體驗VIP最多可新建 %s 個收藏夾，升級尊榮VIP即可享受最完整的服務</string>
+    <string name="dialog_folder_title">收藏夾空間不足</string>
+    <string name="dialog_g_action_cancel">取消</string>
+    <string name="dialog_g_action_sure">確認</string>
+    <string name="dialog_get_reward">立即簽到</string>
+    <string name="dialog_go_to_new_app_close">關閉</string>
+    <string name="dialog_go_to_new_app_message">已偵測到您有安裝新版 App，請點擊「開啟」立即使用新版，並建議您移除舊版 App！</string>
+    <string name="dialog_go_to_new_app_open">開啟新版</string>
+    <string name="dialog_go_to_new_app_title">已安装新版 App</string>
+    <string name="dialog_history_delete_all">刪除全部</string>
+    <string name="dialog_history_delete_history">刪除足跡</string>
+    <string name="dialog_history_delete_today">刪除本日</string>
+    <string name="dialog_history_delete_week">刪除本週</string>
+    <string name="dialog_location_error_message">您所在的地區無法觀看視頻</string>
+    <string name="dialog_location_error_ok">確認</string>
+    <string name="dialog_location_error_title">錯誤</string>
+    <string name="dialog_member_status_illustration_message" />
+    <string name="dialog_member_status_illustration_ok">確認</string>
+    <string name="dialog_member_status_illustration_title">會員特權比較</string>
+    <string name="dialog_msg_download_expire_error">離線為VIP專享功能，成為VIP才能開啟視頻喔！</string>
+    <string name="dialog_msg_download_full">您的緩存額度已滿！(VIP緩存額度最多只有50部喔)</string>
+    <string name="dialog_msg_download_full_2">此為付費功能，升級 VIP 即可提高數量上限</string>
+    <string name="dialog_msg_download_full_cancel">取消</string>
+    <string name="dialog_msg_download_full_upgrade">升級VIP</string>
+    <string name="dialog_msg_download_no_network_error">網路無法正常連線，請重新連線才能繼續緩存視頻。！</string>
+    <string name="dialog_msg_no_network_error">您的網路連接失敗，請重新連接或開啟離線模式！</string>
+    <string name="dialog_must_update_ok">確認</string>
+    <string name="dialog_must_update_title">請更新版本</string>
+    <string name="dialog_need_binding_message">請立即前往註冊或登入帳號，避免遺失您的收藏與VIP權限。(遺失的帳號將無法再次取回)</string>
+    <string name="dialog_need_binding_title">請綁定帳號</string>
+    <string name="dialog_network_error2_first_time_message">資料讀取中，請稍後</string>
+    <string name="dialog_network_error2_message">目前人數過載中，請稍後返回重試</string>
+    <string name="dialog_network_error2_ok">確認</string>
+    <string name="dialog_network_error2_title">連線失敗</string>
+    <string name="dialog_network_error_message">請確認您的網路環境是否正常</string>
+    <string name="dialog_network_error_ok">再試一次</string>
+    <string name="dialog_network_error_title">無法連上伺服器主機</string>
+    <string name="dialog_new_version_adjust_problem">更新內容：</string>
+    <string name="dialog_new_version_cancel">取消</string>
+    <string name="dialog_new_version_message">按下更新後將離開應用程序前往更新，請稍待。</string>
+    <string name="dialog_new_version_ok">更新</string>
+    <string name="dialog_new_version_title">發現新版本</string>
+    <string name="dialog_no_authorization_cancel">取消</string>
+    <string name="dialog_no_authorization_content">如要繼續使用該功能，請先前往下載新的安裝包，並卸載原軟件重新安裝！</string>
+    <string name="dialog_no_authorization_download">立即下載</string>
+    <string name="dialog_no_authorization_title">操作未獲得授權</string>
+    <string name="dialog_not_open_yet_message">親，免費期間此功能暫不開放！</string>
+    <string name="dialog_not_open_yet_ok">確認</string>
+    <string name="dialog_not_open_yet_title">功能尚未開放</string>
+    <string name="dialog_notice_delete_cancel">取消</string>
+    <string name="dialog_notice_delete_confirm">删除</string>
+    <string name="dialog_notice_delete_message">刪除即無法復原，您確定要刪除嗎？</string>
+    <string name="dialog_notice_delete_title">提示</string>
+    <string name="dialog_number_format_err_message">輸入資訊格式錯誤</string>
+    <string name="dialog_number_format_err_ok">確認</string>
+    <string name="dialog_number_format_err_title">錯誤</string>
+    <string name="dialog_obtain_vip_message">"簽到進度明日將重新開始計算！
+請保持連續簽到即可再次獲得～"</string>
+    <string name="dialog_obtain_vip_ok">我知道了</string>
+    <string name="dialog_obtain_vip_title">恭喜獲得一日VIP</string>
+    <string name="dialog_permission_exit">退出應用</string>
+    <string name="dialog_permission_external_message">"本應用使用內存來存儲數據，
+請允許內存使用。"</string>
+    <string name="dialog_permission_ok">確定</string>
+    <string name="dialog_permission_phone_state_message">"本應用以裝置資料來記憶帳號，
+請允許取用您的裝置資料。"</string>
+    <string name="dialog_permission_setting">系統設置</string>
+    <string name="dialog_permission_title_warning">注意！！</string>
+    <string name="dialog_phone_already_bound_error_cancel">取消</string>
+    <string name="dialog_phone_already_bound_error_message">此手機號碼已被綁定使用，您可提供新的手機號碼進行綁定，或請您重新登入確認該帳戶是否為你本人所有。</string>
+    <string name="dialog_phone_already_bound_error_ok">重新登入</string>
+    <string name="dialog_phone_already_bound_error_title">此手機號碼已被綁定</string>
+    <string name="dialog_player_layout_cancel">取消</string>
+    <string name="dialog_player_layout_left_hand">左手操作</string>
+    <string name="dialog_player_layout_new">NEW</string>
+    <string name="dialog_player_layout_ok">確認</string>
+    <string name="dialog_player_layout_original">傳統操作</string>
+    <string name="dialog_player_layout_right_hand">右手操作</string>
+    <string name="dialog_relogin_message">你已經從其他裝置上使用本帳號，請重新登入！</string>
+    <string name="dialog_relogin_negative">使用新帳號</string>
+    <string name="dialog_relogin_positive">登入</string>
+    <string name="dialog_relogin_title">您已登出</string>
+    <string name="dialog_renew_vip_btn">續約特權</string>
+    <string name="dialog_renew_vip_btn_lv1_plus">把握機會</string>
+    <string name="dialog_renew_vip_btn_lv2">獲取禮包</string>
+    <string name="dialog_report_issue_cant_open">播放速度慢</string>
+    <string name="dialog_report_issue_cant_play">無法播放</string>
+    <string name="dialog_report_issue_lose_episode">缺少集數</string>
+    <string name="dialog_report_issue_negative">取消</string>
+    <string name="dialog_report_issue_no_match">標題與內容不符</string>
+    <string name="dialog_report_issue_no_voice">無字幕或無聲音</string>
+    <string name="dialog_report_issue_other">其他</string>
+    <string name="dialog_report_issue_other_hint">請輸入舉報原因</string>
+    <string name="dialog_report_issue_positive">送出</string>
+    <string name="dialog_report_issue_title">問題回報</string>
+    <string name="dialog_report_success_button">確認</string>
+    <string name="dialog_report_success_message">"感謝您的回報，我們將會儘速改善！
+您的用心使我們更有前進的動力！"</string>
+    <string name="dialog_report_success_title">回報成功</string>
+    <string name="dialog_reset_password_message">如果您忘記了密碼，我們將會寄送一組新密碼至您認證的手機！(若您無法收到密碼請聯系客服)</string>
+    <string name="dialog_reset_password_negative">取消</string>
+    <string name="dialog_reset_password_positive">確認重置</string>
+    <string name="dialog_reset_password_title">需要重置密碼嗎？</string>
+    <string name="dialog_select_country_cn">中國+86</string>
+    <string name="dialog_select_country_hk">香港+852</string>
+    <string name="dialog_select_country_mo">澳門+853</string>
+    <string name="dialog_select_country_negative">取消</string>
+    <string name="dialog_select_country_other">其他：＋</string>
+    <string name="dialog_select_country_positive">送出</string>
+    <string name="dialog_select_country_title">國碼選擇</string>
+    <string name="dialog_select_country_tw">台灣+886</string>
+    <string name="dialog_send_change_pw_email_verify_code_success_message">驗證碼已發送到您綁定的郵箱！(驗證碼將於20分鐘失效，若未收到信件，有可能被收到垃圾郵件中～請至垃圾郵件查看)</string>
+    <string name="dialog_send_verify_code_success_message">驗證碼已發送到您綁定的手機！(驗證碼將於20分鐘失效，請輸入驗證碼以變更密碼，謝謝！)</string>
+    <string name="dialog_send_verify_code_success_ok">確認</string>
+    <string name="dialog_send_verify_code_success_title">驗證碼已送出</string>
+    <string name="dialog_signed">今日已簽到</string>
+    <string name="dialog_speed_free_trial_cancel">取消</string>
+    <string name="dialog_speed_free_trial_content">此為付費功能，限時免費即刻就解鎖體驗！</string>
+    <string name="dialog_speed_free_trial_title">VIP功能限時體驗</string>
+    <string name="dialog_speed_free_trial_trial_now">立即體驗</string>
+    <string name="dialog_survey_content">想了解您對於此次增加的新功能是否滿意？</string>
+    <string name="dialog_survey_dislike">不喜歡</string>
+    <string name="dialog_survey_like">喜歡</string>
+    <string name="dialog_survey_title">喜歡新功能“單手操作”嗎？</string>
+    <string name="dialog_survey_toast">感謝您的回答，如有任何建議也歡迎來信提供！</string>
+    <string name="dialog_switch_account_message">變更帳號後將登出原先帳號，請在變更前先進行帳號綁定</string>
+    <string name="dialog_switch_account_negative">取消</string>
+    <string name="dialog_switch_account_positive">確認變更</string>
+    <string name="dialog_switch_account_title">變更帳號</string>
+    <string name="dialog_time_change_cberror">很抱歉此功能出現了問題，請回報問題我們將儘速修復</string>
+    <string name="dialog_time_change_five">5 秒</string>
+    <string name="dialog_time_change_negative">取消</string>
+    <string name="dialog_time_change_one">1 秒</string>
+    <string name="dialog_time_change_positive">確認</string>
+    <string name="dialog_time_change_ten">10 秒</string>
+    <string name="dialog_time_change_title">快轉秒數</string>
+    <string name="dialog_title_download_expire_error">VIP資格已到期</string>
+    <string name="dialog_title_download_full">緩存額度已滿</string>
+    <string name="dialog_title_download_full_2">數量已達使用上限</string>
+    <string name="dialog_title_download_no_network_error">網路連線異常</string>
+    <string name="dialog_title_no_network_error">網路連線異常</string>
+    <string name="dialog_title_no_network_error_2">網路異常</string>
+    <string name="dialog_toast_firewall_1">偵測到您的 Wi-Fi 防火牆誤判導致無法連線，請改用行動網絡或開啟VPN後重試！</string>
+    <string name="dialog_toast_firewall_2">"無法連線！
+請改用行動網絡或開啟VPN後重試！"</string>
+    <string name="dialog_toast_no_network">连接失败</string>
+    <string name="dialog_toast_retry">重試！</string>
+    <string name="dialog_upgrade_free_message">不需升級VIP即可夜夜笙歌看到飽</string>
+    <string name="dialog_upgrade_free_ok">確認</string>
+    <string name="dialog_upgrade_free_title">現正優惠全頻道免費看</string>
+    <string name="dialog_welcome_default_title">最新官方公告</string>
+    <string name="dialog_welcome_error_code">錯誤代碼：%d</string>
+    <string name="dialog_welcome_error_msg">目前公告讀取失敗，請您重新整理或關閉視窗</string>
+    <string name="dialog_welcome_error_refresh">重新整理</string>
+    <string name="dialog_welcome_message">您必須年滿18歲已達法定年齡才可進入本網站！</string>
+    <string name="dialog_welcome_negative">離開</string>
+    <string name="dialog_welcome_positive">我知道了</string>
+    <string name="dialog_welcome_title">最新官網:</string>
+    <string name="dialog_welcome_wechat">掃一掃微信，加關注</string>
+    <string name="disable_lottery_reward">簽到天數不足，無法抽獎！</string>
+    <string name="discover_tab_title_1">排行榜</string>
+    <string name="discover_tab_title_2">短視頻</string>
+    <string name="discover_tab_title_3">全頻道</string>
+    <string name="download_nav_title">緩存管理</string>
+    <string name="download_text_all_select">全選</string>
+    <string name="download_text_cancel_all_select">取消全選</string>
+    <string name="download_text_delete">刪除</string>
+    <string name="download_text_done">完成</string>
+    <string name="download_text_downloaded_count">已緩存(%d)</string>
+    <string name="download_text_edit">編輯</string>
+    <string name="download_text_error">緩存失敗，請重新緩存</string>
+    <string name="download_text_list">緩存清單(%d)</string>
+    <string name="download_text_not_found">"資料夾沒有東西噢～
+您尚未緩存任何視頻!"</string>
+    <string name="download_text_pause">暫停緩存</string>
+    <string name="download_text_processing">正在緩存…</string>
+    <string name="download_text_processing_count">正在緩存(%d)</string>
+    <string name="download_text_see_more">看更多視頻</string>
+    <string name="download_text_storage_used">已佔用空間%1$s / 可用空間%2$s</string>
+    <string name="error_icon_content_description">錯誤</string>
+    <string name="error_no_mail_app">無法偵測到系統內建信箱套件，請您安裝信箱App</string>
+    <string name="exposed_dropdown_menu_content_description">顯示下拉式選單</string>
+    <string name="fake_setting">設置</string>
+    <string name="fast_pass_btn_unlock_now">立即解鎖</string>
+    <string name="fast_pass_btn_watch_for_free">免費觀看</string>
+    <string name="fast_pass_btn_watch_now">立即观看</string>
+    <string name="fast_pass_came_out">現正熱映中</string>
+    <string name="fast_pass_the_day_available">%s後即將上映</string>
+    <string name="favorite_add_folders">+ 新建收藏夾</string>
+    <string name="favorite_add_to_favorite_and_copy">加入收藏並複製到</string>
+    <string name="favorite_cancel">取消</string>
+    <string name="favorite_channel_empty">"您尚未加入頻道 
+快去收藏喜愛的頻道吧！"</string>
+    <string name="favorite_channel_see_more">瀏覽頻道</string>
+    <string name="favorite_click_and_update">新收藏</string>
+    <string name="favorite_collect">收藏</string>
+    <string name="favorite_complete">完成</string>
+    <string name="favorite_copy">複製到</string>
+    <string name="favorite_custom_folder_no_videos">此收藏夾尚未收藏任何視頻，請將視頻於「已收藏的視頻」複製於此，或是收藏新視頻</string>
+    <string name="favorite_default_folder_only">僅收藏到預設</string>
+    <string name="favorite_delete_remove_from_folder">從收藏夾移除</string>
+    <string name="favorite_delete_video">取消收藏</string>
+    <string name="favorite_edit_folder_delete">刪除收藏夾</string>
+    <string name="favorite_edit_folder_import">匯入收藏夾</string>
+    <string name="favorite_edit_folder_manage">視頻批量管理</string>
+    <string name="favorite_edit_folder_rename">重新命名</string>
+    <string name="favorite_edit_folder_title">編輯收藏夾</string>
+    <string name="favorite_expand">擴充</string>
+    <string name="favorite_expand_folder_space">擴充收藏夾空間</string>
+    <string name="favorite_folder_full">收藏夾空間已滿</string>
+    <string name="favorite_folder_id">收藏夾序號：%s</string>
+    <string name="favorite_folder_remaining_amount">您還可以再新建 %d 個收藏夾</string>
+    <string name="favorite_go_discover">發現新視頻</string>
+    <string name="favorite_import_folder_no_videos">此收藏夾尚未收藏任何視頻</string>
+    <string name="favorite_import_folder_not_found">找不到收藏夾</string>
+    <string name="favorite_import_folder_not_found_msg">該序號無對應的收欌夾，請您重新嘗試</string>
+    <string name="favorite_import_successfully">已匯入「%s」收藏夾</string>
+    <string name="favorite_input_invalid">"名稱僅限中英數 
+不可包含符號或留空"</string>
+    <string name="favorite_long_empty">"您尚未加入視頻 
+快去收藏喜愛的視頻吧！"</string>
+    <string name="favorite_long_see_more">瀏覽視頻</string>
+    <string name="favorite_name_new_folder">為新建的收藏夾命名</string>
+    <string name="favorite_no_folders">尚無其他收藏夾</string>
+    <string name="favorite_no_video">您尚未收藏任何視頻</string>
+    <string name="favorite_restore">復原</string>
+    <string name="favorite_select_all">全選</string>
+    <string name="favorite_select_folders">將選取的視頻複製到…</string>
+    <string name="favorite_snackbar_copied_videos">已複製 %s 部視頻</string>
+    <string name="favorite_snackbar_delete_videos">已取消收藏 %s 部視頻</string>
+    <string name="favorite_snackbar_import_videos">已匯入「%s」收藏夾</string>
+    <string name="favorite_snackbar_removed_videos">已移除 %s 部視頻</string>
+    <string name="favorite_tab_title_0">視頻</string>
+    <string name="favorite_tab_title_1">頻道</string>
+    <string name="favorite_video_collected">已收藏的視頻</string>
+    <string name="favorite_video_count">%d部视频</string>
+    <string name="favorite_video_space_remaining" formatted="false">收藏空間 %d/%d</string>
+    <string name="film_tag_chinese">中</string>
+    <string name="film_tag_uncensored">無</string>
+    <string name="filter_category">所有分類</string>
+    <string name="filter_channel_type_actress">AV女優</string>
+    <string name="filter_channel_type_av_guide">成人節目</string>
+    <string name="filter_channel_type_original_videos">原創系列</string>
+    <string name="filter_cup">所有罩杯</string>
+    <string name="filter_cup_1">A～C</string>
+    <string name="filter_cup_2">D～F</string>
+    <string name="filter_cup_3">G～I</string>
+    <string name="filter_cup_4">J以上</string>
+    <string name="filter_duration">所有片長</string>
+    <string name="filter_duration_1">1~10分鐘</string>
+    <string name="filter_duration_2">10-30分鐘</string>
+    <string name="filter_duration_3">30~60分鐘</string>
+    <string name="filter_duration_4">60分鐘以上</string>
+    <string name="filter_empty">"很抱歉，目前此分類無視頻。
+請更換篩選條件，謝謝！"</string>
+    <string name="filter_order_famous">最火排序</string>
+    <string name="filter_order_latest">最新上片</string>
+    <string name="filter_order_number">片量排序</string>
+    <string name="filter_order_popular">最多點播</string>
+    <string name="filter_ranking_day">今日熱門</string>
+    <string name="filter_ranking_month">當月熱門</string>
+    <string name="filter_ranking_week">本週熱門</string>
+    <string name="filter_switch">篩選</string>
+    <string name="filter_tags">所有標籤</string>
+    <string name="forget_password_change_pw">變更密碼</string>
+    <string name="forget_password_edit_hint_phone">請輸入您的手機號碼</string>
+    <string name="forget_password_phone_verify_description">"您綁定的手機號碼為%1$s
+驗證碼將於20分鐘失效，請盡快驗證並設定密碼"</string>
+    <string name="forget_password_reset_success">重置成功</string>
+    <string name="forget_password_text_phone">手機號碼</string>
+    <string name="forget_password_toolbar">密碼變更</string>
+    <string name="forget_password_verify_email">信箱驗證</string>
+    <string name="forget_password_verify_phone">手機驗證</string>
+    <string name="forget_password_verify_text">為了保護您的帳號安全，變更密碼前先進行安全驗證！</string>
+    <string name="fu_coin_confirm_item">确认兑换%s</string>
+    <string name="fu_coin_error">福币不足</string>
+    <string name="fu_coin_exchange">立即兑换</string>
+    <string name="fu_coin_no_limit">(无次数限制)</string>
+    <string name="fu_coin_number">%s福幣</string>
+    <string name="fu_coin_title">目前福币</string>
+    <string name="g_data_fail_retry">資料載入失敗....再試一次</string>
+    <string name="g_data_refresh">換一批</string>
+    <string name="g_quality_sd">標清</string>
+    <string name="g_text_preference_setting">偏好設定</string>
+    <string name="g_text_preference_setting_no_result">查無資料，請重新選擇！</string>
+    <string name="g_text_refresh">換系列</string>
+    <string name="g_text_seemore">看更多</string>
+    <string name="g_toast_download_fail">下載失敗</string>
+    <string name="g_toast_download_no_space">您的存儲空間不足無法下載，請先清理後重試</string>
+    <string name="g_toast_download_success">下載成功</string>
+    <string name="g_toast_load_fail">更新失败</string>
+    <string name="g_toast_others_no_space">您的存儲空間不足無法運行，請先清理後重試</string>
+    <string name="get_reward">领取%s</string>
+    <string name="icon_content_description">對話方塊圖示</string>
+    <string name="item_view_role_description">分頁標籤</string>
+    <string name="load_more">資料讀取中請稍候 ……</string>
+    <string name="loading">loading</string>
+    <string name="log_in"><u>已有帐号 前往登入</u></string>
+    <string name="login_btn_submit">登入</string>
+    <string name="login_email_text_forget_password"><u>忘記密碼</u></string>
+    <string name="login_email_text_password_title">密碼</string>
+    <string name="login_email_text_switch_phone"><u>登入手機</u></string>
+    <string name="login_phone_edit_hint_phone">請輸入您的手機號碼</string>
+    <string name="login_phone_text_phone_title">手機號碼</string>
+    <string name="login_phone_toolbar">手機登入</string>
+    <string name="login_success">登入成功</string>
+    <string name="lottery">立即抽獎!</string>
+    <string name="material_clock_toggle_content_description">選取上午或下午</string>
+    <string name="material_hour_selection">請選取時段</string>
+    <string name="material_hour_suffix">%1$s 點</string>
+    <string name="material_minute_selection">選取分鐘數</string>
+    <string name="material_minute_suffix">%1$s 分</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">切換至時鐘模式來輸入時間。</string>
+    <string name="material_timepicker_hour">小時</string>
+    <string name="material_timepicker_minute">分鐘</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">選取時間</string>
+    <string name="material_timepicker_text_input_mode_description">切換至文字輸入模式來輸入時間。</string>
+    <string name="me_account_normal_description">推廣分享APP即可獲得一日VIP會員</string>
+    <string name="me_account_renew_vip">續約VIP</string>
+    <string name="me_account_switch">變更帳號</string>
+    <string name="me_account_type_0">一般會員</string>
+    <string name="me_account_type_vip_2">VIP会员</string>
+    <string name="me_account_upgrade_vip">升級VIP</string>
+    <string name="me_account_vip_description">期限：</string>
+    <string name="me_bind_notice">點此完成綁定帳號</string>
+    <string name="me_check_in_time">連續登入 %d/7</string>
+    <string name="me_free_vip">免費VIP</string>
+    <string name="me_go_reward">簽到領福利</string>
+    <string name="me_item_register_description">綁定帳號可在不同設備轉移帳號內容</string>
+    <string name="me_item_title_account">帳號</string>
+    <string name="me_item_title_change_password">變更密碼</string>
+    <string name="me_item_title_management_annotation">提供記錄查看和支付申訴</string>
+    <string name="me_item_title_policy">用戶條款</string>
+    <string name="me_item_title_register">變更綁定號碼</string>
+    <string name="me_item_title_service">聯繫客服</string>
+    <string name="me_item_title_setting">設置</string>
+    <string name="me_item_title_unregister">綁定帳號</string>
+    <string name="me_item_title_watch_history_new">NEW</string>
+    <string name="me_my_coupon_subtitle">輸入代碼即可得 VIP</string>
+    <string name="me_service_mail">fulao2.info@gmail.com</string>
+    <string name="me_share_get_vip">邀請朋友同樂共賞，聚會有話題！</string>
+    <string name="me_share_mode_text">分享軟件送一日 VIP 體驗券！</string>
+    <string name="me_version">當前版本 %s</string>
+    <string name="me_vip_promo_0">清晰畫質</string>
+    <string name="me_vip_promo_1">高速線路</string>
+    <string name="me_vip_promo_2">極速緩存</string>
+    <string name="me_vip_promo_3">精選好片</string>
+    <string name="me_vip_promo_btn_1">首儲限時加碼送VIP</string>
+    <string name="me_vip_promo_btn_2">續費VIP</string>
+    <string name="member_account">我的帳號：%s</string>
+    <string name="member_fu">我的福幣：%s</string>
+    <string name="member_phone">手機：+%s</string>
+    <string name="member_sign">我的簽到(%s/28)</string>
+    <string name="member_sign_button">查看</string>
+    <string name="mf_func_title_0">我的訂單</string>
+    <string name="mf_func_title_1">代碼兌換</string>
+    <string name="mf_func_title_2">分享推廣</string>
+    <string name="mf_func_title_3">觀看歷史</string>
+    <string name="mf_func_title_4">緩存管理</string>
+    <string name="mf_func_title_5">联系客服</string>
+    <string name="mtrl_badge_numberless_content_description">新通知</string>
+    <string name="mtrl_chip_close_icon_content_description">移除 %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">超過 %1$d 則新通知</string>
+    <string name="mtrl_picker_a11y_next_month">變更至下個月</string>
+    <string name="mtrl_picker_a11y_prev_month">變更至上個月</string>
+    <string name="mtrl_picker_announce_current_selection">目前選取：%1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">選取日期</string>
+    <string name="mtrl_picker_date_header_unselected">所選日期</string>
+    <string name="mtrl_picker_day_of_week_column_header">星期幾資料欄：%1$s</string>
+    <string name="mtrl_picker_invalid_format">格式無效。</string>
+    <string name="mtrl_picker_invalid_format_example">範例：%1$s</string>
+    <string name="mtrl_picker_invalid_format_use">使用：%1$s</string>
+    <string name="mtrl_picker_invalid_range">日期範圍無效。</string>
+    <string name="mtrl_picker_navigate_to_year_description">前往 %1$s 年</string>
+    <string name="mtrl_picker_out_of_range">超出日期範圍：%1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">開始日期 – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – 結束日期</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">選取範圍</string>
+    <string name="mtrl_picker_range_header_unselected">開始日期 - 結束日期</string>
+    <string name="mtrl_picker_save">儲存</string>
+    <string name="mtrl_picker_text_input_date_hint">日期</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">結束日期</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">開始日期</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">切換至日曆輸入模式</string>
+    <string name="mtrl_picker_toggle_to_day_selection">輕觸即可切換為選取星期幾</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">切換至文字輸入模式</string>
+    <string name="mtrl_picker_toggle_to_year_selection">輕觸即可切換為選取年份</string>
+    <string name="news_announcement">公告</string>
+    <string name="news_center">消息中心</string>
+    <string name="news_code_copied">代碼已複製！</string>
+    <string name="news_delete">刪除</string>
+    <string name="news_delete_all">全部刪除</string>
+    <string name="news_detail">公告詳情</string>
+    <string name="news_edit">編輯</string>
+    <string name="news_edit_done">完成</string>
+    <string name="news_first_vip_notice">感謝您使用 Fulao2，首次升級 VIP 可享優惠！</string>
+    <string name="news_first_vip_tag">首購優惠</string>
+    <string name="news_no_announcement">親，您目前沒有任何公告…</string>
+    <string name="news_no_notification">親，您目前沒有任何通知…</string>
+    <string name="news_notification">通知</string>
+    <string name="news_read_all">全部已讀</string>
+    <string name="not_confirmed_verify_code">尚未确认验证码</string>
+    <string name="oops_back_last_pag">回上一頁</string>
+    <string name="oops_web_ad_oops_content">"目前找不到該頁面
+請稍候重新整理"</string>
+    <string name="oops_web_ad_oops_refresh">重新整理</string>
+    <string name="password_toggle_content_description">顯示密碼</string>
+    <string name="payment_loading">正在載入優惠方案</string>
+    <string name="personal_center">個人中心</string>
+    <string name="player_download_status_downloaded">已緩存</string>
+    <string name="player_download_status_ing">緩存中</string>
+    <string name="player_download_status_no">緩存</string>
+    <string name="player_speed_fast_forward">快進</string>
+    <string name="player_speed_normal">正常</string>
+    <string name="player_speed_normal_2">1x</string>
+    <string name="player_speed_one_half">0.5倍</string>
+    <string name="player_speed_one_half_2">0.5x</string>
+    <string name="player_speed_one_point_five">1.5倍</string>
+    <string name="player_speed_one_point_five_2">1.5x</string>
+    <string name="player_speed_play_title">倍速播放</string>
+    <string name="player_speed_rewind">後退</string>
+    <string name="player_speed_title">倍速</string>
+    <string name="player_speed_two_times">2倍</string>
+    <string name="player_speed_two_times_2">2x</string>
+    <string name="player_tag_collapse">收合</string>
+    <string name="player_tag_expand">展開</string>
+    <string name="policy_private_text1">隱私權政策</string>
+    <string name="policy_private_text2">隱私權保護政策適用於使用Fulao2服務的所有使用者。Fulao2將基於隱私權保護政策，嚴加管理和保護使用者提交的個人情報。 隱私權保護政策不適用於未使用Fulao2服務的個人，及與Fulao2各服務無關的個人或企業組織等。</string>
+    <string name="policy_private_text3">情報的收集與利用</string>
+    <string name="policy_private_text4">"使用者向Fulao2提交的個人情報，是爲了使用Fulao2服務所需的最低限度的必要情報。 
+Fulao2將使用者的IP位置丶Cookies資訊丶閲覽的頁面丶行動裝置的資訊丶電腦的使用環境等情報，從使用者使用的瀏覽器或應用程式中自動讀取後，記錄在伺服器中。 
+Fulao2要求使用者提供個人情報的目的如下： 
+爲了改善Fulao2服務質量。 
+爲了向使用者提供Fulao2的最新情報以及各項通知。 
+爲了在必要時聯絡使用者。 
+爲了向使用者提供更加舒適的使用環境。 
+情報的公開 
+Fulao2不會向任何人出售或出借使用者個人情報。 
+在以下的情況下，Fulao2會向政府機關丶其他人士或公司提供使用者個人情報。 
+受司法機關，警察署或其他有權機關基於法定程序之要求時。 
+當生命財產受到威脅丶或者被認爲有緊急必要時。 
+公開或者與他人共用個人情報，才能提供給使用者所需的服務時。 
+向Fulao2委托的公司公開個人情報，才能提供給使用者所需的服務時。 
+(這些公司均無權使用我們提供的個人情報，作提供產品或服務以外的其他用途) 
+當使用者違反了Fulao2的使用條款，或者爲了保護Fulao2的權利丶財產丶服務等情況下。 
+有關安全性 
+爲了保障使用者的隱私及安全，帳號將會用密碼保護。 
+Fulao2在必要的情況下，會使用通行標準的SSL保全系統，保障資料傳送的安全。 
+有關隱私權保護政策的修訂 
+今後，Fulao2將不時的修改隱私權保護政策的一部或全部內容。 
+(進行重大修改時，將會在Fulao2網頁上張貼告示，通知相關事項。)"</string>
+    <string name="policy_tab_title_policy">使用條款</string>
+    <string name="policy_tab_title_privacy">隱私權保護政策</string>
+    <string name="policy_text_title">用戶條款</string>
+    <string name="policy_use_text1">總則</string>
+    <string name="policy_use_text2">Fulao2使用條款（以下稱為“本條款”），目的是明確本服務的運營方式及提高效率。在註冊使用本服務之前，須在同意本條款的基礎上，提交Fulao2的註冊使用申請。使用本服務時，擁有Fulao2帳號的使用者（以下稱為“用戶”）以及包括用戶在內的所有本服務的使用者（以下稱為“使用者”）須同意自行承擔一切責任。用戶以及使用者使用本服務時,將視為同意基本使用條款及各服務的使用條款。</string>
+    <string name="policy_use_text3">基本使用條款</string>
+    <string name="policy_use_text4">"1.隱私權保護政策 
+請查看隱私權保護政策。 
+2.服務的使用 
+Fulao2的註冊使用申請，是以貸與使用本服務時必要的“帳號和密碼”的形式成立的。但若發現用戶提交的情報中有虛假內容丶或經Fulao2判斷屬於不正當使用Fulao2時，即使在許可發出後，也可立即撤銷。另外，若認為Fulao2被不當使用時，無義務將此情況告知用戶。 
+・通知和聯絡 
+Fulao2將透過Fulao2 App丶網站或電子郵件等Fulao2認為合適的方式向用戶發送各種必要情報。此時Fulao2將使用用戶的申請資料（包含在用戶同意後經第三方提交至Fulao2的資料）。如果該情報透過Fulao2 App丶網站或電子郵件進行發布，則當刊登至網站上或電子郵件發送後起，立即生效。用戶不可拒絕接受Fulao2發送的電子郵件，若用戶變更聯絡用電子郵件後，須立即辦理變更手續。原則上，Fulao2不接受電話，傳真或來訪等聯絡方式。當Fulao2向用戶發送需要用戶回答的郵件時，用戶必須在指定期限內向Fulao2作出答覆。如果Fulao2無法確認收到用戶的答覆郵件，將有可能凍結·刪除用戶帳戶。 
+・登錄電子郵件丶帳號和密碼 
+用戶有責任管理“登錄電子郵件丶帳號和密碼”，並須同意當出現因作業失誤或被第三方所引起的不當使用，Fulao2不承擔任何責任。Fulao2對用戶登錄電子郵件丶帳號和密碼無再次發行的義務。 
+・權利的轉讓和出售 
+未經Fulao2的許可，用戶不得擅自將Fulao2以及本服務的權利轉讓丶出售或租借給第三方,不得做出對Fulao2有任何損失之事。 
+・通訊 
+使用Fulao2時，需接入互聯網。用戶需自行準備通訊方式，進行適當設置和作業，並承擔相關費用。關於接入互聯網之前的準備丶方法等，一律與Fulao2無關。 
+・通訊量和使用範圍 
+關於用戶透過本服務可收發的通訊量，另外關於使用本服務時可利用的保存領域丶保存容量，當Fulao2未作出明確說明時，用戶須同意Fulao2可根據自己的決定對此設定一定上限。 
+・用戶保存的作品 
+用戶對透過本服務可訪問的所有內容（以下稱為“內容”）所制作的用戶自己的作品，擁有著作權及其他權利。對於用戶透過本服務所制作的作品，Fulao2可有權無條件地進行編輯丶翻譯丶出版丶現場演示丶展示丶宣傳丶發布以及一切相關事宜。此為Fulao2在運營本服務時不可缺少的權利，用戶須予以同意。 
+・第三方所提供內容 
+用戶及使用者在使用本服務時利用丶購買或下載由第三方個人或企業所提供的服務丶商品或軟體時，在用戶及使用者和相關第三方個人或企業之間，將適用不同於本條款的獨立合同條件。另外，在法律上上述獨立合同條件不受本條款的約束。 
+3.禁止事項 
+在使用本服務時，嚴禁以下行為或是經Fulao2判斷符合以下的行為。若有以下行為發生，將無告知地停止其使用的一切服務丶或是采取法律途徑丶或是同時因此不當行為給Fulao2或第三方造成的損失由該用戶及使用者賠償。 
+4.關於著作權詳細事項 
+・違反本條款之行為 
+・侵害其他使用者或第三方的信用或名譽，又或是侵害他人隱私權丶肖像權和其他一切正當權利之行為 
+・侵犯其他用戶或第三方的專利權丶商標權丶著作權丶商業秘密等智慧財產權之行為 
+・刊登與法律相抵觸的內容，以及有傷害丶自殺丶竊盜丶使用和販賣違法藥物等違法行為，以及對危險藥物的使用和販賣有勸誘或助長的行為 
+・與地方的丶地區的丶國家的丶國際的法律特別是和美國法律相抵觸之行為 
+・違反社會道德丶公序良俗之行為或言論。向其他使用者或第三方公開或協助公開猥褻的影像丶聲音或文字等之行為 
+・幹擾或妨礙本服務的提供丶運作及其他用戶使用本服務之行為，以及支持或助長該行爲的行爲 
+・可能發展為糾紛的對其他個人丶特定團體丶統治機關丶國家丶產品丶政治體制丶信仰丶思想丶主義丶民族丶宗教丶人種丶性別等進行誹謗中傷丶損害名譽及信用的行爲以及助長該行為之行為 
+・以其他個人丶公司丶營業組織的名義，無根據地冒稱與其他個人丶公司或組織等有商務合作或協作關系之行為 
+・偽裝成Fulao2丶內容提供者丶經營者或第三人之行為 
+・肆意發布丶刊登損害Fulao2及Fulao2的合作夥伴的信用·信譽之行為 
+・給Fulao2伺服器造成額外負擔的行爲，及對Fulao2或他人的電腦軟體丶硬體的功能進行妨害丶損壞丶限制等，以及與其有關的支持或助長等行爲 
+・連續發布相同內容丶發送垃圾訊息或刷版等行為 
+・任何損害未成年人的身心健康之行爲(散布刊登兒童色情丶兒童賣淫丶獸奸丶暴力的文章丶圖片等)，以及與其有關的支持或助長的行爲 
+・在多數人可能瀏覽的狀態下刊登對犯罪或與犯罪相關行為的預告丶或者可能性較高的情報之行為 
+・將本服務作爲傳播媒體，從事抵觸法令法規的行爲以及商業活動之行為 
+・惡劣的商業行為丶過度宣傳或是勸誘參與宗教之行為 
+・設立丶勸誘非法傳銷之行為 
+・將本服務出售給第三方之行為 
+・因使用可能大量接入本服務的軟體丶程式，大肆申請丶更新丶使用服務，而妨害本服務正常運營之行為 
+・對於本服務的內容和資料有任意取得丶錄影丶覆制丶竄改丶發布丶公開等行為，以及有使用丶介紹丶教唆可以助長上述行為的工具或手段之行為 
+・使用覆數帳號的不正當註冊丶使用，而妨害本服務正常運營之行為 
+・不正當使用或是趁系統故障時，與禁止事項相互抵觸之行為丶或是因不正當使用等原因造成Fulao2有所損失之行為 
+・刪除丶隱藏Fulao2的廣告空間，以及變更廣告的刊登位置丶配色丶尺寸丶廣告顯示代碼之行為 
+・其他，Fulao2根據合理的理由認為是不適當行為之行為用戶以及使用者不得將類似禁止事項內容作為本服務的文本丶圖片丶音樂或影像等進行公開。另外，即時設定為非公開狀態或限定公開狀態，但只要出現在Fulao2所管理運營的伺服器中時，即被認為是屬於禁止事項。 
+Fulao2有權判斷用戶的行爲是否屬於禁止事項 
+使用付費服務及點數時的註意事項 
+用戶如有違反行為發生時,將會凍結或是刪除註冊的付費服務帳號,而付費服務的合約也會同時失效。即使合約未到期，剩餘期間的金額將不予退還。另外,用戶所持有的點數也不予退費。 
+5.年齡限制的內容 
+・本服務中含有僅限成人觀看的設定有年齡限制的內容（以下稱為“成人內容”）的網頁。本服務中的成人區所提供的服務並不保證含有性內容。 
+成人內容的使用條件 
+・本服務的成人內容是指，允許滿18歲以上用戶瀏覽，禁止未滿18歲用戶瀏覽的內容 
+・成人內容僅限於公開在本服務的成人區中。 
+・未滿18歲或無法證明為18歲以上者的演出者丶被拍攝對象或模特等的成人內容,將不得在本服務中公開。 
+6.免責事項 
+Fulao2對以下各項不承擔任何責任。 
+・用戶對用戶自己在本服務上所制作的內容（以下稱為“用戶內容”）承擔一切法律丶賠償責任以及訴訟費用，另外，若不慎刊登有包括違反法律丶法令丶條例的內容，以及對他人的誹謗中傷丶騷擾丶智慧財產權的侵害丶個人隱私的侵害丶違反公序良俗的內容等時，須承擔將其立即刪除的義務。Fulao2不對用戶內容進行擔保，另外不對使用者及第三方承擔任何責任。 
+・關於服務的持續提供，無法做出任何保證。服務有會突然中止，或免費服務變為付費服務的情況。（我方將不斷努力但由於種種原因也有無法實現的情況。）另外，也有無預告的拒絕個別使用的情況。即便是第三方透過本服務來提供內容的情況也一樣。請在同意的基礎上使用。 
+・因使用本服務所引起的任何糾紛，一律與Fulao2無關。內容的管理責任由用戶承擔，故對因使用本服務或訪問用戶內容給用戶造成的損失不承擔任何賠償責任。特別是當經營與信息買賣相關的網站時，用戶須對使用者明確責任關系。請由用戶及使用者間的當事人完全防止和解決問題。 
+・基於本條款，Fulao2沒有義務監視或刪除用戶內容。發布在用戶內容的所有情報都將由用戶本人承擔一切管理責任，若因某些未能刪除的情報而給用戶或第三人帶來損害時，Fulao2不承擔任何責任。 
+・經Fulao2的判斷，該網站內容妨礙了其他用戶時，將無警告的立即凍結和刪除帳號或用戶內容。 
+・系統故障丶檔案受損等原因造成資料損失時,Fulao2將不負任何一切責任。用戶相關的資料請用戶自行備分存檔。Fulao2不保證所有用戶相關資料的安全性。 
+・ 未經許可的情況下，Fulao2不會將用戶及使用者通過網路向Fulao2提供的地址・姓名・郵件地址・電話號碼・傳真號碼等個人情報公開給第三方。但是，不包括下列情況： 
+1.來自法院・警察署等公共機關因法令或依司法行政機關之命令時。 
+2.出現危及到人身生命財產等緊急必要的情況時。 
+3.為提供使用者所需的服務項目，而不得不向他人或公司公開或共有用戶個人情報時。 
+4.將使用者的資料提供給Fulao2委托的業務公司，以便使其向使用者提供所需的服務時。（此類公司使用Fulao2所提供的個人情報時不得超過以上目的的必要限度。） 
+5.用戶及使用者在Fulao2網站上的行為違反了Fulao2的使用條款，為了保護Fulao2的權利・財產以及保障各項服務的正常運作時。 
+6.用戶及使用者在Fulao2網站上的行為違反了Fulao2的使用條款，侵害第三方權利丶財產丶各項服務,為了保護第三方的權利・財產以及保障各項服務的正常運作時。 
+7.用戶及使用者在Fulao2網站上的行為,對於Fulao2的SEO丶Fulao2服務品質低下的預防及恢覆時。 
+・當從本服務內的內容及用戶內容訪問外部情報時，若因用戶及使用者對此外部情報的安全性丶完整性丶正確性的信任而導致任何損失或損害，Fulao2不負任何責任，且用戶及使用者須對此了解並同意。 
+・當在本服務中由用戶所制作丶銷售的內容違反使用條款時，Fulao2將對此內容進行凍結，並不對購買者承擔任何貨款退還責任。 
+・Fulao2對使用丶未使用或無法使用本服務而給用戶及使用造成的損失或損害不負任何責任。 
+・本服務是Fulao2經由美國內的設備進行管理及提供。Fulao2無法表明對於本服務在美國以外國家使用的適當性丶或是本服務使用的可能性。用戶從其他司法區域登入使用時,請遵守您所在國家之相關法律,並且請自行承擔一切責任。 
+7.服務內容的停止與終止 
+Fulao2有權在不另外告知用戶的情況下，變更本服務的系統等。 
+我公司有權因保養作業丶系統修覆丶停電以及自然災害，或者其他不可抗力之理由，暫停或終止本服務的提供。此時，除發生緊急情況之外，我們會盡量做到事前告知。 
+我公司有權獨自判斷以及隨時修改本服務的有關內容。並且有權隨時暫停或終止一部分或者全部服務項目的提供。本服務終止或者取消後，我公司有權將我公司或者我公司委托的第三方的伺服器中保存的投稿以及其他情報依據我公司的判斷，進行刪除。 
+本服務中途終止時,不管終止原因為何,Fulao2對於用戶以及使用者不負賠償責任。 
+8.保證的限度 
+・Fulao2會盡最大努力使本服務的運作丶使用及使用結果等隨時保持在穩定狀態，可是不能保證作業系統的穩定。本公司不保證以下事項。 
+・本服務永無停止或無終止的運作。 
+・當本服務發生某些問題或缺陷時，隨時修覆並使其恢覆原狀。 
+・本服務可完全杜絕電腦病毒等破壞因素。 
+・為保證1或3而提供安全保護措施。 
+9.不可抗力 
+由於天災丶火災丶攻擊丶洪水丶病疫丶暴動或者戰爭等，以及除此之外超越雙方當事人管理範圍而無法履行本條款時，任何一方當事人對於延緩履行或無法履行本條款義務之事均不負任何責任。 
+10.糾紛處理 
+・本條款適用於美國內華達州州法。 
+・由於使用本服務而發生的一切糾紛丶控訴等都依照美國內華達州承認的仲裁手續進行解決。 
+・經過仲裁尚未能解決的糾紛丶控訴等將依審判解決。此時丶美國內華達州地方法院將成爲第一審專屬管轄法院。 
+・有關仲裁丶審判的律師費用均由各當事人承擔。 
+・即使在本條款的各項內容經法院認定無效或者無法履行的情況之下，除該項以外的各項內容仍應完全有效並且適用。 
+11.關於廣告的顯示 
+本服務中刊登的廣告・宣傳等，應由廣告主與使用者之間進行責任協商。Fulao2對於因本服務中刊登的廣告而造成直接或間接的損害不承擔一切責任。 
+Fulao2對於廣告欄及廣告的顯示位置丶顯示期間等，會無預告地進行變更。用戶及使用者須對此了解並同意。 
+12.條款及條件的變更 
+Fulao2有權不經用戶及使用者同意，隨時變更本條款內容丶修訂。 
+修改後的條款將從公布在本公司網站上時起立即生效適用。 
+只要在使用Fulao2期間，須總是同意最新修改後的條款。 
+13.退款與退貨條款 
+關於Fulao2的使用費用以及支付方式，除本條款之外，還應以其他顯示於Fulao2網站上的由Fulao2所制定的付費標準爲準。 
+關於購買的手續費丶稅金和初期費用等由用戶自行承擔。 
+如果Fulao2在指定的日期內未能確認伴隨開始使用以及繼續使用服務而發生合同更新所需費用的付款時，將認為用戶無更新繼續使用之意，並且終止合同。 
+即使Fulao2未能從信用卡公司或其代理店收到使用費用時，用戶須同意承擔對Fulao2全額支付Fulao2所要求的金額的義務。 
+允許使用用戶所指定的信用卡付款（即Fulao2接受信用卡公司的墊付）的許可，不 僅指此次許可的付款，而視為只要在信用卡有效期內，允許使用此信用卡支付與Fulao2所訂立的付費服務合同期間所有的費用（到用戶取消Fulao2付費服務丶解除合同丶Fulao2完成付費服務的終止手續為止），且不同意此條款的用戶不可使用信用卡付款。 
+Fulao2可在不得到用戶許可的情況下修改付費標準丶付費服務內容等，且視為用戶對此表示同意。另外，修改後的付費標準將於付費服務合同更新時開始適用。 
+如果用戶在超過規定的日期未能償還根據本條款的規定以及各項服務中對Fulao2的債務時，須向Fulao2支付自期限日的第二天起至償還日期間的由Fulao2所規定的延期賠償金。僅可以Fulao2所制定的方法進行付款，因以Fulao2所指定的支付方法之外的方法進行付款或有其他用戶的原因所造成的損失Fulao2不承擔任何責任。 
+用戶須同意不可更改付費服務的合約期間，無論因為何種原因，點數購入後或是購買付費會員後皆不可要求退款。 
+當收到來自信用卡公司的退款申請時，將停止該帳號的使用。"</string>
+    <string name="push_notification_content">內容推薦</string>
+    <string name="push_notification_discount">優惠活動</string>
+    <string name="push_notification_title">推播通知</string>
+    <string name="ranking_oops_customer_service">回報客服</string>
+    <string name="ranking_oops_data_error">"目前資料異常，請您稍後再試！
+也請您回報客服，我們將儘速處理！"</string>
+    <string name="ranking_oops_network">"網路狀態異常，請檢查您的網路設定
+並重新整理。"</string>
+    <string name="ranking_oops_refresh">重新整理</string>
+    <string name="ranking_overview_see_more">看更多</string>
+    <string name="ranking_overview_title_0">十大看片指南</string>
+    <string name="ranking_overview_title_1">本週十大新片</string>
+    <string name="ranking_overview_title_2">本週十大原創</string>
+    <string name="ranking_overview_title_3">本週十大無碼</string>
+    <string name="ranking_overview_title_4">本週十大有碼</string>
+    <string name="ranking_overview_title_5">本週十大女優</string>
+    <string name="ranking_overview_title_term">期</string>
+    <string name="recommend_interest_tag_btn_deselect">至少選擇一個</string>
+    <string name="recommend_interest_tag_btn_deselect_2">最多選擇三項</string>
+    <string name="recommend_interest_tag_btn_select">生成新內容</string>
+    <string name="recommend_interest_tag_content">選擇您偏好的類型產生專屬推薦內容（最多三項）</string>
+    <string name="recommend_interest_tag_title">偏好設定</string>
+    <string name="recommend_title">推薦</string>
+    <string name="register_binding_success">綁定成功</string>
+    <string name="register_email_edit_hint_password">請輸入密碼(6位以上)</string>
+    <string name="register_email_edit_hint_password_confirm">請再次輸入您的密碼</string>
+    <string name="register_email_text_password_confirm">確認密碼</string>
+    <string name="register_email_text_password_title">密码</string>
+    <string name="register_phone_btn_submit">綁定手機</string>
+    <string name="register_phone_edit_hint_phone">請輸入您的手機號碼</string>
+    <string name="register_phone_get_verify_code">獲取短信驗證碼</string>
+    <string name="register_phone_get_verify_code_with_sec">重發驗證碼(%1$d秒)</string>
+    <string name="register_phone_input_verify_code">請輸入驗證碼</string>
+    <string name="register_phone_text_phone_title">手機號碼</string>
+    <string name="register_phone_text_without_phone">驗證碼將於5分鐘內發送至您的手機</string>
+    <string name="register_phone_toolbar">手機綁定</string>
+    <string name="register_phone_verify">驗證</string>
+    <string name="register_phone_verify_code">驗證碼</string>
+    <string name="register_phone_verify_description">"您綁定的手機號碼為%1$s
+驗證碼將於20分鐘失效，請盡快驗證並設定密碼"</string>
+    <string name="register_phone_verify_description_back">"請留在此頁完成驗證
+離開後即無法驗證"</string>
+    <string name="register_phone_verify_toolbar">輸入驗證碼</string>
+    <string name="reload_success">刷新成功</string>
+    <string name="reward_points_announce_dialog_go_to_tasks">領取每日福利</string>
+    <string name="reward_points_announce_dialog_skip">不領取先看片</string>
+    <string name="reward_points_click_and_redeem">點擊兌換</string>
+    <string name="reward_points_current_points">目前積分</string>
+    <string name="reward_points_description">提供記錄查看和支付申訴</string>
+    <string name="reward_points_go_to_task_page">前往簽到</string>
+    <string name="reward_points_inadequate">您的積分不足兌換！</string>
+    <string name="reward_points_list_end">僅提供近20筆資料查詢，更多請洽客服～</string>
+    <string name="reward_points_no_records">尚無積分記錄</string>
+    <string name="reward_points_no_redeem_options">暫無可兌換項目</string>
+    <string name="reward_points_obtained">已獲得</string>
+    <string name="reward_points_problem_occurred_click_retry">出了點小問題，請點擊重試</string>
+    <string name="reward_points_received">已領取</string>
+    <string name="reward_points_redeem_complete">恭喜您獲得%s</string>
+    <string name="reward_points_redeem_dialog_cancel">取消</string>
+    <string name="reward_points_redeem_dialog_content" formatted="false">您將消耗 %d 積分兌換%s，積分無法退還，確認是否兌換？</string>
+    <string name="reward_points_redeem_dialog_ok">確定兌換</string>
+    <string name="reward_points_redeem_dialog_title">兌換%s</string>
+    <string name="reward_points_redeem_failed">兌換失敗請重試！</string>
+    <string name="reward_points_redeem_subtitle">需消耗 %d 積分</string>
+    <string name="reward_points_subtitle">可使用積分兌換下列天數的VIP</string>
+    <string name="reward_points_task_complete">簽到成功～</string>
+    <string name="reward_points_task_complete_restart">明日簽到將重新開始計算</string>
+    <string name="reward_points_task_complete_tomorrow">明日簽到即可</string>
+    <string name="reward_points_task_continuous">"連續
+簽到"</string>
+    <string name="reward_points_task_failed_dialog_cancel">取消</string>
+    <string name="reward_points_task_failed_dialog_content">目前人數過載，請稍後重試！</string>
+    <string name="reward_points_task_failed_dialog_retry">重試</string>
+    <string name="reward_points_task_failed_dialog_title">注意！</string>
+    <string name="reward_points_title">我的積分</string>
+    <string name="reward_points_used">已使用</string>
+    <string name="reward_points_view_tasks">查看簽到</string>
+    <string name="screen_lock_change_new_sub_title">請輸入4位密碼</string>
+    <string name="screen_lock_change_new_title">設定密碼</string>
+    <string name="screen_lock_change_old_sub_title">請輸入原密碼</string>
+    <string name="screen_lock_change_old_title">變更密碼鎖</string>
+    <string name="screen_lock_error_text">很抱歉，您輸入的密碼錯誤</string>
+    <string name="screen_lock_fingerprint_error">驗證錯誤，</string>
+    <string name="screen_lock_fingerprint_failed">驗證失敗</string>
+    <string name="screen_lock_input_pw">使用指紋識別或密碼進行解鎖</string>
+    <string name="screen_lock_input_pw_without_finget_print">使用密碼進行解鎖</string>
+    <string name="screen_lock_title">密碼鎖</string>
+    <string name="search_collapse">收合</string>
+    <string name="search_confirm_clear_all">清空搜索歷史？</string>
+    <string name="search_edit_hint_keyword">搜索頻道名稱丶番號或片名</string>
+    <string name="search_expand">展開</string>
+    <string name="search_history">搜索歷史</string>
+    <string name="search_limit_dialog_cancel">稍後再試</string>
+    <string name="search_limit_dialog_confirm">升級VIP</string>
+    <string name="search_limit_dialog_content">十分鐘內的搜索次數已達上限，請您稍候再試，或升級VIP解鎖</string>
+    <string name="search_limit_dialog_title">已達搜索次數上限</string>
+    <string name="search_load_failed_description">伺服器忙碌中，請稍後重試</string>
+    <string name="search_menu_title">搜尋</string>
+    <string name="search_options">篩選</string>
+    <string name="search_options_send">送出</string>
+    <string name="search_other_videos">其他精彩視頻</string>
+    <string name="search_ranking">熱搜排行</string>
+    <string name="search_refresh">重新整理</string>
+    <string name="search_result_amount">搜索到 %d 項結果</string>
+    <string name="search_result_amount_channel">搜索到 %d 個頻道</string>
+    <string name="search_result_empty">"抱歉，没有找到「%s」的相关视频
+请改用其他关键字或移除搜索筛选条件"</string>
+    <string name="search_result_tab_title_censored">有碼(%s)</string>
+    <string name="search_result_tab_title_uncensored">無碼(%s)</string>
+    <string name="search_result_text_title">搜索結果</string>
+    <string name="search_text_cancel">取消</string>
+    <string name="search_text_clear">清空</string>
+    <string name="search_text_history">歷史搜索</string>
+    <string name="search_text_popular_pixelated">有碼熱搜排行</string>
+    <string name="search_text_popular_uncensored">無碼熱搜排行</string>
+    <string name="send_verify_code">发送验证码</string>
+    <string name="setting_bind_account">綁定帳號</string>
+    <string name="setting_bind_account_subtitle">綁定帳號更安全，可多設備同步紀錄</string>
+    <string name="setting_change_again_in_setting">(之後您可至設置再次變更)</string>
+    <string name="setting_choose_player_layout">請選擇播放器布局</string>
+    <string name="setting_player_layout">播放器佈局</string>
+    <string name="setting_switch_account">切換帳號</string>
+    <string name="setting_switch_account_subtitle">若有其他帳號，點此進行切換</string>
+    <string name="setting_text_auto_play_title">自動播放</string>
+    <string name="setting_text_change_icon">偽裝圖示</string>
+    <string name="setting_text_change_icon_description">啟用將自動關閉軟件，刷新桌面後圖示變為設置。</string>
+    <string name="setting_text_change_screen_lock">變更密碼鎖</string>
+    <string name="setting_text_change_screen_lock_description">"若您忘記密碼，請先刪除 Fulao2 再重新安裝。
+請注意：若您未綁定帳號，收藏夾內容會被清除。"</string>
+    <string name="setting_text_clear_cache">清除快取</string>
+    <string name="setting_text_screen_lock">設定密碼鎖</string>
+    <string name="setting_text_switch_time">快轉秒數</string>
+    <string name="setting_text_title">設置</string>
+    <string name="setting_text_version_title">版本</string>
+    <string name="setting_toast_clear_cache_success">清除成功</string>
+    <string name="share_page_copied">已複製至剪貼板</string>
+    <string name="share_page_copy">複製</string>
+    <string name="share_page_main_content">"1.請點擊下方按鈕分享推廣連結或截圖分享二維碼給您的好友，好友可經由連結下載安裝Fulao2。 
+
+2.安裝完成後請好友在“會員 - 代碼兌換”內輸入您的邀請碼，成功輸入後您與好友都可獲得一日VIP體驗券。 
+
+3.每位用戶僅能輸入一次邀請碼兌換一日VIP體驗券，但分享的次數不限，因此若是有越多好友輸入您的邀請碼，您就能獲得越多的一日VIP體驗券。"</string>
+    <string name="share_page_share_and_get_benefit">分享推廣拿福利！</string>
+    <string name="share_page_share_link">分享推廣連結</string>
+    <string name="share_page_your_exclusive_code">您的專屬邀請碼</string>
+    <string name="short_video_title">短視頻</string>
+    <string name="short_video_watch_more">看更多</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="time_span_just_now">刚刚</string>
+    <string name="time_span_one_hour">一小时前</string>
+    <string name="time_span_today">今天</string>
+    <string name="upgrade_now">立刻升级</string>
+    <string name="video_central_text_free_mem_long">"親，想知道後續的發展嗎？ 
+升級 VIP 觀賞完整精彩內容"</string>
+    <string name="video_central_text_free_mem_no_sd">本片僅提供高清畫質，升級VIP即可觀看</string>
+    <string name="video_central_text_not_yet_shared">升級 VIP 解鎖所有精彩短片</string>
+    <string name="video_central_text_short_video_lock">升級 VIP 以解鎖視頻</string>
+    <string name="video_intro_1_wording">試看1分鐘！開通無限看！</string>
+    <string name="video_play_cdn1">國內高速1</string>
+    <string name="video_play_cdn1_short">國内1</string>
+    <string name="video_play_cdn_normal_1">普通線路</string>
+    <string name="video_play_cdn_normal_2">普通</string>
+    <string name="video_play_cdn_slow">慢速</string>
+    <string name="video_play_cdn_vip_high_speed_1">海外線路</string>
+    <string name="video_play_cdn_vip_high_speed_2">海外</string>
+    <string name="video_play_clarity_hd">高清畫質</string>
+    <string name="video_play_clarity_hd_short">高清</string>
+    <string name="video_play_clarity_sd">標準畫質</string>
+    <string name="video_play_clarity_sd_short">標清</string>
+    <string name="video_play_close_ad">關閉廣告</string>
+    <string name="video_play_like">收藏成功</string>
+    <string name="video_play_no_more">再擼就要出血啦～沒有更多惹</string>
+    <string name="video_play_open_no_ad">馬上開啟無廣告版</string>
+    <string name="video_play_prepare">視頻準備中請稍候…</string>
+    <string name="video_play_remove_like">取消收藏成功</string>
+    <string name="video_play_text_category">類型: </string>
+    <string name="video_play_text_cdn_choose">選擇線路</string>
+    <string name="video_play_text_cdn_setting">線路設定</string>
+    <string name="video_play_text_channel_counter">共 %s 个</string>
+    <string name="video_play_text_channel_title">收錄頻道</string>
+    <string name="video_play_text_detail">簡介</string>
+    <string name="video_play_text_download">緩存</string>
+    <string name="video_play_text_duration">視頻長度: </string>
+    <string name="video_play_text_find_out_more">查看更多</string>
+    <string name="video_play_text_like">已收藏</string>
+    <string name="video_play_text_more">更多</string>
+    <string name="video_play_text_number">番號: </string>
+    <string name="video_play_text_publish"> 發布</string>
+    <string name="video_play_text_publisher">片商: </string>
+    <string name="video_play_text_quality_setting">畫質設定</string>
+    <string name="video_play_text_relative">相關視頻</string>
+    <string name="video_play_text_report">舉報</string>
+    <string name="video_play_text_share">分享</string>
+    <string name="video_play_text_system_bn">您已綁定系統亮度</string>
+    <string name="video_play_text_tag">標簽:</string>
+    <string name="video_play_text_unlike">收藏</string>
+    <string name="video_share_now">立即分享</string>
+    <string name="video_top_text_not_yet_shared">"減少串門、在家防疫，
+開通VIP享受高清高速體驗"</string>
+    <string name="video_upgrade_fast_pass_video_view">升級 VIP 享受高清高速體驗</string>
+    <string name="video_upgrade_given_vip_central">体验过高速线路，但还想要更快不间断？</string>
+    <string name="video_upgrade_given_vip_top">还想要体验更快不间断？</string>
+    <string name="video_upgrade_long_wording2">試看1分鐘！觀看完整版請升級VIP！</string>
+    <string name="video_upgrade_now">即刻升級</string>
+    <string name="video_upgrade_top_free">在家防疫，開通高清高速體驗</string>
+    <string name="volley_error">目前上線的人數超載，請稍後再試</string>
+    <string name="volley_network_error">網路連線錯誤,請稍後再試</string>
+    <string name="volley_parse_error">資料解析錯誤</string>
+    <string name="watch_history_footer">沒有更多惹～最多紀錄20部觀看視頻</string>
+    <string name="watch_history_not_found">"您尚未觀看任何視頻，
+快去觀看精彩的內容！"</string>
+    <string name="watch_history_progress">觀看進度： %s</string>
+    <string name="watch_history_see_more">看更多視頻</string>
+    <string name="welcome_account">讀取用戶資料</string>
+    <string name="welcome_data_copying">緩存複製中，請勿關閉</string>
+    <string name="welcome_download">apk下載中</string>
+    <string name="welcome_loading">讀取中</string>
+    <string name="welcome_loading_enter">點擊進入</string>
+    <string name="welcome_mail">"您好，请输入您的问题与建议：
+所在地区:
+系统版本(勿修改):%1$s
+手机型号(勿修改):%2$s
+标签(勿修改):%3$s
+版本(勿修改):%4$s(%5$s)
+错误代码(勿修改):%6$d
+意见:
+
+——————————————
+感谢您提供宝贵的意见，Fulao2团队敬上"</string>
+    <string name="welcome_mail_two">"您好，请输入您的问题与建议：
+所在地区:
+系统版本(勿修改):%1$s
+手机型号(勿修改):%2$s
+版本(勿修改):%3$s(%4$s)
+意见:
+
+——————————————
+感谢您提供宝贵的意见，Fulao2团队敬上"</string>
+    <string name="welcome_speed">在線網速測試中</string>
+    <string name="welcome_sync">信息同步中</string>
+    <string name="welcome_version">版本驗證中</string>
+    <string name="won_lottery">今天已經抽過了～</string>
+</resources>

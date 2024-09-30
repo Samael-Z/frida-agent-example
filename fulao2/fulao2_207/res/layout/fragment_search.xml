@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.ilulutv.fulao2.other.custom.CustomExpandableLayout android:orientation="vertical" android:id="@id/expandable_layout_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" app:el_duration="100" app:el_expanded="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="20.0sp" android:textColor="@color/black_0_t87" android:id="@id/tv_search_history" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_history" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_10" />
+                        <TextView android:textSize="14.0sp" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_invisible" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginTop="@dimen/dp_4" android:layout_marginBottom="@dimen/dp_4" android:textAlignment="center" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginStart="@dimen/dp_4" android:layout_marginEnd="@dimen/dp_4" android:layout_toEndOf="@id/tv_search_history" />
+                        <ImageView android:id="@id/iv_history_clear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_litter_bin" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dp_10" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="@dimen/dp_10" android:layout_marginEnd="@dimen/dp_10" />
+                    <com.ilulutv.fulao2.other.custom.CustomExpandableLayout android:orientation="vertical" android:id="@id/expandable_layout_bottom_history" android:layout_width="fill_parent" android:layout_height="wrap_content" app:el_duration="100" app:el_expanded="false">
+                        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_10" android:layout_marginEnd="@dimen/dp_10" />
+                    </com.ilulutv.fulao2.other.custom.CustomExpandableLayout>
+                    <FrameLayout android:id="@id/fl_expand_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+                        <View android:layout_gravity="center_vertical" android:background="@color/black_0_t8" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:background="@color/white_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="12.0dip" android:paddingEnd="12.0dip">
+                            <TextView android:id="@id/tv_expand_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_expand" />
+                            <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_expand_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_triangle_arrow_down" />
+                        </LinearLayout>
+                    </FrameLayout>
+                </LinearLayout>
+            </com.ilulutv.fulao2.other.custom.CustomExpandableLayout>
+            <TextView android:textSize="20.0sp" android:textColor="@color/black_0_t87" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="@dimen/dp_4" android:text="@string/search_ranking" android:layout_marginStart="@dimen/dp_10" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_search_ranking" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

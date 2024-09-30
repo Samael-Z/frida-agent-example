@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <pl.droidsonroids.gif.GifImageView android:layout_gravity="center_horizontal" android:id="@id/srl_classics_progress" android:background="@drawable/gif_sperm" android:layout_width="80.0dip" android:layout_height="32.0dip" />
+    <ImageView android:id="@id/iv_arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

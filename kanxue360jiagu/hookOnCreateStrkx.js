@@ -1,0 +1,1 @@
+let StubApp = Java.use("com.stub.StubApp");

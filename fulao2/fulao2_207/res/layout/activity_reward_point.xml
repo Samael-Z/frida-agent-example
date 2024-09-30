@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/layout_toolbar" layout="@layout/toolbar_general" />
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|snap">
+                    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_point_header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_my_point" />
+                        <LinearLayout android:id="@id/ll_current_points" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                            <TextView android:textSize="12.0sp" android:textColor="@color/pure_white" android:id="@id/tv_current_points" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reward_points_current_points" />
+                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_coin" android:layout_marginStart="3.2999878dip" />
+                        </LinearLayout>
+                        <TextView android:textSize="60.0sp" android:textColor="@color/pure_white" android:id="@id/tv_point_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="--" android:includeFontPadding="false" android:shadowColor="@color/text_shadow" android:shadowDy="4.0" android:shadowRadius="8.0" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ll_current_points" />
+                        <TextView android:textSize="12.0sp" android:textColor="@color/pure_white" android:id="@id/tv_point_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reward_points_subtitle" app:layout_constraintBottom_toTopOf="@id/fl_redeem_item_container" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_point_amount" />
+                        <FrameLayout android:id="@id/fl_redeem_item_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_point_subtitle">
+                            <LinearLayout android:gravity="center" android:layout_gravity="center|top" android:orientation="horizontal" android:id="@id/ll_redeem_item_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                            <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/fl_error_view_container" android:background="@drawable/shape_white_transparent_curved_2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                    <TextView android:id="@id/tv_error" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reward_points_problem_occurred_click_retry" />
+                                    <ImageView android:id="@id/tv_error_refresh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_refresh_black" android:layout_marginStart="3.2999878dip" />
+                                </LinearLayout>
+                            </FrameLayout>
+                        </FrameLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+                <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginStart="@dimen/dp_10" android:layout_marginEnd="@dimen/dp_10" app:tabGravity="fill" app:tabIndicator="@drawable/shape_tab_indicator" app:tabMaxWidth="0.0dip" app:tabMode="fixed" app:tabRippleColor="@android:color/transparent" style="@style/AppTabLayout" />
+            </com.google.android.material.appbar.AppBarLayout>
+            <androidx.viewpager.widget.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/fl_loading" android:background="@color/dialog_transparent" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/item_load_more" />
+    </FrameLayout>
+</FrameLayout>

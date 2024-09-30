@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/selector_nav_bottom_uncensored" android:id="@id/navigation_uncensored" android:title="@string/bottom_tab_title_uncensored" />
+    <item android:icon="@drawable/selector_nav_bottom_censored" android:id="@id/navigation_censored" android:title="@string/bottom_tab_title_censored" />
+    <item android:icon="@drawable/selector_nav_bottom_category" android:id="@id/navigation_discover" android:title="@string/bottom_tab_title_discover" />
+    <item android:icon="@drawable/selector_nav_bottom_favorite" android:id="@id/navigation_favorite" android:title="@string/bottom_tab_title_favorite" />
+    <item android:icon="@drawable/selector_nav_bottom_me" android:id="@id/navigation_me" android:title="@string/bottom_tab_title_me" />
+</menu>

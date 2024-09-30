@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_favorite_header_container" android:background="@color/pure_white" android:paddingTop="@dimen/dp_10" android:paddingBottom="@dimen/dp_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="0.0dip" android:paddingEnd="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/ll_folder_capacity" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="12.0sp" android:id="@id/tv_space_remaining" android:padding="@dimen/dp_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/favorite_video_space_remaining" />
+        <TextView android:textSize="@dimen/sp_14" android:textColor="@color/red_3" android:id="@id/tv_expand" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_black_import" android:text="@string/favorite_expand" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_marginEnd="5.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/black_0_t60" android:id="@id/tv_folder_id" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/favorite_folder_id" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

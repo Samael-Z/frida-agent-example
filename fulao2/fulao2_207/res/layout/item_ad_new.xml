@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/item_film_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+        <com.zhouwei.mzbanner.MZBannerView android:id="@id/banner" android:layout_width="0.0dip" android:layout_height="0.0dip" app:canLoop="true" app:indicatorAlign="center" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="h,16:8" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:middle_page_cover="false" app:open_mz_mode="true" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

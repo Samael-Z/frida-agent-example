@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_4" android:layout_marginBottom="@dimen/dp_4"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/black_0_t60" android:gravity="center" android:id="@id/text_first_tag" android:background="@drawable/selector_tags" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginTop="@dimen/dp_4" android:layout_marginBottom="@dimen/dp_4" android:textAlignment="center" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="@dimen/dp_4" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip" />
+</LinearLayout>

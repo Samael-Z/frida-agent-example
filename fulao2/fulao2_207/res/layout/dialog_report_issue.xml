@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="7.0dip" app:cardCornerRadius="@dimen/dp_10" app:cardElevation="8.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip">
+                <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/pure_black" android:id="@id/text_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_report_issue_title" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rl_cant_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="5.0dip" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/dialog_adult_text_message_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_report_issue_cant_play" android:layout_centerVertical="true" />
+                <RadioButton android:theme="@style/RadioTheme" android:id="@id/rb_cant_play" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rl_lose_episode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="5.0dip" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/dialog_adult_text_message_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_report_issue_lose_episode" android:layout_centerVertical="true" />
+                <RadioButton android:theme="@style/RadioTheme" android:id="@id/rb_lose_episode" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rl_no_match" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="5.0dip" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/dialog_adult_text_message_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_report_issue_no_match" android:layout_centerVertical="true" />
+                <RadioButton android:theme="@style/RadioTheme" android:id="@id/rb_no_match" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rl_no_voice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="5.0dip" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/dialog_adult_text_message_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_report_issue_no_voice" android:layout_centerVertical="true" />
+                <RadioButton android:theme="@style/RadioTheme" android:id="@id/rb_no_voice" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rl_cant_open" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="5.0dip" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/dialog_adult_text_message_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_report_issue_cant_open" android:layout_centerVertical="true" />
+                <RadioButton android:theme="@style/RadioTheme" android:id="@id/rb_cant_open" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rl_other" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="6.0dip" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="@color/dialog_adult_text_message_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_report_issue_other" android:layout_centerVertical="true" />
+                <RadioButton android:theme="@style/RadioTheme" android:id="@id/rb_other" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <androidx.appcompat.widget.AppCompatEditText android:textSize="14.0sp" android:textColor="@color/pure_black" android:textColorHint="@color/dialog_text_hint" android:id="@id/edit_other" android:background="@drawable/shape_grey_frame" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.5dip" android:hint="@string/dialog_report_issue_other_hint" android:maxLines="3" android:layout_marginStart="30.0dip" android:layout_marginEnd="60.0dip" app:background="@color/general_gray" />
+            <View android:background="@color/dialog_adult_line_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="14.0dip" android:layout_marginStart="13.0dip" android:layout_marginEnd="13.0dip" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip">
+                <RelativeLayout android:id="@id/rl_negative" android:background="@drawable/selector_dialog_left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/line">
+                    <TextView android:textSize="14.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_report_issue_negative" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <View android:id="@id/line" android:background="@color/dialog_adult_line_gray" android:layout_width="1.0dip" android:layout_height="50.0dip" android:layout_marginTop="15.0dip" android:layout_centerInParent="true" />
+                <RelativeLayout android:id="@id/rl_positive" android:background="@drawable/selector_dialog_right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toEndOf="@id/line">
+                    <TextView android:textSize="14.0sp" android:textColor="@color/dialog_adult_text_ok_red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_report_issue_positive" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

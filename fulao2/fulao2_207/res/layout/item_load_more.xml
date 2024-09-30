@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <pl.droidsonroids.gif.GifImageView android:id="@id/gif_load_more" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/gif_loading" />
+    <TextView android:textColor="@color/gradient_red" android:gravity="center" android:id="@id/loading_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/loading" android:layout_below="@id/gif_load_more" android:layout_centerHorizontal="true" android:textAlignment="center" />
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_tab_order">
+        <item>@string/filter_order_latest</item>
+        <item>@string/filter_order_popular</item>
+    </string-array>
+    <string-array name="category_tab_ranking">
+        <item>@string/filter_ranking_day</item>
+        <item>@string/filter_ranking_week</item>
+        <item>@string/filter_ranking_month</item>
+    </string-array>
+    <string-array name="channel_tab_cup">
+        <item>@string/filter_cup</item>
+        <item>@string/filter_cup_1</item>
+        <item>@string/filter_cup_2</item>
+        <item>@string/filter_cup_3</item>
+        <item>@string/filter_cup_4</item>
+    </string-array>
+    <string-array name="channel_tab_order">
+        <item>@string/filter_order_famous</item>
+        <item>@string/filter_order_number</item>
+    </string-array>
+    <string-array name="channel_tab_types">
+        <item>@string/filter_channel_type_actress</item>
+        <item>@string/filter_channel_type_original_videos</item>
+        <item>@string/filter_channel_type_av_guide</item>
+    </string-array>
+</resources>

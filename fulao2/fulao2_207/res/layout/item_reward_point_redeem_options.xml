@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/rl_redeem_options" android:layout_width="0.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/fl_redeem_btn_top" android:background="@drawable/selector_reward_points_redeem_btn_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/pure_white" android:layout_gravity="center_horizontal" android:id="@id/tv_redeem_option_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="十日VIP" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/pure_black" android:layout_gravity="center_horizontal" android:id="@id/tv_redeem_option_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="需消耗 100 積分" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/fl_redeem_btn_bottom" android:background="@drawable/selector_reward_points_redeem_btn_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/fl_redeem_btn_top" android:layout_centerHorizontal="true">
+        <TextView android:textSize="12.0sp" android:textColor="@color/order_text_red" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_redeem_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="2.0dip" android:text="@string/reward_points_click_and_redeem" />
+    </FrameLayout>
+    <ImageView android:id="@id/iv_redeem_btn_shadow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bg_my_point_redeem_shadow" android:layout_centerHorizontal="true" />
+</RelativeLayout>

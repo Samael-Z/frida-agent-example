@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/progress" android:layout_alignParentTop="true" />
+    <include android:id="@id/layout_filter" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/fragment_filter_tab_items" />
+    <RelativeLayout android:id="@id/filter_title" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/fragment_filter_title_selected" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/layout_oops_ll" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/layout_oops" layout="@layout/item_oops" />
+    </RelativeLayout>
+</RelativeLayout>

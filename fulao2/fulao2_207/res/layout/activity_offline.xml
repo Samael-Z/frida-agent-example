@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/player_fl" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="h,16:9" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.dueeeke.videoplayer.player.VideoView android:id="@id/player" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/fl_back" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="10.0dip" android:paddingEnd="0.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/custom_player_back" android:scaleType="centerInside" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/offline_rv" android:background="@color/pure_white" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/player_fl" />
+</androidx.constraintlayout.widget.ConstraintLayout>

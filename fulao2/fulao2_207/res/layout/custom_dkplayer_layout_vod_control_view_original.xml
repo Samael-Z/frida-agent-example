@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/image_report" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_margin="14.0dip" android:src="@drawable/ic_film_report" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/vod_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:background="@drawable/dkplayer_shape_stardard_controller_bottom_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dkplayer_controller_height">
+            <ImageView android:id="@id/iv_play" android:padding="@dimen/dp_10" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/dkplayer_selector_play_button" />
+            <SeekBar android:layout_gravity="center_vertical" android:id="@id/seekBar" android:layout_width="0.0dip" android:layout_height="40.0dip" android:maxHeight="2.0dip" android:max="1000" android:progressDrawable="@drawable/dkplayer_layer_progress_bar" android:minHeight="2.0dip" android:thumb="@drawable/dkplayer_seekbar_thumb" android:thumbOffset="0.0dip" android:layout_weight="1.0" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/curr_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_10" />
+            <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" / " />
+            <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/total_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dp_10" />
+            <TextView android:textColor="@color/colorPrimary" android:gravity="center" android:id="@id/speed" android:padding="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="@dimen/dkplayer_controller_height" />
+            <ImageView android:id="@id/fullscreen" android:padding="@dimen/dp_10" android:layout_width="@dimen/dkplayer_controller_height" android:layout_height="@dimen/dkplayer_controller_height" android:src="@drawable/dkplayer_selector_full_screen_button" />
+        </LinearLayout>
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="bottom" android:id="@id/bottom_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:max="1000" android:progressDrawable="@drawable/dkplayer_layer_progress_bar" style="?android:progressBarStyleHorizontal" />
+</FrameLayout>

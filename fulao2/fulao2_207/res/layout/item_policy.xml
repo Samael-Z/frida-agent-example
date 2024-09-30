@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/item_title_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/policy_use_text1" android:lineSpacingExtra="8.0sp" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/item_title_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/policy_use_text2" android:lineSpacingExtra="10.0sp" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/item_title_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="5.0dip" android:text="@string/policy_use_text3" android:lineSpacingExtra="8.0sp" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/item_title_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/policy_use_text4" android:lineSpacingExtra="10.0sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

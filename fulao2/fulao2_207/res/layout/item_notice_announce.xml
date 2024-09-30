@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_10" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/top_url_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/announcement_banners_03" android:scaleType="centerCrop" android:adjustViewBounds="true" app:layout_constraintBottom_toTopOf="@id/layout_barcode" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <View android:id="@id/btn_aj_hide" android:layout_width="30.0dip" android:layout_height="30.0dip" app:layout_constraintStart_toStartOf="@id/top_url_image" app:layout_constraintTop_toTopOf="@id/top_url_image" />
+            <include android:id="@id/layout_barcode" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/top_url_image" layout="@layout/item_notice_view_welcome" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/ll_announce_skip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/layout_barcode">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_white_cross_outline" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/reward_points_announce_dialog_skip" android:layout_marginStart="5.0dip" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

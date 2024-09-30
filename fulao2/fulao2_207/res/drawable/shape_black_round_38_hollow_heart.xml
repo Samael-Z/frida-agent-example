@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/black_0_t38" />
+            <corners android:radius="200.0dip" />
+        </shape>
+    </item>
+    <item android:left="@dimen/dp_10" android:top="@dimen/dp_10" android:right="@dimen/dp_10" android:bottom="@dimen/dp_10">
+        <bitmap android:gravity="bottom|center|left" android:src="@drawable/ic_like_default" />
+    </item>
+</layer-list>

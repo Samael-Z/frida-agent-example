@@ -1,0 +1,6802 @@
+[
+  {
+    "type": "function",
+    "name": "__isinf",
+    "address": "0x71742a6098"
+  },
+  {
+    "type": "function",
+    "name": "getnetbyname",
+    "address": "0x71742abbf4"
+  },
+  {
+    "type": "function",
+    "name": "hdestroy_r",
+    "address": "0x71742c92a0"
+  },
+  {
+    "type": "function",
+    "name": "wmemchr",
+    "address": "0x71742cb43c"
+  },
+  {
+    "type": "function",
+    "name": "bsearch",
+    "address": "0x71742dce80"
+  },
+  {
+    "type": "function",
+    "name": "splice",
+    "address": "0x71742edbc0"
+  },
+  {
+    "type": "function",
+    "name": "ftello64",
+    "address": "0x71742fa6bc"
+  },
+  {
+    "type": "function",
+    "name": "__isinff",
+    "address": "0x71742a60b0"
+  },
+  {
+    "type": "function",
+    "name": "inotify_init",
+    "address": "0x71742aa300"
+  },
+  {
+    "type": "function",
+    "name": "android_getaddrinfofornet",
+    "address": "0x71742b8504"
+  },
+  {
+    "type": "function",
+    "name": "android_gethostbynamefornetcontext",
+    "address": "0x71742bbf64"
+  },
+  {
+    "type": "function",
+    "name": "fnmatch",
+    "address": "0x71742e4b48"
+  },
+  {
+    "type": "function",
+    "name": "pthread_mutex_lock",
+    "address": "0x7174301b90"
+  },
+  {
+    "type": "function",
+    "name": "sched_getcpu",
+    "address": "0x71742ad68c"
+  },
+  {
+    "type": "function",
+    "name": "pthread_mutexattr_destroy",
+    "address": "0x7174301a00"
+  },
+  {
+    "type": "function",
+    "name": "sigwaitinfo64",
+    "address": "0x71742ae9b4"
+  },
+  {
+    "type": "function",
+    "name": "ether_ntoa_r",
+    "address": "0x71742f683c"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawn_file_actions_destroy",
+    "address": "0x71742af050"
+  },
+  {
+    "type": "function",
+    "name": "cfsetispeed",
+    "address": "0x71742b1534"
+  },
+  {
+    "type": "function",
+    "name": "__res_nsend",
+    "address": "0x71742c4ea0"
+  },
+  {
+    "type": "function",
+    "name": "vswprintf",
+    "address": "0x71742eaef8"
+  },
+  {
+    "type": "function",
+    "name": "sched_getparam",
+    "address": "0x71742ed780"
+  },
+  {
+    "type": "function",
+    "name": "rewinddir",
+    "address": "0x71742a4154"
+  },
+  {
+    "type": "function",
+    "name": "__strncpy_chk2",
+    "address": "0x71742c7dec"
+  },
+  {
+    "type": "function",
+    "name": "pthread_cond_signal",
+    "address": "0x7174300588"
+  },
+  {
+    "type": "function",
+    "name": "wcstoull",
+    "address": "0x71742e6ed4"
+  },
+  {
+    "type": "function",
+    "name": "freeaddrinfo",
+    "address": "0x71742b84b4"
+  },
+  {
+    "type": "function",
+    "name": "android_net_res_stats_get_usable_servers",
+    "address": "0x71742c7094"
+  },
+  {
+    "type": "function",
+    "name": "wcscmp",
+    "address": "0x71742caf4c"
+  },
+  {
+    "type": "function",
+    "name": "alarm",
+    "address": "0x71742e4970"
+  },
+  {
+    "type": "function",
+    "name": "clock_adjtime",
+    "address": "0x71742ecc60"
+  },
+  {
+    "type": "function",
+    "name": "sem_close",
+    "address": "0x71742ad778"
+  },
+  {
+    "type": "function",
+    "name": "pthread_cond_timedwait",
+    "address": "0x7174300674"
+  },
+  {
+    "type": "function",
+    "name": "__dn_comp",
+    "address": "0x71742c0624"
+  },
+  {
+    "type": "function",
+    "name": "tempnam",
+    "address": "0x71742ea570"
+  },
+  {
+    "type": "function",
+    "name": "strftime",
+    "address": "0x71742f1b38"
+  },
+  {
+    "type": "function",
+    "name": "timelocal",
+    "address": "0x71742eec18"
+  },
+  {
+    "type": "function",
+    "name": "pthread_rwlockattr_setpshared",
+    "address": "0x717430279c"
+  },
+  {
+    "type": "function",
+    "name": "__memchr_chk",
+    "address": "0x71742c7594"
+  },
+  {
+    "type": "function",
+    "name": "pthread_create",
+    "address": "0x7174300bc4"
+  },
+  {
+    "type": "function",
+    "name": "__isinfl",
+    "address": "0x71742a6228"
+  },
+  {
+    "type": "function",
+    "name": "getprotoent",
+    "address": "0x71742abc14"
+  },
+  {
+    "type": "function",
+    "name": "sigsuspend64",
+    "address": "0x71742ae330"
+  },
+  {
+    "type": "function",
+    "name": "__p_class",
+    "address": "0x71742c24c8"
+  },
+  {
+    "type": "function",
+    "name": "_resolv_set_nameservers_for_net",
+    "address": "0x71742bf9b8"
+  },
+  {
+    "type": "function",
+    "name": "strlen",
+    "address": "0x717429e960"
+  },
+  {
+    "type": "function",
+    "name": "wcsrtombs",
+    "address": "0x71742b1d78"
+  },
+  {
+    "type": "function",
+    "name": "inet_aton",
+    "address": "0x71742a20d0"
+  },
+  {
+    "type": "function",
+    "name": "sendto",
+    "address": "0x71742ed8c0"
+  },
+  {
+    "type": "function",
+    "name": "nsdispatch",
+    "address": "0x71742bdeac"
+  },
+  {
+    "type": "variable",
+    "name": "optarg",
+    "address": "0x7174311438"
+  },
+  {
+    "type": "function",
+    "name": "errx",
+    "address": "0x71742e4af4"
+  },
+  {
+    "type": "function",
+    "name": "setpriority",
+    "address": "0x71742eda00"
+  },
+  {
+    "type": "function",
+    "name": "psignal",
+    "address": "0x71742d5f84"
+  },
+  {
+    "type": "function",
+    "name": "pthread_attr_setstacksize",
+    "address": "0x71742ffdf0"
+  },
+  {
+    "type": "function",
+    "name": "putwchar",
+    "address": "0x71742fbee0"
+  },
+  {
+    "type": "function",
+    "name": "__p_cdnname",
+    "address": "0x71742c1fa8"
+  },
+  {
+    "type": "function",
+    "name": "__stack_chk_fail",
+    "address": "0x71742ec51c"
+  },
+  {
+    "type": "function",
+    "name": "isalnum_l",
+    "address": "0x71742a3ce0"
+  },
+  {
+    "type": "function",
+    "name": "getprotobyname",
+    "address": "0x71742abc04"
+  },
+  {
+    "type": "function",
+    "name": "symlinkat",
+    "address": "0x71742edc20"
+  },
+  {
+    "type": "function",
+    "name": "msgsnd",
+    "address": "0x71742affd8"
+  },
+  {
+    "type": "function",
+    "name": "fts_children",
+    "address": "0x71742f7d90"
+  },
+  {
+    "type": "function",
+    "name": "strncasecmp_l",
+    "address": "0x71742af750"
+  },
+  {
+    "type": "function",
+    "name": "fputc",
+    "address": "0x71742fb064"
+  },
+  {
+    "type": "function",
+    "name": "towlower",
+    "address": "0x71742b2bac"
+  },
+  {
+    "type": "variable",
+    "name": "__realloc_hook",
+    "address": "0x7174311480"
+  },
+  {
+    "type": "function",
+    "name": "__libc_current_sigrtmax",
+    "address": "0x71742a1ec4"
+  },
+  {
+    "type": "function",
+    "name": "__pwrite64_chk",
+    "address": "0x71742c7878"
+  },
+  {
+    "type": "function",
+    "name": "inet_makeaddr",
+    "address": "0x71742e7bac"
+  },
+  {
+    "type": "function",
+    "name": "strptime",
+    "address": "0x71742f2eac"
+  },
+  {
+    "type": "function",
+    "name": "isnormal",
+    "address": "0x71742a6118"
+  },
+  {
+    "type": "function",
+    "name": "__system_property_update",
+    "address": "0x71742b0cfc"
+  },
+  {
+    "type": "function",
+    "name": "inet_ntoa",
+    "address": "0x71742e7c24"
+  },
+  {
+    "type": "variable",
+    "name": "__malloc_hook",
+    "address": "0x7174311400"
+  },
+  {
+    "type": "function",
+    "name": "mallinfo",
+    "address": "0x71742602d8"
+  },
+  {
+    "type": "function",
+    "name": "mblen",
+    "address": "0x71742aafa4"
+  },
+  {
+    "type": "function",
+    "name": "sem_timedwait_monotonic_np",
+    "address": "0x71742ad9a8"
+  },
+  {
+    "type": "function",
+    "name": "wcsncasecmp_l",
+    "address": "0x71742b1d8c"
+  },
+  {
+    "type": "function",
+    "name": "iswspace_l",
+    "address": "0x71742b28f0"
+  },
+  {
+    "type": "function",
+    "name": "truncate",
+    "address": "0x71742edd60"
+  },
+  {
+    "type": "function",
+    "name": "write",
+    "address": "0x71742ede80"
+  },
+  {
+    "type": "function",
+    "name": "nftw",
+    "address": "0x71742a66a0"
+  },
+  {
+    "type": "function",
+    "name": "_getlong",
+    "address": "0x71742c0a50"
+  },
+  {
+    "type": "function",
+    "name": "lsetxattr",
+    "address": "0x71742ed2e0"
+  },
+  {
+    "type": "function",
+    "name": "android_fdsan_create_owner_tag",
+    "address": "0x71742a5024"
+  },
+  {
+    "type": "function",
+    "name": "wcslen",
+    "address": "0x71742cb0d4"
+  },
+  {
+    "type": "function",
+    "name": "getgrouplist",
+    "address": "0x71742a7560"
+  },
+  {
+    "type": "function",
+    "name": "fstatvfs",
+    "address": "0x71742af46c"
+  },
+  {
+    "type": "variable",
+    "name": "sys_siglist",
+    "address": "0x717430d260"
+  },
+  {
+    "type": "function",
+    "name": "wait4",
+    "address": "0x71742ede60"
+  },
+  {
+    "type": "function",
+    "name": "__res_send",
+    "address": "0x71742c0f74"
+  },
+  {
+    "type": "function",
+    "name": "__res_nameinquery",
+    "address": "0x71742c4c34"
+  },
+  {
+    "type": "function",
+    "name": "drand48",
+    "address": "0x71742dcefc"
+  },
+  {
+    "type": "function",
+    "name": "htonl",
+    "address": "0x71742e7b68"
+  },
+  {
+    "type": "function",
+    "name": "siglongjmp",
+    "address": "0x717429f080"
+  },
+  {
+    "type": "function",
+    "name": "catopen",
+    "address": "0x71742abd5c"
+  },
+  {
+    "type": "function",
+    "name": "setresgid",
+    "address": "0x71742eda40"
+  },
+  {
+    "type": "function",
+    "name": "stat64",
+    "address": "0x71742af358"
+  },
+  {
+    "type": "function",
+    "name": "__system_property_area_init",
+    "address": "0x71742b0c1c"
+  },
+  {
+    "type": "function",
+    "name": "waitid",
+    "address": "0x71742b1934"
+  },
+  {
+    "type": "function",
+    "name": "__ppoll_chk",
+    "address": "0x71742c7730"
+  },
+  {
+    "type": "function",
+    "name": "sigprocmask",
+    "address": "0x71742aea18"
+  },
+  {
+    "type": "function",
+    "name": "seekdir",
+    "address": "0x71742a41a8"
+  },
+  {
+    "type": "function",
+    "name": "tcgetsid",
+    "address": "0x71742b1604"
+  },
+  {
+    "type": "function",
+    "name": "__res_nmkquery",
+    "address": "0x71742c4014"
+  },
+  {
+    "type": "function",
+    "name": "getservent",
+    "address": "0x71742bdd80"
+  },
+  {
+    "type": "function",
+    "name": "__p_query",
+    "address": "0x71742c0ae4"
+  },
+  {
+    "type": "function",
+    "name": "__system_property_find_nth",
+    "address": "0x71742b0d80"
+  },
+  {
+    "type": "function",
+    "name": "unsetenv",
+    "address": "0x71742ebbfc"
+  },
+  {
+    "type": "function",
+    "name": "isprint",
+    "address": "0x71742e57bc"
+  },
+  {
+    "type": "function",
+    "name": "setpgrp",
+    "address": "0x71742adb48"
+  },
+  {
+    "type": "function",
+    "name": "fstatfs64",
+    "address": "0x71742af370"
+  },
+  {
+    "type": "function",
+    "name": "__res_randomid",
+    "address": "0x71742e8620"
+  },
+  {
+    "type": "function",
+    "name": "__pread64_chk",
+    "address": "0x71742c77b0"
+  },
+  {
+    "type": "function",
+    "name": "lfind",
+    "address": "0x71742eb7d8"
+  },
+  {
+    "type": "function",
+    "name": "getegid",
+    "address": "0x71742ecf00"
+  },
+  {
+    "type": "function",
+    "name": "pselect64",
+    "address": "0x71742ac5f4"
+  },
+  {
+    "type": "function",
+    "name": "fork",
+    "address": "0x7174303f98"
+  },
+  {
+    "type": "function",
+    "name": "vfwprintf",
+    "address": "0x71742fb888"
+  },
+  {
+    "type": "function",
+    "name": "pthread_mutexattr_gettype",
+    "address": "0x7174301a10"
+  },
+  {
+    "type": "function",
+    "name": "killpg",
+    "address": "0x71742aa3c0"
+  },
+  {
+    "type": "function",
+    "name": "ftw64",
+    "address": "0x71742aa6ac"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawnattr_destroy",
+    "address": "0x71742aee98"
+  },
+  {
+    "type": "function",
+    "name": "__res_nquerydomain",
+    "address": "0x71742c497c"
+  },
+  {
+    "type": "function",
+    "name": "fseeko64",
+    "address": "0x71742fa610"
+  },
+  {
+    "type": "function",
+    "name": "pthread_attr_destroy",
+    "address": "0x71742ffcc8"
+  },
+  {
+    "type": "function",
+    "name": "htons",
+    "address": "0x71742e7b70"
+  },
+  {
+    "type": "function",
+    "name": "malloc_usable_size",
+    "address": "0x717426039c"
+  },
+  {
+    "type": "function",
+    "name": "uselocale",
+    "address": "0x71742aabc8"
+  },
+  {
+    "type": "function",
+    "name": "sigtimedwait64",
+    "address": "0x71742ae78c"
+  },
+  {
+    "type": "function",
+    "name": "swab",
+    "address": "0x71742afe00"
+  },
+  {
+    "type": "function",
+    "name": "shmat",
+    "address": "0x71742b0140"
+  },
+  {
+    "type": "function",
+    "name": "futimes",
+    "address": "0x71742b0424"
+  },
+  {
+    "type": "function",
+    "name": "towupper_l",
+    "address": "0x71742b2cbc"
+  },
+  {
+    "type": "function",
+    "name": "__p_cdname",
+    "address": "0x71742c2058"
+  },
+  {
+    "type": "function",
+    "name": "pwrite64",
+    "address": "0x71742ed5c0"
+  },
+  {
+    "type": "function",
+    "name": "fputs",
+    "address": "0x71742fb330"
+  },
+  {
+    "type": "function",
+    "name": "getresgid",
+    "address": "0x71742ed020"
+  },
+  {
+    "type": "function",
+    "name": "pathconf",
+    "address": "0x71742ac038"
+  },
+  {
+    "type": "function",
+    "name": "readlinkat",
+    "address": "0x71742ed660"
+  },
+  {
+    "type": "function",
+    "name": "strtoll_l",
+    "address": "0x71742af518"
+  },
+  {
+    "type": "function",
+    "name": "strsignal",
+    "address": "0x71742af890"
+  },
+  {
+    "type": "function",
+    "name": "vsyslog",
+    "address": "0x71742b08c8"
+  },
+  {
+    "type": "function",
+    "name": "iswctype_l",
+    "address": "0x71742b2ba8"
+  },
+  {
+    "type": "function",
+    "name": "wcsncat",
+    "address": "0x71742cb16c"
+  },
+  {
+    "type": "function",
+    "name": "utmpname",
+    "address": "0x71742d61f8"
+  },
+  {
+    "type": "function",
+    "name": "inet_nsap_addr",
+    "address": "0x71742d6268"
+  },
+  {
+    "type": "function",
+    "name": "raise",
+    "address": "0x71742ad414"
+  },
+  {
+    "type": "function",
+    "name": "sigaddset",
+    "address": "0x71742adcc8"
+  },
+  {
+    "type": "function",
+    "name": "iswalnum",
+    "address": "0x71742b235c"
+  },
+  {
+    "type": "function",
+    "name": "inet_ntop",
+    "address": "0x71742e7cfc"
+  },
+  {
+    "type": "function",
+    "name": "srand48",
+    "address": "0x71742dd24c"
+  },
+  {
+    "type": "function",
+    "name": "warn",
+    "address": "0x71742e5bcc"
+  },
+  {
+    "type": "function",
+    "name": "fsetpos",
+    "address": "0x71742fa638"
+  },
+  {
+    "type": "function",
+    "name": "__flbf",
+    "address": "0x71742fd348"
+  },
+  {
+    "type": "function",
+    "name": "pthread_gettid_np",
+    "address": "0x71743013c4"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawnattr_getsigdefault",
+    "address": "0x71742aef9c"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawnattr_setsigdefault",
+    "address": "0x71742aef74"
+  },
+  {
+    "type": "function",
+    "name": "__strchr_chk",
+    "address": "0x71742c7c50"
+  },
+  {
+    "type": "function",
+    "name": "tfind",
+    "address": "0x71742ebcdc"
+  },
+  {
+    "type": "function",
+    "name": "toupper_l",
+    "address": "0x71742a3d1c"
+  },
+  {
+    "type": "function",
+    "name": "wcsftime",
+    "address": "0x71742f4234"
+  },
+  {
+    "type": "function",
+    "name": "__readlinkat_chk",
+    "address": "0x71742c79a8"
+  },
+  {
+    "type": "function",
+    "name": "mkdir",
+    "address": "0x71742ab468"
+  },
+  {
+    "type": "function",
+    "name": "isspace_l",
+    "address": "0x71742a3d10"
+  },
+  {
+    "type": "function",
+    "name": "ppoll",
+    "address": "0x71742ac390"
+  },
+  {
+    "type": "function",
+    "name": "tdelete",
+    "address": "0x71742ebe00"
+  },
+  {
+    "type": "function",
+    "name": "getgrent",
+    "address": "0x71742a7e40"
+  },
+  {
+    "type": "function",
+    "name": "ns_format_ttl",
+    "address": "0x71742b8108"
+  },
+  {
+    "type": "function",
+    "name": "mbtowc",
+    "address": "0x71742e5de0"
+  },
+  {
+    "type": "function",
+    "name": "wctomb",
+    "address": "0x71742e771c"
+  },
+  {
+    "type": "function",
+    "name": "pthread_getcpuclockid",
+    "address": "0x71743012e4"
+  },
+  {
+    "type": "function",
+    "name": "ns_name_ntol",
+    "address": "0x71742b3b0c"
+  },
+  {
+    "type": "function",
+    "name": "pthread_cond_broadcast",
+    "address": "0x7174300504"
+  },
+  {
+    "type": "function",
+    "name": "wcscspn",
+    "address": "0x71742caf8c"
+  },
+  {
+    "type": "function",
+    "name": "fdatasync",
+    "address": "0x71742ece20"
+  },
+  {
+    "type": "function",
+    "name": "ispunct",
+    "address": "0x71742e57ec"
+  },
+  {
+    "type": "function",
+    "name": "memmem",
+    "address": "0x71742ab348"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawnattr_setsigmask64",
+    "address": "0x71742aef38"
+  },
+  {
+    "type": "function",
+    "name": "endservent",
+    "address": "0x71742bdd64"
+  },
+  {
+    "type": "function",
+    "name": "herror",
+    "address": "0x71742be708"
+  },
+  {
+    "type": "function",
+    "name": "__pwrite_chk",
+    "address": "0x71742c78dc"
+  },
+  {
+    "type": "function",
+    "name": "sendmmsg",
+    "address": "0x71742ed880"
+  },
+  {
+    "type": "function",
+    "name": "time",
+    "address": "0x717429da58"
+  },
+  {
+    "type": "function",
+    "name": "__system_property_wait",
+    "address": "0x71742b0d60"
+  },
+  {
+    "type": "function",
+    "name": "fmemopen",
+    "address": "0x71742f8208"
+  },
+  {
+    "type": "function",
+    "name": "pthread_getattr_np",
+    "address": "0x71742ffec4"
+  },
+  {
+    "type": "variable",
+    "name": "stderr",
+    "address": "0x7174309620"
+  },
+  {
+    "type": "function",
+    "name": "accept4",
+    "address": "0x71742a2000"
+  },
+  {
+    "type": "function",
+    "name": "alphasort64",
+    "address": "0x71742a4230"
+  },
+  {
+    "type": "function",
+    "name": "setgrent",
+    "address": "0x71742a7e20"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawn_file_actions_addopen",
+    "address": "0x71742af0ac"
+  },
+  {
+    "type": "function",
+    "name": "semctl",
+    "address": "0x71742b0000"
+  },
+  {
+    "type": "function",
+    "name": "__FD_SET_chk",
+    "address": "0x71742c734c"
+  },
+  {
+    "type": "function",
+    "name": "ns_name_ntop",
+    "address": "0x71742b3264"
+  },
+  {
+    "type": "function",
+    "name": "swscanf",
+    "address": "0x71742fc610"
+  },
+  {
+    "type": "function",
+    "name": "tcgetattr",
+    "address": "0x71742b15f8"
+  },
+  {
+    "type": "function",
+    "name": "globfree",
+    "address": "0x71742cbcf0"
+  },
+  {
+    "type": "function",
+    "name": "setprotoent",
+    "address": "0x71742abc20"
+  },
+  {
+    "type": "function",
+    "name": "shmctl",
+    "address": "0x71742b0158"
+  },
+  {
+    "type": "function",
+    "name": "iswprint_l",
+    "address": "0x71742b283c"
+  },
+  {
+    "type": "function",
+    "name": "__res_nquery",
+    "address": "0x71742c4450"
+  },
+  {
+    "type": "variable",
+    "name": "_ctype_",
+    "address": "0x7174309420"
+  },
+  {
+    "type": "function",
+    "name": "clearenv",
+    "address": "0x71742a38dc"
+  },
+  {
+    "type": "function",
+    "name": "sigemptyset64",
+    "address": "0x71742adf30"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawn_file_actions_addclose",
+    "address": "0x71742af1a0"
+  },
+  {
+    "type": "function",
+    "name": "ns_put16",
+    "address": "0x71742b4308"
+  },
+  {
+    "type": "function",
+    "name": "sched_yield",
+    "address": "0x71742ed840"
+  },
+  {
+    "type": "function",
+    "name": "getpid",
+    "address": "0x71742a6b10"
+  },
+  {
+    "type": "function",
+    "name": "isinf",
+    "address": "0x71742a6098"
+  },
+  {
+    "type": "function",
+    "name": "ns_get32",
+    "address": "0x71742b42fc"
+  },
+  {
+    "type": "function",
+    "name": "ether_aton",
+    "address": "0x71742f6764"
+  },
+  {
+    "type": "function",
+    "name": "fstat",
+    "address": "0x71742ece80"
+  },
+  {
+    "type": "function",
+    "name": "__p_rcode",
+    "address": "0x71742c192c"
+  },
+  {
+    "type": "function",
+    "name": "setitimer",
+    "address": "0x71742ed9a0"
+  },
+  {
+    "type": "function",
+    "name": "imaxdiv",
+    "address": "0x71742eb6a0"
+  },
+  {
+    "type": "function",
+    "name": "fgetpos64",
+    "address": "0x71742fa874"
+  },
+  {
+    "type": "function",
+    "name": "ftello",
+    "address": "0x71742fa698"
+  },
+  {
+    "type": "function",
+    "name": "syscall",
+    "address": "0x717429f220"
+  },
+  {
+    "type": "function",
+    "name": "brk",
+    "address": "0x71742a35e8"
+  },
+  {
+    "type": "function",
+    "name": "iswlower_l",
+    "address": "0x71742b2818"
+  },
+  {
+    "type": "function",
+    "name": "psiginfo",
+    "address": "0x71742d6060"
+  },
+  {
+    "type": "function",
+    "name": "__errno",
+    "address": "0x71742a1e88"
+  },
+  {
+    "type": "function",
+    "name": "malloc",
+    "address": "0x717426032c"
+  },
+  {
+    "type": "function",
+    "name": "strrchr",
+    "address": "0x717429df00"
+  },
+  {
+    "type": "function",
+    "name": "strchrnul",
+    "address": "0x71742af524"
+  },
+  {
+    "type": "function",
+    "name": "stpncpy",
+    "address": "0x71742ddc38"
+  },
+  {
+    "type": "function",
+    "name": "getuid",
+    "address": "0x71742ed100"
+  },
+  {
+    "type": "function",
+    "name": "getgrgid_r",
+    "address": "0x71742a7ba4"
+  },
+  {
+    "type": "function",
+    "name": "getchar",
+    "address": "0x71742fbb10"
+  },
+  {
+    "type": "function",
+    "name": "strncpy",
+    "address": "0x71742dddd4"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawnp",
+    "address": "0x71742aee4c"
+  },
+  {
+    "type": "function",
+    "name": "statvfs",
+    "address": "0x71742af3d0"
+  },
+  {
+    "type": "function",
+    "name": "epoll_create",
+    "address": "0x71742afed4"
+  },
+  {
+    "type": "function",
+    "name": "__p_fqnname",
+    "address": "0x71742c2108"
+  },
+  {
+    "type": "function",
+    "name": "twalk",
+    "address": "0x71742ebf10"
+  },
+  {
+    "type": "variable",
+    "name": "__free_hook",
+    "address": "0x71743112d8"
+  },
+  {
+    "type": "function",
+    "name": "lstat",
+    "address": "0x71742aaf8c"
+  },
+  {
+    "type": "function",
+    "name": "setsid",
+    "address": "0x71742edac0"
+  },
+  {
+    "type": "function",
+    "name": "sysconf",
+    "address": "0x717429d800"
+  },
+  {
+    "type": "function",
+    "name": "sem_getvalue",
+    "address": "0x71742adb04"
+  },
+  {
+    "type": "function",
+    "name": "iswgraph",
+    "address": "0x71742b23c8"
+  },
+  {
+    "type": "function",
+    "name": "wcswidth",
+    "address": "0x71742ec4b4"
+  },
+  {
+    "type": "function",
+    "name": "strftime_l",
+    "address": "0x71742f1a90"
+  },
+  {
+    "type": "function",
+    "name": "ether_ntoa",
+    "address": "0x71742f6934"
+  },
+  {
+    "type": "function",
+    "name": "__system_property_get",
+    "address": "0x71742b0ce4"
+  },
+  {
+    "type": "function",
+    "name": "if_nametoindex",
+    "address": "0x71742ab8d0"
+  },
+  {
+    "type": "function",
+    "name": "sigwait64",
+    "address": "0x71742ae8a8"
+  },
+  {
+    "type": "function",
+    "name": "getitimer",
+    "address": "0x71742ecf80"
+  },
+  {
+    "type": "function",
+    "name": "fopen64",
+    "address": "0x71742f9668"
+  },
+  {
+    "type": "function",
+    "name": "__gnu_basename",
+    "address": "0x71742a1e98"
+  },
+  {
+    "type": "function",
+    "name": "flockfile",
+    "address": "0x71742a5fa8"
+  },
+  {
+    "type": "function",
+    "name": "getpwnam",
+    "address": "0x71742a70d4"
+  },
+  {
+    "type": "function",
+    "name": "utimes",
+    "address": "0x71742b0220"
+  },
+  {
+    "type": "function",
+    "name": "__putshort",
+    "address": "0x71742c0a4c"
+  },
+  {
+    "type": "function",
+    "name": "execve",
+    "address": "0x71742ecd60"
+  },
+  {
+    "type": "function",
+    "name": "grantpt",
+    "address": "0x71742ace58"
+  },
+  {
+    "type": "function",
+    "name": "setpgid",
+    "address": "0x71742ed9e0"
+  },
+  {
+    "type": "function",
+    "name": "ns_msg_getflag",
+    "address": "0x71742b4338"
+  },
+  {
+    "type": "function",
+    "name": "initgroups",
+    "address": "0x71742f7ef8"
+  },
+  {
+    "type": "function",
+    "name": "sigaction",
+    "address": "0x71742adb54"
+  },
+  {
+    "type": "function",
+    "name": "opendir",
+    "address": "0x71742a3e8c"
+  },
+  {
+    "type": "function",
+    "name": "tcflush",
+    "address": "0x71742b15ec"
+  },
+  {
+    "type": "function",
+    "name": "wcslcpy",
+    "address": "0x71742ec46c"
+  },
+  {
+    "type": "function",
+    "name": "unlinkat",
+    "address": "0x71742edde0"
+  },
+  {
+    "type": "function",
+    "name": "scandir64",
+    "address": "0x71742ad62c"
+  },
+  {
+    "type": "function",
+    "name": "mktemp",
+    "address": "0x71742e9d0c"
+  },
+  {
+    "type": "function",
+    "name": "times",
+    "address": "0x71742edd40"
+  },
+  {
+    "type": "function",
+    "name": "asctime",
+    "address": "0x71742ee0cc"
+  },
+  {
+    "type": "function",
+    "name": "pthread_rwlock_tryrdlock",
+    "address": "0x7174302ca0"
+  },
+  {
+    "type": "function",
+    "name": "getxattr",
+    "address": "0x71742ed120"
+  },
+  {
+    "type": "function",
+    "name": "ns_name_uncompress",
+    "address": "0x71742b40f0"
+  },
+  {
+    "type": "function",
+    "name": "isprint_l",
+    "address": "0x71742a3d08"
+  },
+  {
+    "type": "function",
+    "name": "siginterrupt",
+    "address": "0x71742ae0c8"
+  },
+  {
+    "type": "function",
+    "name": "hcreate",
+    "address": "0x71742c913c"
+  },
+  {
+    "type": "function",
+    "name": "snprintf",
+    "address": "0x71742fc14c"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_thread_atexit_impl",
+    "address": "0x7174303b94"
+  },
+  {
+    "type": "function",
+    "name": "get_nprocs_conf",
+    "address": "0x71742b04c4"
+  },
+  {
+    "type": "variable",
+    "name": "environ",
+    "address": "0x71743112c0"
+  },
+  {
+    "type": "function",
+    "name": "ftw",
+    "address": "0x71742a6464"
+  },
+  {
+    "type": "function",
+    "name": "lrand48",
+    "address": "0x71742dcfe8"
+  },
+  {
+    "type": "function",
+    "name": "vasprintf",
+    "address": "0x71742eac20"
+  },
+  {
+    "type": "function",
+    "name": "lremovexattr",
+    "address": "0x71742ed2a0"
+  },
+  {
+    "type": "function",
+    "name": "gettimeofday",
+    "address": "0x717429da14"
+  },
+  {
+    "type": "function",
+    "name": "sscanf",
+    "address": "0x71742fc4e8"
+  },
+  {
+    "type": "function",
+    "name": "__system_properties_init",
+    "address": "0x71742b0be8"
+  },
+  {
+    "type": "function",
+    "name": "pthread_rwlock_destroy",
+    "address": "0x7174302878"
+  },
+  {
+    "type": "function",
+    "name": "memcpy",
+    "address": "0x717429e280"
+  },
+  {
+    "type": "function",
+    "name": "pthread_mutex_destroy",
+    "address": "0x7174302578"
+  },
+  {
+    "type": "function",
+    "name": "_getshort",
+    "address": "0x71742c0a54"
+  },
+  {
+    "type": "function",
+    "name": "ldiv",
+    "address": "0x71742eb6dc"
+  },
+  {
+    "type": "function",
+    "name": "vmsplice",
+    "address": "0x71742ede40"
+  },
+  {
+    "type": "function",
+    "name": "accept",
+    "address": "0x71742a1ff8"
+  },
+  {
+    "type": "function",
+    "name": "islower_l",
+    "address": "0x71742a3d04"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawnattr_setsigmask",
+    "address": "0x71742aef24"
+  },
+  {
+    "type": "function",
+    "name": "fdopen",
+    "address": "0x71742f9848"
+  },
+  {
+    "type": "function",
+    "name": "fflush_unlocked",
+    "address": "0x71742fcc60"
+  },
+  {
+    "type": "function",
+    "name": "vsprintf",
+    "address": "0x71742fc444"
+  },
+  {
+    "type": "function",
+    "name": "faccessat",
+    "address": "0x71742a4e04"
+  },
+  {
+    "type": "function",
+    "name": "dirfd",
+    "address": "0x71742a3d24"
+  },
+  {
+    "type": "function",
+    "name": "rand",
+    "address": "0x71742ad450"
+  },
+  {
+    "type": "function",
+    "name": "pthread_exit",
+    "address": "0x71743011dc"
+  },
+  {
+    "type": "function",
+    "name": "pthread_atfork",
+    "address": "0x717426003c"
+  },
+  {
+    "type": "function",
+    "name": "execle",
+    "address": "0x71742a485c"
+  },
+  {
+    "type": "function",
+    "name": "mremap",
+    "address": "0x71742ab708"
+  },
+  {
+    "type": "function",
+    "name": "swapoff",
+    "address": "0x71742edbe0"
+  },
+  {
+    "type": "function",
+    "name": "pthread_rwlock_wrlock",
+    "address": "0x7174302d0c"
+  },
+  {
+    "type": "function",
+    "name": "execvp",
+    "address": "0x71742a499c"
+  },
+  {
+    "type": "function",
+    "name": "pthread_attr_setdetachstate",
+    "address": "0x71742ffd60"
+  },
+  {
+    "type": "function",
+    "name": "statfs64",
+    "address": "0x71742af3a0"
+  },
+  {
+    "type": "function",
+    "name": "ns_name_skip",
+    "address": "0x71742b423c"
+  },
+  {
+    "type": "function",
+    "name": "pthread_attr_getscope",
+    "address": "0x7174300150"
+  },
+  {
+    "type": "function",
+    "name": "sigfillset64",
+    "address": "0x71742adf9c"
+  },
+  {
+    "type": "function",
+    "name": "isblank",
+    "address": "0x71742e56f0"
+  },
+  {
+    "type": "function",
+    "name": "select",
+    "address": "0x71742ac4c4"
+  },
+  {
+    "type": "function",
+    "name": "gethostbyname2",
+    "address": "0x71742bbdf0"
+  },
+  {
+    "type": "function",
+    "name": "__FD_ISSET_chk",
+    "address": "0x71742c722c"
+  },
+  {
+    "type": "function",
+    "name": "iswalpha",
+    "address": "0x71742b2380"
+  },
+  {
+    "type": "variable",
+    "name": "sys_signame",
+    "address": "0x717430d468"
+  },
+  {
+    "type": "function",
+    "name": "__b64_ntop",
+    "address": "0x71742e7748"
+  },
+  {
+    "type": "function",
+    "name": "personality",
+    "address": "0x71742ed4c0"
+  },
+  {
+    "type": "function",
+    "name": "posix_madvise",
+    "address": "0x71742ac880"
+  },
+  {
+    "type": "function",
+    "name": "symlink",
+    "address": "0x71742afec4"
+  },
+  {
+    "type": "function",
+    "name": "android_gethostbyaddrfornetcontext",
+    "address": "0x71742bc170"
+  },
+  {
+    "type": "function",
+    "name": "getprotobynumber",
+    "address": "0x71742abc0c"
+  },
+  {
+    "type": "function",
+    "name": "capset",
+    "address": "0x71742ecc00"
+  },
+  {
+    "type": "function",
+    "name": "strtoul",
+    "address": "0x71742afb8c"
+  },
+  {
+    "type": "function",
+    "name": "fprintf",
+    "address": "0x71742fab58"
+  },
+  {
+    "type": "function",
+    "name": "duplocale",
+    "address": "0x71742aac58"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawnattr_getschedparam",
+    "address": "0x71742aefd8"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawnattr_setschedparam",
+    "address": "0x71742aefc4"
+  },
+  {
+    "type": "function",
+    "name": "realpath",
+    "address": "0x71742ccb2c"
+  },
+  {
+    "type": "function",
+    "name": "android_fdsan_get_tag_value",
+    "address": "0x71742a5144"
+  },
+  {
+    "type": "function",
+    "name": "strtod_l",
+    "address": "0x71742af508"
+  },
+  {
+    "type": "function",
+    "name": "endutent",
+    "address": "0x71742d61cc"
+  },
+  {
+    "type": "function",
+    "name": "verr",
+    "address": "0x71742e5930"
+  },
+  {
+    "type": "variable",
+    "name": "timezone",
+    "address": "0x71743115a8"
+  },
+  {
+    "type": "function",
+    "name": "fclose",
+    "address": "0x71742f9db4"
+  },
+  {
+    "type": "function",
+    "name": "sigwait",
+    "address": "0x71742ae7ec"
+  },
+  {
+    "type": "function",
+    "name": "getservbyname",
+    "address": "0x71742bdda0"
+  },
+  {
+    "type": "function",
+    "name": "execlp",
+    "address": "0x71742a48f4"
+  },
+  {
+    "type": "function",
+    "name": "__fp_query",
+    "address": "0x71742c0ba8"
+  },
+  {
+    "type": "function",
+    "name": "hcreate_r",
+    "address": "0x71742c9230"
+  },
+  {
+    "type": "function",
+    "name": "memmove",
+    "address": "0x717429e280"
+  },
+  {
+    "type": "function",
+    "name": "strtouq",
+    "address": "0x71742afda4"
+  },
+  {
+    "type": "function",
+    "name": "getpagesize",
+    "address": "0x71742a6ae0"
+  },
+  {
+    "type": "function",
+    "name": "isupper",
+    "address": "0x71742e5844"
+  },
+  {
+    "type": "function",
+    "name": "open64",
+    "address": "0x71742abd9c"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawnattr_setschedpolicy",
+    "address": "0x71742aefec"
+  },
+  {
+    "type": "function",
+    "name": "fts_set",
+    "address": "0x71742f7d5c"
+  },
+  {
+    "type": "function",
+    "name": "wait",
+    "address": "0x71742b1918"
+  },
+  {
+    "type": "function",
+    "name": "mprotect",
+    "address": "0x71742ed400"
+  },
+  {
+    "type": "variable",
+    "name": "error_print_progname",
+    "address": "0x71743112d0"
+  },
+  {
+    "type": "function",
+    "name": "getpwuid_r",
+    "address": "0x71742a6d88"
+  },
+  {
+    "type": "function",
+    "name": "nl_langinfo_l",
+    "address": "0x71742aa67c"
+  },
+  {
+    "type": "function",
+    "name": "setlogmask",
+    "address": "0x71742b0778"
+  },
+  {
+    "type": "function",
+    "name": "wcpcpy",
+    "address": "0x71742cae14"
+  },
+  {
+    "type": "function",
+    "name": "tzset",
+    "address": "0x71742ee488"
+  },
+  {
+    "type": "function",
+    "name": "__fwritable",
+    "address": "0x71742fd338"
+  },
+  {
+    "type": "function",
+    "name": "pthread_rwlockattr_getpshared",
+    "address": "0x7174302788"
+  },
+  {
+    "type": "function",
+    "name": "iconv",
+    "address": "0x71742a92f0"
+  },
+  {
+    "type": "function",
+    "name": "wcsncmp",
+    "address": "0x71742cb1bc"
+  },
+  {
+    "type": "function",
+    "name": "pthread_sigqueue",
+    "address": "0x7174303460"
+  },
+  {
+    "type": "function",
+    "name": "vwprintf",
+    "address": "0x71742fc7f4"
+  },
+  {
+    "type": "function",
+    "name": "pthread_rwlock_init",
+    "address": "0x717430281c"
+  },
+  {
+    "type": "function",
+    "name": "pthread_spin_trylock",
+    "address": "0x71743039cc"
+  },
+  {
+    "type": "function",
+    "name": "pthread_sigmask",
+    "address": "0x71742adbf8"
+  },
+  {
+    "type": "function",
+    "name": "__hostalias",
+    "address": "0x71742c1258"
+  },
+  {
+    "type": "variable",
+    "name": "optind",
+    "address": "0x71743082bc"
+  },
+  {
+    "type": "function",
+    "name": "isinff",
+    "address": "0x71742a60b0"
+  },
+  {
+    "type": "function",
+    "name": "sigignore",
+    "address": "0x71742ae06c"
+  },
+  {
+    "type": "function",
+    "name": "strtoull_l",
+    "address": "0x71742af520"
+  },
+  {
+    "type": "function",
+    "name": "getauxval",
+    "address": "0x717429d7a4"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawn_file_actions_init",
+    "address": "0x71742af010"
+  },
+  {
+    "type": "function",
+    "name": "mincore",
+    "address": "0x71742ed320"
+  },
+  {
+    "type": "function",
+    "name": "munlock",
+    "address": "0x71742ed440"
+  },
+  {
+    "type": "function",
+    "name": "freopen64",
+    "address": "0x71742f99ec"
+  },
+  {
+    "type": "function",
+    "name": "funlockfile",
+    "address": "0x71742a5fd4"
+  },
+  {
+    "type": "function",
+    "name": "erand48",
+    "address": "0x71742dcf08"
+  },
+  {
+    "type": "function",
+    "name": "pthread_mutexattr_getprotocol",
+    "address": "0x7174301ae4"
+  },
+  {
+    "type": "function",
+    "name": "__libc_init",
+    "address": "0x717429d72c"
+  },
+  {
+    "type": "function",
+    "name": "tgkill",
+    "address": "0x71742edcc0"
+  },
+  {
+    "type": "function",
+    "name": "putchar",
+    "address": "0x71742fbd6c"
+  },
+  {
+    "type": "function",
+    "name": "open_memstream",
+    "address": "0x71742e9dac"
+  },
+  {
+    "type": "function",
+    "name": "fchdir",
+    "address": "0x71742ecda0"
+  },
+  {
+    "type": "function",
+    "name": "isinfl",
+    "address": "0x71742a6228"
+  },
+  {
+    "type": "function",
+    "name": "unlink",
+    "address": "0x71742b1908"
+  },
+  {
+    "type": "function",
+    "name": "setstate",
+    "address": "0x71742d5cfc"
+  },
+  {
+    "type": "function",
+    "name": "insque",
+    "address": "0x71742eb66c"
+  },
+  {
+    "type": "function",
+    "name": "alphasort",
+    "address": "0x71742a4230"
+  },
+  {
+    "type": "function",
+    "name": "clock_settime",
+    "address": "0x71742ecc80"
+  },
+  {
+    "type": "function",
+    "name": "__gnu_strerror_r",
+    "address": "0x71742af5e0"
+  },
+  {
+    "type": "variable",
+    "name": "in6addr_any",
+    "address": "0x7174244d10"
+  },
+  {
+    "type": "function",
+    "name": "ptrace",
+    "address": "0x71742accc0"
+  },
+  {
+    "type": "function",
+    "name": "cfgetispeed",
+    "address": "0x71742b1488"
+  },
+  {
+    "type": "function",
+    "name": "pthread_attr_setinheritsched",
+    "address": "0x71742ffcf0"
+  },
+  {
+    "type": "function",
+    "name": "getrlimit64",
+    "address": "0x71742ed060"
+  },
+  {
+    "type": "function",
+    "name": "llistxattr",
+    "address": "0x71742ed280"
+  },
+  {
+    "type": "function",
+    "name": "sendfile64",
+    "address": "0x71742ed860"
+  },
+  {
+    "type": "function",
+    "name": "pthread_spin_unlock",
+    "address": "0x7174303b0c"
+  },
+  {
+    "type": "function",
+    "name": "timer_getoverrun",
+    "address": "0x71742accb8"
+  },
+  {
+    "type": "function",
+    "name": "strlcat",
+    "address": "0x71742ddccc"
+  },
+  {
+    "type": "function",
+    "name": "getwchar",
+    "address": "0x71742fbbfc"
+  },
+  {
+    "type": "variable",
+    "name": "error_message_count",
+    "address": "0x71743112c8"
+  },
+  {
+    "type": "function",
+    "name": "wcsnlen",
+    "address": "0x71742cb254"
+  },
+  {
+    "type": "function",
+    "name": "printf",
+    "address": "0x71742fbc80"
+  },
+  {
+    "type": "function",
+    "name": "lgetxattr",
+    "address": "0x71742ed200"
+  },
+  {
+    "type": "function",
+    "name": "recvmsg",
+    "address": "0x71742ed6e0"
+  },
+  {
+    "type": "function",
+    "name": "dirname",
+    "address": "0x71742aab38"
+  },
+  {
+    "type": "function",
+    "name": "posix_fadvise",
+    "address": "0x71742ac6f8"
+  },
+  {
+    "type": "function",
+    "name": "delete_module",
+    "address": "0x71742ecca0"
+  },
+  {
+    "type": "function",
+    "name": "strcpy",
+    "address": "0x717429e830"
+  },
+  {
+    "type": "function",
+    "name": "endpwent",
+    "address": "0x71742a762c"
+  },
+  {
+    "type": "function",
+    "name": "sched_setscheduler",
+    "address": "0x71742ed820"
+  },
+  {
+    "type": "function",
+    "name": "open",
+    "address": "0x71742abd9c"
+  },
+  {
+    "type": "function",
+    "name": "atof",
+    "address": "0x71742a2334"
+  },
+  {
+    "type": "function",
+    "name": "connect",
+    "address": "0x71742a3cd4"
+  },
+  {
+    "type": "function",
+    "name": "freelocale",
+    "address": "0x71742aaca4"
+  },
+  {
+    "type": "function",
+    "name": "tcsetattr",
+    "address": "0x71742b1668"
+  },
+  {
+    "type": "function",
+    "name": "wcsxfrm",
+    "address": "0x71742e769c"
+  },
+  {
+    "type": "function",
+    "name": "ns_name_rollback",
+    "address": "0x71742b420c"
+  },
+  {
+    "type": "function",
+    "name": "android_getaddrinfofornetcontext",
+    "address": "0x71742b8564"
+  },
+  {
+    "type": "function",
+    "name": "memccpy",
+    "address": "0x71742ebfc8"
+  },
+  {
+    "type": "function",
+    "name": "pthread_barrierattr_destroy",
+    "address": "0x7174300168"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawn",
+    "address": "0x71742aebc4"
+  },
+  {
+    "type": "function",
+    "name": "strncasecmp",
+    "address": "0x71742ec030"
+  },
+  {
+    "type": "function",
+    "name": "wcstod_l",
+    "address": "0x71742b1d9c"
+  },
+  {
+    "type": "function",
+    "name": "wcstoumax",
+    "address": "0x71742e72b8"
+  },
+  {
+    "type": "function",
+    "name": "getgid",
+    "address": "0x71742ecf40"
+  },
+  {
+    "type": "function",
+    "name": "__ppoll64_chk",
+    "address": "0x71742c7770"
+  },
+  {
+    "type": "function",
+    "name": "pthread_mutex_trylock",
+    "address": "0x71743022b0"
+  },
+  {
+    "type": "function",
+    "name": "__isfinite",
+    "address": "0x71742a60e0"
+  },
+  {
+    "type": "function",
+    "name": "atoi",
+    "address": "0x71742af924"
+  },
+  {
+    "type": "function",
+    "name": "iswcntrl_l",
+    "address": "0x71742b26c8"
+  },
+  {
+    "type": "function",
+    "name": "__FD_CLR_chk",
+    "address": "0x71742c72bc"
+  },
+  {
+    "type": "function",
+    "name": "isatty",
+    "address": "0x71742f7fd0"
+  },
+  {
+    "type": "function",
+    "name": "sigfillset",
+    "address": "0x71742adf64"
+  },
+  {
+    "type": "function",
+    "name": "ns_put32",
+    "address": "0x71742b4318"
+  },
+  {
+    "type": "function",
+    "name": "__p_option",
+    "address": "0x71742c257c"
+  },
+  {
+    "type": "function",
+    "name": "sigtimedwait",
+    "address": "0x71742ae730"
+  },
+  {
+    "type": "function",
+    "name": "wctype_l",
+    "address": "0x71742b2f54"
+  },
+  {
+    "type": "function",
+    "name": "regexec",
+    "address": "0x71742dab74"
+  },
+  {
+    "type": "function",
+    "name": "strtold",
+    "address": "0x71742afda8"
+  },
+  {
+    "type": "function",
+    "name": "atol",
+    "address": "0x71742af944"
+  },
+  {
+    "type": "function",
+    "name": "pthread_mutex_init",
+    "address": "0x7174301af8"
+  },
+  {
+    "type": "function",
+    "name": "fgetc_unlocked",
+    "address": "0x71742fae14"
+  },
+  {
+    "type": "function",
+    "name": "__fpending",
+    "address": "0x71742fd358"
+  },
+  {
+    "type": "function",
+    "name": "posix_fadvise64",
+    "address": "0x71742ac75c"
+  },
+  {
+    "type": "function",
+    "name": "__system_property_find",
+    "address": "0x71742b0c98"
+  },
+  {
+    "type": "function",
+    "name": "reboot",
+    "address": "0x71742ad480"
+  },
+  {
+    "type": "function",
+    "name": "setsockopt",
+    "address": "0x71742edae0"
+  },
+  {
+    "type": "function",
+    "name": "vfscanf",
+    "address": "0x71742fb6f4"
+  },
+  {
+    "type": "function",
+    "name": "getprogname",
+    "address": "0x71742e5688"
+  },
+  {
+    "type": "function",
+    "name": "getpwuid",
+    "address": "0x71742a6da8"
+  },
+  {
+    "type": "function",
+    "name": "tcdrain",
+    "address": "0x71742b15d4"
+  },
+  {
+    "type": "function",
+    "name": "__res_querydomain",
+    "address": "0x71742c114c"
+  },
+  {
+    "type": "function",
+    "name": "wcscpy",
+    "address": "0x71742caf74"
+  },
+  {
+    "type": "function",
+    "name": "funopen64",
+    "address": "0x71742fa960"
+  },
+  {
+    "type": "function",
+    "name": "fexecve",
+    "address": "0x71742a4cd4"
+  },
+  {
+    "type": "function",
+    "name": "signal",
+    "address": "0x71742ae204"
+  },
+  {
+    "type": "variable",
+    "name": "__p_class_syms",
+    "address": "0x717430da88"
+  },
+  {
+    "type": "function",
+    "name": "arc4random_buf",
+    "address": "0x71742dd30c"
+  },
+  {
+    "type": "function",
+    "name": "seteuid",
+    "address": "0x71742adb38"
+  },
+  {
+    "type": "function",
+    "name": "iswxdigit_l",
+    "address": "0x71742b2938"
+  },
+  {
+    "type": "function",
+    "name": "__res_hnok",
+    "address": "0x71742c068c"
+  },
+  {
+    "type": "function",
+    "name": "wctob",
+    "address": "0x71742e76ac"
+  },
+  {
+    "type": "function",
+    "name": "strtoll",
+    "address": "0x71742af95c"
+  },
+  {
+    "type": "function",
+    "name": "semop",
+    "address": "0x71742b00f0"
+  },
+  {
+    "type": "function",
+    "name": "openlog",
+    "address": "0x71742b076c"
+  },
+  {
+    "type": "function",
+    "name": "fwrite",
+    "address": "0x71742fcf84"
+  },
+  {
+    "type": "function",
+    "name": "pthread_self",
+    "address": "0x7174303530"
+  },
+  {
+    "type": "function",
+    "name": "mkostemps64",
+    "address": "0x71742aa6a8"
+  },
+  {
+    "type": "function",
+    "name": "ptsname_r",
+    "address": "0x71742acf0c"
+  },
+  {
+    "type": "function",
+    "name": "wcsxfrm_l",
+    "address": "0x71742b1d98"
+  },
+  {
+    "type": "function",
+    "name": "towctrans",
+    "address": "0x71742b2ff8"
+  },
+  {
+    "type": "function",
+    "name": "nanosleep",
+    "address": "0x71742ed4a0"
+  },
+  {
+    "type": "function",
+    "name": "pthread_rwlock_timedwrlock",
+    "address": "0x71743030e0"
+  },
+  {
+    "type": "function",
+    "name": "memalign",
+    "address": "0x71742603b8"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawnattr_setflags",
+    "address": "0x71742aeec4"
+  },
+  {
+    "type": "function",
+    "name": "towupper",
+    "address": "0x71742b2c34"
+  },
+  {
+    "type": "function",
+    "name": "fread",
+    "address": "0x71742fcd74"
+  },
+  {
+    "type": "function",
+    "name": "fts_open",
+    "address": "0x71742f7ecc"
+  },
+  {
+    "type": "function",
+    "name": "memset",
+    "address": "0x717429e340"
+  },
+  {
+    "type": "function",
+    "name": "chmod",
+    "address": "0x71742a38a8"
+  },
+  {
+    "type": "function",
+    "name": "fstatat",
+    "address": "0x71742ecea0"
+  },
+  {
+    "type": "function",
+    "name": "ns_parserr",
+    "address": "0x71742b45a4"
+  },
+  {
+    "type": "function",
+    "name": "open_wmemstream",
+    "address": "0x71742ea04c"
+  },
+  {
+    "type": "function",
+    "name": "__stpncpy_chk",
+    "address": "0x71742c7b54"
+  },
+  {
+    "type": "function",
+    "name": "pthread_setschedprio",
+    "address": "0x71743038dc"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawn_file_actions_adddup2",
+    "address": "0x71742af230"
+  },
+  {
+    "type": "function",
+    "name": "system",
+    "address": "0x71742b09bc"
+  },
+  {
+    "type": "function",
+    "name": "gethostbyname2_r",
+    "address": "0x71742bb5ac"
+  },
+  {
+    "type": "function",
+    "name": "__sched_cpucount",
+    "address": "0x71742f8148"
+  },
+  {
+    "type": "function",
+    "name": "fgets_unlocked",
+    "address": "0x71742faf30"
+  },
+  {
+    "type": "function",
+    "name": "exit",
+    "address": "0x71742ff888"
+  },
+  {
+    "type": "function",
+    "name": "iscntrl_l",
+    "address": "0x71742a3cec"
+  },
+  {
+    "type": "function",
+    "name": "__openat_2",
+    "address": "0x71742ac00c"
+  },
+  {
+    "type": "function",
+    "name": "mkostemp64",
+    "address": "0x71742aa6a0"
+  },
+  {
+    "type": "function",
+    "name": "__sym_ston",
+    "address": "0x71742c2268"
+  },
+  {
+    "type": "variable",
+    "name": "optreset",
+    "address": "0x7174311440"
+  },
+  {
+    "type": "function",
+    "name": "preadv",
+    "address": "0x71742ed540"
+  },
+  {
+    "type": "function",
+    "name": "__strlen_chk",
+    "address": "0x71742c7cf4"
+  },
+  {
+    "type": "function",
+    "name": "mempcpy",
+    "address": "0x71742ab440"
+  },
+  {
+    "type": "function",
+    "name": "tmpfile64",
+    "address": "0x71742b1794"
+  },
+  {
+    "type": "function",
+    "name": "__vsprintf_chk",
+    "address": "0x71742c8070"
+  },
+  {
+    "type": "function",
+    "name": "fsync",
+    "address": "0x71742ecec0"
+  },
+  {
+    "type": "function",
+    "name": "getc_unlocked",
+    "address": "0x71742fae60"
+  },
+  {
+    "type": "function",
+    "name": "strtoul_l",
+    "address": "0x71742af51c"
+  },
+  {
+    "type": "function",
+    "name": "socket",
+    "address": "0x71742aebb8"
+  },
+  {
+    "type": "function",
+    "name": "pread64",
+    "address": "0x71742ed520"
+  },
+  {
+    "type": "function",
+    "name": "epoll_ctl",
+    "address": "0x71742ecd20"
+  },
+  {
+    "type": "function",
+    "name": "gmtime",
+    "address": "0x71742ee9a8"
+  },
+  {
+    "type": "function",
+    "name": "lcong48",
+    "address": "0x71742dcf98"
+  },
+  {
+    "type": "function",
+    "name": "arc4random",
+    "address": "0x71742dd294"
+  },
+  {
+    "type": "function",
+    "name": "timegm",
+    "address": "0x71742eec28"
+  },
+  {
+    "type": "function",
+    "name": "sigwaitinfo",
+    "address": "0x71742ae954"
+  },
+  {
+    "type": "function",
+    "name": "shmdt",
+    "address": "0x71742b017c"
+  },
+  {
+    "type": "function",
+    "name": "__strlcat_chk",
+    "address": "0x71742c7c8c"
+  },
+  {
+    "type": "function",
+    "name": "pread",
+    "address": "0x71742ed520"
+  },
+  {
+    "type": "function",
+    "name": "daemon",
+    "address": "0x71742e49e8"
+  },
+  {
+    "type": "function",
+    "name": "pthread_cond_timedwait_monotonic_np",
+    "address": "0x7174300724"
+  },
+  {
+    "type": "function",
+    "name": "wctrans_l",
+    "address": "0x71742b2fa8"
+  },
+  {
+    "type": "function",
+    "name": "seed48",
+    "address": "0x71742dd1e4"
+  },
+  {
+    "type": "function",
+    "name": "setrlimit",
+    "address": "0x71742edaa0"
+  },
+  {
+    "type": "variable",
+    "name": "stdin",
+    "address": "0x7174309610"
+  },
+  {
+    "type": "function",
+    "name": "__system_property_serial",
+    "address": "0x71742b0d38"
+  },
+  {
+    "type": "function",
+    "name": "error",
+    "address": "0x71742a4290"
+  },
+  {
+    "type": "function",
+    "name": "__stpncpy_chk2",
+    "address": "0x71742c7b88"
+  },
+  {
+    "type": "function",
+    "name": "at_quick_exit",
+    "address": "0x71742cad7c"
+  },
+  {
+    "type": "function",
+    "name": "mrand48",
+    "address": "0x71742dd020"
+  },
+  {
+    "type": "function",
+    "name": "msync",
+    "address": "0x71742ed420"
+  },
+  {
+    "type": "function",
+    "name": "ether_aton_r",
+    "address": "0x71742f6694"
+  },
+  {
+    "type": "function",
+    "name": "creat",
+    "address": "0x71742abd90"
+  },
+  {
+    "type": "function",
+    "name": "sysinfo",
+    "address": "0x71742edc80"
+  },
+  {
+    "type": "function",
+    "name": "hstrerror",
+    "address": "0x71742be860"
+  },
+  {
+    "type": "function",
+    "name": "setrlimit64",
+    "address": "0x71742edaa0"
+  },
+  {
+    "type": "function",
+    "name": "scanf",
+    "address": "0x71742fbfc4"
+  },
+  {
+    "type": "function",
+    "name": "pthread_attr_getinheritsched",
+    "address": "0x71742ffd2c"
+  },
+  {
+    "type": "function",
+    "name": "memchr",
+    "address": "0x717429df10"
+  },
+  {
+    "type": "function",
+    "name": "isdigit_l",
+    "address": "0x71742a3cf0"
+  },
+  {
+    "type": "function",
+    "name": "mbrlen",
+    "address": "0x71742e5d6c"
+  },
+  {
+    "type": "function",
+    "name": "closedir",
+    "address": "0x71742a40ec"
+  },
+  {
+    "type": "function",
+    "name": "flistxattr",
+    "address": "0x71742a5ed0"
+  },
+  {
+    "type": "function",
+    "name": "nftw64",
+    "address": "0x71742aa6b0"
+  },
+  {
+    "type": "function",
+    "name": "lockf64",
+    "address": "0x71742aae88"
+  },
+  {
+    "type": "function",
+    "name": "__fread_chk",
+    "address": "0x71742c74d0"
+  },
+  {
+    "type": "function",
+    "name": "__sprintf_chk",
+    "address": "0x71742c8108"
+  },
+  {
+    "type": "function",
+    "name": "getlogin_r",
+    "address": "0x71742a75a8"
+  },
+  {
+    "type": "function",
+    "name": "if_indextoname",
+    "address": "0x71742ab7f0"
+  },
+  {
+    "type": "function",
+    "name": "msgctl",
+    "address": "0x71742aff74"
+  },
+  {
+    "type": "function",
+    "name": "localtime",
+    "address": "0x71742ee778"
+  },
+  {
+    "type": "function",
+    "name": "mkostemps",
+    "address": "0x71742e9d40"
+  },
+  {
+    "type": "function",
+    "name": "if_nameindex",
+    "address": "0x71742ab9a4"
+  },
+  {
+    "type": "function",
+    "name": "scandirat64",
+    "address": "0x71742ad4d0"
+  },
+  {
+    "type": "function",
+    "name": "inet_netof",
+    "address": "0x71742e7bf4"
+  },
+  {
+    "type": "function",
+    "name": "pthread_rwlock_timedwrlock_monotonic_np",
+    "address": "0x71743030ec"
+  },
+  {
+    "type": "function",
+    "name": "clock",
+    "address": "0x71742a3910"
+  },
+  {
+    "type": "function",
+    "name": "iswctype",
+    "address": "0x71742b295c"
+  },
+  {
+    "type": "function",
+    "name": "getrlimit",
+    "address": "0x71742ed060"
+  },
+  {
+    "type": "function",
+    "name": "sigprocmask64",
+    "address": "0x71742aeabc"
+  },
+  {
+    "type": "function",
+    "name": "timespec_get",
+    "address": "0x71742b1760"
+  },
+  {
+    "type": "function",
+    "name": "wcsftime_l",
+    "address": "0x71742b1d94"
+  },
+  {
+    "type": "function",
+    "name": "ns_makecanon",
+    "address": "0x71742b7fa0"
+  },
+  {
+    "type": "function",
+    "name": "free",
+    "address": "0x71742602bc"
+  },
+  {
+    "type": "function",
+    "name": "umount2",
+    "address": "0x71742edda0"
+  },
+  {
+    "type": "function",
+    "name": "abs",
+    "address": "0x71742eb384"
+  },
+  {
+    "type": "function",
+    "name": "android_fdsan_close_with_tag",
+    "address": "0x71742a514c"
+  },
+  {
+    "type": "function",
+    "name": "flock",
+    "address": "0x71742ece40"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawnattr_getsigmask",
+    "address": "0x71742aef4c"
+  },
+  {
+    "type": "function",
+    "name": "regerror",
+    "address": "0x71742da810"
+  },
+  {
+    "type": "function",
+    "name": "pthread_attr_getschedpolicy",
+    "address": "0x71742ffdc0"
+  },
+  {
+    "type": "function",
+    "name": "__p_fqname",
+    "address": "0x71742c218c"
+  },
+  {
+    "type": "function",
+    "name": "timerfd_gettime",
+    "address": "0x71742edd00"
+  },
+  {
+    "type": "function",
+    "name": "getgrnam_r",
+    "address": "0x71742a7d68"
+  },
+  {
+    "type": "function",
+    "name": "waitpid",
+    "address": "0x71742b192c"
+  },
+  {
+    "type": "function",
+    "name": "iswcntrl",
+    "address": "0x71742b24a0"
+  },
+  {
+    "type": "function",
+    "name": "inet_nsap_ntoa",
+    "address": "0x71742d63cc"
+  },
+  {
+    "type": "function",
+    "name": "arc4random_uniform",
+    "address": "0x71742ddbb4"
+  },
+  {
+    "type": "function",
+    "name": "__read_chk",
+    "address": "0x71742c7940"
+  },
+  {
+    "type": "function",
+    "name": "pthread_attr_getdetachstate",
+    "address": "0x71742ffda0"
+  },
+  {
+    "type": "function",
+    "name": "__strcat_chk",
+    "address": "0x71742c824c"
+  },
+  {
+    "type": "function",
+    "name": "random",
+    "address": "0x71742d5e30"
+  },
+  {
+    "type": "function",
+    "name": "__res_ninit",
+    "address": "0x71742c3678"
+  },
+  {
+    "type": "function",
+    "name": "pthread_attr_setschedparam",
+    "address": "0x71742ffdd0"
+  },
+  {
+    "type": "function",
+    "name": "pthread_condattr_setclock",
+    "address": "0x717430048c"
+  },
+  {
+    "type": "function",
+    "name": "__system_property_read_callback",
+    "address": "0x71742b0cc8"
+  },
+  {
+    "type": "function",
+    "name": "setmntent",
+    "address": "0x71742ab62c"
+  },
+  {
+    "type": "function",
+    "name": "mlock",
+    "address": "0x71742ed380"
+  },
+  {
+    "type": "function",
+    "name": "fread_unlocked",
+    "address": "0x71742fce00"
+  },
+  {
+    "type": "function",
+    "name": "nl_langinfo",
+    "address": "0x71742aa3f0"
+  },
+  {
+    "type": "function",
+    "name": "strtoimax",
+    "address": "0x71742af960"
+  },
+  {
+    "type": "function",
+    "name": "putchar_unlocked",
+    "address": "0x71742fbd7c"
+  },
+  {
+    "type": "function",
+    "name": "pthread_attr_getguardsize",
+    "address": "0x71742ffeb4"
+  },
+  {
+    "type": "function",
+    "name": "pthread_equal",
+    "address": "0x7174301194"
+  },
+  {
+    "type": "function",
+    "name": "__sendto_chk",
+    "address": "0x71742c7aac"
+  },
+  {
+    "type": "function",
+    "name": "putc",
+    "address": "0x71742fb088"
+  },
+  {
+    "type": "function",
+    "name": "setlocale",
+    "address": "0x71742aad94"
+  },
+  {
+    "type": "function",
+    "name": "wctype",
+    "address": "0x71742b2dcc"
+  },
+  {
+    "type": "function",
+    "name": "pthread_barrierattr_init",
+    "address": "0x717430015c"
+  },
+  {
+    "type": "function",
+    "name": "getenv",
+    "address": "0x71742eb450"
+  },
+  {
+    "type": "function",
+    "name": "setprogname",
+    "address": "0x71742e58c0"
+  },
+  {
+    "type": "function",
+    "name": "fchownat",
+    "address": "0x71742ecde0"
+  },
+  {
+    "type": "function",
+    "name": "strcoll_l",
+    "address": "0x71742af740"
+  },
+  {
+    "type": "function",
+    "name": "towlower_l",
+    "address": "0x71742b2d44"
+  },
+  {
+    "type": "function",
+    "name": "vsnprintf",
+    "address": "0x71742fc278"
+  },
+  {
+    "type": "function",
+    "name": "wcstombs",
+    "address": "0x71742e6aa0"
+  },
+  {
+    "type": "function",
+    "name": "pclose",
+    "address": "0x71742fd2e0"
+  },
+  {
+    "type": "variable",
+    "name": "stdout",
+    "address": "0x7174309618"
+  },
+  {
+    "type": "variable",
+    "name": "__stack_chk_guard",
+    "address": "0x7174311510"
+  },
+  {
+    "type": "function",
+    "name": "android_get_device_api_level",
+    "address": "0x71742a6b9c"
+  },
+  {
+    "type": "function",
+    "name": "fremovexattr",
+    "address": "0x71742ece60"
+  },
+  {
+    "type": "function",
+    "name": "recvfrom",
+    "address": "0x71742ed6a0"
+  },
+  {
+    "type": "function",
+    "name": "pthread_sigmask64",
+    "address": "0x71742adc60"
+  },
+  {
+    "type": "function",
+    "name": "iswdigit",
+    "address": "0x71742b2538"
+  },
+  {
+    "type": "function",
+    "name": "clone",
+    "address": "0x71742a3ab8"
+  },
+  {
+    "type": "function",
+    "name": "strsep",
+    "address": "0x71742ec230"
+  },
+  {
+    "type": "function",
+    "name": "sethostent",
+    "address": "0x71742be044"
+  },
+  {
+    "type": "function",
+    "name": "__assert2",
+    "address": "0x71742a230c"
+  },
+  {
+    "type": "function",
+    "name": "getloadavg",
+    "address": "0x71742a6a24"
+  },
+  {
+    "type": "function",
+    "name": "getmntent",
+    "address": "0x71742ab4c0"
+  },
+  {
+    "type": "function",
+    "name": "readlink",
+    "address": "0x71742ad468"
+  },
+  {
+    "type": "function",
+    "name": "fseek",
+    "address": "0x71742fa5e8"
+  },
+  {
+    "type": "function",
+    "name": "tolower_l",
+    "address": "0x71742a3d20"
+  },
+  {
+    "type": "function",
+    "name": "listxattr",
+    "address": "0x71742ed260"
+  },
+  {
+    "type": "function",
+    "name": "fstatvfs64",
+    "address": "0x71742af46c"
+  },
+  {
+    "type": "function",
+    "name": "ns_samename",
+    "address": "0x71742b807c"
+  },
+  {
+    "type": "function",
+    "name": "hsearch_r",
+    "address": "0x71742c92c8"
+  },
+  {
+    "type": "variable",
+    "name": "__memalign_hook",
+    "address": "0x7174311418"
+  },
+  {
+    "type": "function",
+    "name": "fflush",
+    "address": "0x71742fcb1c"
+  },
+  {
+    "type": "function",
+    "name": "iconv_close",
+    "address": "0x71742a9394"
+  },
+  {
+    "type": "function",
+    "name": "inotify_add_watch",
+    "address": "0x71742ed160"
+  },
+  {
+    "type": "function",
+    "name": "android_mallopt",
+    "address": "0x717426100c"
+  },
+  {
+    "type": "function",
+    "name": "c16rtomb",
+    "address": "0x71742a36c4"
+  },
+  {
+    "type": "function",
+    "name": "__strncat_chk",
+    "address": "0x71742c7d28"
+  },
+  {
+    "type": "function",
+    "name": "getwc",
+    "address": "0x71742fbbd8"
+  },
+  {
+    "type": "function",
+    "name": "android_fdsan_set_error_level",
+    "address": "0x71742a4ff0"
+  },
+  {
+    "type": "function",
+    "name": "poll",
+    "address": "0x71742ac30c"
+  },
+  {
+    "type": "function",
+    "name": "strtold_l",
+    "address": "0x71742af514"
+  },
+  {
+    "type": "function",
+    "name": "gai_strerror",
+    "address": "0x71742b8498"
+  },
+  {
+    "type": "function",
+    "name": "vswscanf",
+    "address": "0x71742eb084"
+  },
+  {
+    "type": "function",
+    "name": "pthread_barrier_destroy",
+    "address": "0x71743003b0"
+  },
+  {
+    "type": "function",
+    "name": "lseek",
+    "address": "0x71742ed2c0"
+  },
+  {
+    "type": "function",
+    "name": "getpwnam_r",
+    "address": "0x71742a6c20"
+  },
+  {
+    "type": "function",
+    "name": "__register_atfork",
+    "address": "0x71742ffb6c"
+  },
+  {
+    "type": "function",
+    "name": "inet_network",
+    "address": "0x71742a2024"
+  },
+  {
+    "type": "function",
+    "name": "sigismember64",
+    "address": "0x71742ae1a8"
+  },
+  {
+    "type": "function",
+    "name": "__getcwd_chk",
+    "address": "0x71742c7558"
+  },
+  {
+    "type": "function",
+    "name": "pwritev",
+    "address": "0x71742ed5e0"
+  },
+  {
+    "type": "function",
+    "name": "vscanf",
+    "address": "0x71742fc74c"
+  },
+  {
+    "type": "function",
+    "name": "pthread_rwlockattr_destroy",
+    "address": "0x7174302778"
+  },
+  {
+    "type": "function",
+    "name": "munmap",
+    "address": "0x71742ed480"
+  },
+  {
+    "type": "function",
+    "name": "access",
+    "address": "0x71742a200c"
+  },
+  {
+    "type": "function",
+    "name": "__fpclassify",
+    "address": "0x71742a5fe8"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawnattr_setpgroup",
+    "address": "0x71742aef00"
+  },
+  {
+    "type": "function",
+    "name": "wmemcmp",
+    "address": "0x71742cb468"
+  },
+  {
+    "type": "function",
+    "name": "isfinite",
+    "address": "0x71742a60e0"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawnattr_setsigdefault64",
+    "address": "0x71742aef88"
+  },
+  {
+    "type": "function",
+    "name": "ns_name_pack",
+    "address": "0x71742b3db8"
+  },
+  {
+    "type": "function",
+    "name": "__sched_cpualloc",
+    "address": "0x71742f8134"
+  },
+  {
+    "type": "function",
+    "name": "c32rtomb",
+    "address": "0x71742a37b4"
+  },
+  {
+    "type": "function",
+    "name": "sched_getaffinity",
+    "address": "0x71742ad648"
+  },
+  {
+    "type": "function",
+    "name": "sem_init",
+    "address": "0x71742ad6e8"
+  },
+  {
+    "type": "function",
+    "name": "sem_trywait",
+    "address": "0x71742adaa0"
+  },
+  {
+    "type": "function",
+    "name": "inet_pton",
+    "address": "0x71742e8214"
+  },
+  {
+    "type": "function",
+    "name": "android_gethostbynamefornet",
+    "address": "0x71742bbe98"
+  },
+  {
+    "type": "function",
+    "name": "puts",
+    "address": "0x71742fbd8c"
+  },
+  {
+    "type": "function",
+    "name": "pthread_rwlock_timedrdlock_monotonic_np",
+    "address": "0x7174302c94"
+  },
+  {
+    "type": "function",
+    "name": "pthread_getspecific",
+    "address": "0x71743018c0"
+  },
+  {
+    "type": "function",
+    "name": "setlinebuf",
+    "address": "0x71742fc11c"
+  },
+  {
+    "type": "function",
+    "name": "__fseterr",
+    "address": "0x71742fd370"
+  },
+  {
+    "type": "function",
+    "name": "__dn_count_labels",
+    "address": "0x71742c3518"
+  },
+  {
+    "type": "function",
+    "name": "strcoll",
+    "address": "0x71742ec104"
+  },
+  {
+    "type": "function",
+    "name": "__recvfrom_chk",
+    "address": "0x71742c7a6c"
+  },
+  {
+    "type": "function",
+    "name": "__p_type",
+    "address": "0x71742c2414"
+  },
+  {
+    "type": "function",
+    "name": "iswalpha_l",
+    "address": "0x71742b2680"
+  },
+  {
+    "type": "function",
+    "name": "strpbrk",
+    "address": "0x71742ec1e4"
+  },
+  {
+    "type": "function",
+    "name": "fwscanf",
+    "address": "0x71742fb924"
+  },
+  {
+    "type": "function",
+    "name": "pthread_mutex_unlock",
+    "address": "0x7174302078"
+  },
+  {
+    "type": "function",
+    "name": "ppoll64",
+    "address": "0x71742ac3e4"
+  },
+  {
+    "type": "function",
+    "name": "setegid",
+    "address": "0x71742adb28"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawnattr_init",
+    "address": "0x71742aee58"
+  },
+  {
+    "type": "function",
+    "name": "semget",
+    "address": "0x71742b00cc"
+  },
+  {
+    "type": "function",
+    "name": "ntohl",
+    "address": "0x71742e860c"
+  },
+  {
+    "type": "function",
+    "name": "strchr",
+    "address": "0x717429e660"
+  },
+  {
+    "type": "function",
+    "name": "pthread_mutexattr_settype",
+    "address": "0x7174301a34"
+  },
+  {
+    "type": "function",
+    "name": "sbrk",
+    "address": "0x71742a3630"
+  },
+  {
+    "type": "function",
+    "name": "mkstemps64",
+    "address": "0x71742aa6a4"
+  },
+  {
+    "type": "function",
+    "name": "mbrtoc16",
+    "address": "0x71742aaff0"
+  },
+  {
+    "type": "function",
+    "name": "setnetent",
+    "address": "0x71742abc1c"
+  },
+  {
+    "type": "variable",
+    "name": "__p_type_syms",
+    "address": "0x717430db48"
+  },
+  {
+    "type": "function",
+    "name": "_tolower",
+    "address": "0x71742e58b8"
+  },
+  {
+    "type": "function",
+    "name": "setvbuf",
+    "address": "0x71742ea380"
+  },
+  {
+    "type": "function",
+    "name": "pthread_once",
+    "address": "0x7174302690"
+  },
+  {
+    "type": "function",
+    "name": "isxdigit_l",
+    "address": "0x71742a3d18"
+  },
+  {
+    "type": "function",
+    "name": "shmget",
+    "address": "0x71742b0198"
+  },
+  {
+    "type": "function",
+    "name": "wcstoull_l",
+    "address": "0x71742b1db0"
+  },
+  {
+    "type": "function",
+    "name": "iswlower",
+    "address": "0x71742b23ec"
+  },
+  {
+    "type": "function",
+    "name": "warnx",
+    "address": "0x71742e5c64"
+  },
+  {
+    "type": "function",
+    "name": "clearerr",
+    "address": "0x71742fa0c0"
+  },
+  {
+    "type": "function",
+    "name": "clearerr_unlocked",
+    "address": "0x71742fa090"
+  },
+  {
+    "type": "function",
+    "name": "ns_name_pton",
+    "address": "0x71742b363c"
+  },
+  {
+    "type": "function",
+    "name": "rmdir",
+    "address": "0x71742ad4c0"
+  },
+  {
+    "type": "function",
+    "name": "llabs",
+    "address": "0x71742eb70c"
+  },
+  {
+    "type": "function",
+    "name": "strspn",
+    "address": "0x71742ec284"
+  },
+  {
+    "type": "function",
+    "name": "tee",
+    "address": "0x71742edca0"
+  },
+  {
+    "type": "function",
+    "name": "tolower",
+    "address": "0x71742e58f8"
+  },
+  {
+    "type": "function",
+    "name": "mkstemps",
+    "address": "0x71742e9d6c"
+  },
+  {
+    "type": "function",
+    "name": "strcasecmp_l",
+    "address": "0x71742af74c"
+  },
+  {
+    "type": "function",
+    "name": "ntohs",
+    "address": "0x71742e8614"
+  },
+  {
+    "type": "function",
+    "name": "isalnum",
+    "address": "0x71742e5698"
+  },
+  {
+    "type": "function",
+    "name": "statvfs64",
+    "address": "0x71742af3d0"
+  },
+  {
+    "type": "function",
+    "name": "sched_rr_get_interval",
+    "address": "0x71742ed7c0"
+  },
+  {
+    "type": "function",
+    "name": "fgetc",
+    "address": "0x71742facec"
+  },
+  {
+    "type": "function",
+    "name": "getnetent",
+    "address": "0x71742abbfc"
+  },
+  {
+    "type": "function",
+    "name": "pause",
+    "address": "0x71742ac2b8"
+  },
+  {
+    "type": "function",
+    "name": "posix_fallocate64",
+    "address": "0x71742ac820"
+  },
+  {
+    "type": "function",
+    "name": "timer_delete",
+    "address": "0x71742acc48"
+  },
+  {
+    "type": "function",
+    "name": "semtimedop",
+    "address": "0x71742b0118"
+  },
+  {
+    "type": "function",
+    "name": "wcsncasecmp",
+    "address": "0x71742cb0ec"
+  },
+  {
+    "type": "function",
+    "name": "iswspace",
+    "address": "0x71742b2434"
+  },
+  {
+    "type": "function",
+    "name": "__putlong",
+    "address": "0x71742c0a48"
+  },
+  {
+    "type": "function",
+    "name": "res_mkquery",
+    "address": "0x71742c0d24"
+  },
+  {
+    "type": "function",
+    "name": "jrand48",
+    "address": "0x71742dcf6c"
+  },
+  {
+    "type": "function",
+    "name": "setfsuid",
+    "address": "0x71742ed920"
+  },
+  {
+    "type": "function",
+    "name": "freopen",
+    "address": "0x71742f99ec"
+  },
+  {
+    "type": "function",
+    "name": "stat",
+    "address": "0x71742af358"
+  },
+  {
+    "type": "function",
+    "name": "iswxdigit",
+    "address": "0x71742b247c"
+  },
+  {
+    "type": "function",
+    "name": "android_net_res_stats_aggregate",
+    "address": "0x71742c6e7c"
+  },
+  {
+    "type": "function",
+    "name": "gmtime_r",
+    "address": "0x71742ee868"
+  },
+  {
+    "type": "function",
+    "name": "__pthread_cleanup_push",
+    "address": "0x71743011a0"
+  },
+  {
+    "type": "function",
+    "name": "scandirat",
+    "address": "0x71742ad4d0"
+  },
+  {
+    "type": "variable",
+    "name": "in6addr_loopback",
+    "address": "0x7174244d20"
+  },
+  {
+    "type": "function",
+    "name": "sem_post",
+    "address": "0x71742ad9b0"
+  },
+  {
+    "type": "function",
+    "name": "wcschr",
+    "address": "0x71742caf2c"
+  },
+  {
+    "type": "function",
+    "name": "ungetc",
+    "address": "0x71742ea8d0"
+  },
+  {
+    "type": "function",
+    "name": "syncfs",
+    "address": "0x71742edc60"
+  },
+  {
+    "type": "function",
+    "name": "dup2",
+    "address": "0x71742a4244"
+  },
+  {
+    "type": "function",
+    "name": "res_search",
+    "address": "0x71742c1054"
+  },
+  {
+    "type": "function",
+    "name": "__pread_chk",
+    "address": "0x71742c7814"
+  },
+  {
+    "type": "function",
+    "name": "pthread_barrierattr_setpshared",
+    "address": "0x7174300188"
+  },
+  {
+    "type": "function",
+    "name": "dup3",
+    "address": "0x71742ecce0"
+  },
+  {
+    "type": "function",
+    "name": "mkfifo",
+    "address": "0x71742ab47c"
+  },
+  {
+    "type": "function",
+    "name": "ptsname",
+    "address": "0x71742ace60"
+  },
+  {
+    "type": "function",
+    "name": "pthread_cond_destroy",
+    "address": "0x71743004f0"
+  },
+  {
+    "type": "function",
+    "name": "isalpha_l",
+    "address": "0x71742a3ce4"
+  },
+  {
+    "type": "function",
+    "name": "isgraph_l",
+    "address": "0x71742a3d00"
+  },
+  {
+    "type": "function",
+    "name": "isxdigit",
+    "address": "0x71742e5870"
+  },
+  {
+    "type": "function",
+    "name": "pthread_mutex_timedlock",
+    "address": "0x7174302470"
+  },
+  {
+    "type": "function",
+    "name": "wcsspn",
+    "address": "0x71742cb2e0"
+  },
+  {
+    "type": "function",
+    "name": "pthread_key_delete",
+    "address": "0x717430186c"
+  },
+  {
+    "type": "function",
+    "name": "__isfinitef",
+    "address": "0x71742a60fc"
+  },
+  {
+    "type": "function",
+    "name": "freeifaddrs",
+    "address": "0x71742aa168"
+  },
+  {
+    "type": "function",
+    "name": "__dn_skipname",
+    "address": "0x71742c062c"
+  },
+  {
+    "type": "function",
+    "name": "__res_dnok",
+    "address": "0x71742c0a20"
+  },
+  {
+    "type": "function",
+    "name": "getsockopt",
+    "address": "0x71742ed0e0"
+  },
+  {
+    "type": "function",
+    "name": "wcpncpy",
+    "address": "0x71742cae34"
+  },
+  {
+    "type": "function",
+    "name": "wcsrchr",
+    "address": "0x71742cb2bc"
+  },
+  {
+    "type": "function",
+    "name": "setutent",
+    "address": "0x71742d60c4"
+  },
+  {
+    "type": "function",
+    "name": "ferror_unlocked",
+    "address": "0x71742fa1d0"
+  },
+  {
+    "type": "function",
+    "name": "openat64",
+    "address": "0x71742abf34"
+  },
+  {
+    "type": "function",
+    "name": "tdestroy",
+    "address": "0x71742b1434"
+  },
+  {
+    "type": "function",
+    "name": "__stpcpy_chk",
+    "address": "0x71742c7aec"
+  },
+  {
+    "type": "function",
+    "name": "setuid",
+    "address": "0x71742edb20"
+  },
+  {
+    "type": "function",
+    "name": "pthread_attr_getstacksize",
+    "address": "0x71742ffe10"
+  },
+  {
+    "type": "function",
+    "name": "chown",
+    "address": "0x71742a38c0"
+  },
+  {
+    "type": "function",
+    "name": "vfprintf",
+    "address": "0x71742fac50"
+  },
+  {
+    "type": "function",
+    "name": "__res_hostalias",
+    "address": "0x71742c4974"
+  },
+  {
+    "type": "function",
+    "name": "pwrite",
+    "address": "0x71742ed5c0"
+  },
+  {
+    "type": "function",
+    "name": "wcsncpy",
+    "address": "0x71742cb1ec"
+  },
+  {
+    "type": "function",
+    "name": "get_nprocs",
+    "address": "0x71742b057c"
+  },
+  {
+    "type": "function",
+    "name": "closelog",
+    "address": "0x71742b0760"
+  },
+  {
+    "type": "function",
+    "name": "reallocarray",
+    "address": "0x7174260558"
+  },
+  {
+    "type": "function",
+    "name": "get_avphys_pages",
+    "address": "0x71742b0700"
+  },
+  {
+    "type": "function",
+    "name": "fsetxattr",
+    "address": "0x71742a6370"
+  },
+  {
+    "type": "function",
+    "name": "__isfinitel",
+    "address": "0x71742a6288"
+  },
+  {
+    "type": "function",
+    "name": "getentropy",
+    "address": "0x71742a6840"
+  },
+  {
+    "type": "function",
+    "name": "fgets",
+    "address": "0x71742faeac"
+  },
+  {
+    "type": "function",
+    "name": "login_tty",
+    "address": "0x71742ad3a0"
+  },
+  {
+    "type": "function",
+    "name": "getppid",
+    "address": "0x71742ecfe0"
+  },
+  {
+    "type": "function",
+    "name": "ns_sprintrrf",
+    "address": "0x71742b48ac"
+  },
+  {
+    "type": "function",
+    "name": "quick_exit",
+    "address": "0x71742cade0"
+  },
+  {
+    "type": "function",
+    "name": "wscanf",
+    "address": "0x71742fca30"
+  },
+  {
+    "type": "function",
+    "name": "pthread_rwlock_timedrdlock",
+    "address": "0x7174302c88"
+  },
+  {
+    "type": "function",
+    "name": "__assert",
+    "address": "0x71742a22e8"
+  },
+  {
+    "type": "variable",
+    "name": "error_one_per_line",
+    "address": "0x71743112cc"
+  },
+  {
+    "type": "function",
+    "name": "pipe2",
+    "address": "0x71742ed4e0"
+  },
+  {
+    "type": "function",
+    "name": "toascii",
+    "address": "0x71742e58a8"
+  },
+  {
+    "type": "function",
+    "name": "madvise",
+    "address": "0x71742ed300"
+  },
+  {
+    "type": "function",
+    "name": "error_at_line",
+    "address": "0x71742a440c"
+  },
+  {
+    "type": "function",
+    "name": "pthread_barrier_init",
+    "address": "0x71743001a8"
+  },
+  {
+    "type": "function",
+    "name": "pthread_spin_lock",
+    "address": "0x71743039fc"
+  },
+  {
+    "type": "function",
+    "name": "isgraph",
+    "address": "0x71742e5760"
+  },
+  {
+    "type": "function",
+    "name": "__fpclassifyd",
+    "address": "0x71742a5fe8"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawnattr_getflags",
+    "address": "0x71742aeeec"
+  },
+  {
+    "type": "function",
+    "name": "__system_property_set_filename",
+    "address": "0x71742b0c14"
+  },
+  {
+    "type": "function",
+    "name": "getchar_unlocked",
+    "address": "0x71742fbab8"
+  },
+  {
+    "type": "function",
+    "name": "fcntl",
+    "address": "0x71742ece00"
+  },
+  {
+    "type": "function",
+    "name": "android_fdsan_get_fd_table",
+    "address": "0x71742a5020"
+  },
+  {
+    "type": "function",
+    "name": "timer_gettime",
+    "address": "0x71742acca8"
+  },
+  {
+    "type": "function",
+    "name": "iswdigit_l",
+    "address": "0x71742b2760"
+  },
+  {
+    "type": "function",
+    "name": "strtod",
+    "address": "0x71742d1d1c"
+  },
+  {
+    "type": "function",
+    "name": "__fpclassifyf",
+    "address": "0x71742a6040"
+  },
+  {
+    "type": "function",
+    "name": "vsscanf",
+    "address": "0x71742eae30"
+  },
+  {
+    "type": "function",
+    "name": "sched_setaffinity",
+    "address": "0x71742ed7e0"
+  },
+  {
+    "type": "function",
+    "name": "pthread_setname_np",
+    "address": "0x7174303684"
+  },
+  {
+    "type": "function",
+    "name": "pthread_setspecific",
+    "address": "0x7174301920"
+  },
+  {
+    "type": "function",
+    "name": "getrandom",
+    "address": "0x71742ed000"
+  },
+  {
+    "type": "function",
+    "name": "cfsetospeed",
+    "address": "0x71742b1584"
+  },
+  {
+    "type": "function",
+    "name": "timerfd_settime",
+    "address": "0x71742edd20"
+  },
+  {
+    "type": "function",
+    "name": "strtof",
+    "address": "0x71742d4d50"
+  },
+  {
+    "type": "function",
+    "name": "__system_property_set",
+    "address": "0x71742b0dac"
+  },
+  {
+    "type": "function",
+    "name": "vwarnx",
+    "address": "0x71742e5b2c"
+  },
+  {
+    "type": "function",
+    "name": "__b64_pton",
+    "address": "0x71742e7938"
+  },
+  {
+    "type": "function",
+    "name": "inotify_rm_watch",
+    "address": "0x71742ed1a0"
+  },
+  {
+    "type": "variable",
+    "name": "__progname",
+    "address": "0x7174311450"
+  },
+  {
+    "type": "function",
+    "name": "openat",
+    "address": "0x71742abf34"
+  },
+  {
+    "type": "function",
+    "name": "pthread_kill",
+    "address": "0x7174301970"
+  },
+  {
+    "type": "function",
+    "name": "wcstoll_l",
+    "address": "0x71742b1da8"
+  },
+  {
+    "type": "function",
+    "name": "pthread_getschedparam",
+    "address": "0x7174301330"
+  },
+  {
+    "type": "function",
+    "name": "pthread_setschedparam",
+    "address": "0x7174303858"
+  },
+  {
+    "type": "function",
+    "name": "mallopt",
+    "address": "0x7174260310"
+  },
+  {
+    "type": "function",
+    "name": "clock_getres",
+    "address": "0x717429d9d0"
+  },
+  {
+    "type": "function",
+    "name": "renameat",
+    "address": "0x71742ed720"
+  },
+  {
+    "type": "function",
+    "name": "sem_wait",
+    "address": "0x71742ad7c0"
+  },
+  {
+    "type": "function",
+    "name": "rewind",
+    "address": "0x71742fbf44"
+  },
+  {
+    "type": "function",
+    "name": "__fpclassifyl",
+    "address": "0x71742a6188"
+  },
+  {
+    "type": "function",
+    "name": "__get_h_errno",
+    "address": "0x71742c6ce8"
+  },
+  {
+    "type": "function",
+    "name": "putenv",
+    "address": "0x71742eb86c"
+  },
+  {
+    "type": "function",
+    "name": "ns_skiprr",
+    "address": "0x71742b4358"
+  },
+  {
+    "type": "function",
+    "name": "strtok",
+    "address": "0x71742ec33c"
+  },
+  {
+    "type": "function",
+    "name": "strtol",
+    "address": "0x71742af940"
+  },
+  {
+    "type": "function",
+    "name": "basename",
+    "address": "0x71742aab00"
+  },
+  {
+    "type": "function",
+    "name": "mkdirat",
+    "address": "0x71742ed340"
+  },
+  {
+    "type": "function",
+    "name": "rename",
+    "address": "0x71742ad4a8"
+  },
+  {
+    "type": "function",
+    "name": "ns_sprintrr",
+    "address": "0x71742b4844"
+  },
+  {
+    "type": "function",
+    "name": "difftime",
+    "address": "0x71742ee0d8"
+  },
+  {
+    "type": "function",
+    "name": "getnameinfo",
+    "address": "0x71742bd5dc"
+  },
+  {
+    "type": "function",
+    "name": "__res_close",
+    "address": "0x71742c1048"
+  },
+  {
+    "type": "function",
+    "name": "fseeko",
+    "address": "0x71742fa5e8"
+  },
+  {
+    "type": "function",
+    "name": "usleep",
+    "address": "0x71742c8574"
+  },
+  {
+    "type": "function",
+    "name": "getpwent",
+    "address": "0x71742a763c"
+  },
+  {
+    "type": "function",
+    "name": "pipe",
+    "address": "0x71742ac304"
+  },
+  {
+    "type": "function",
+    "name": "ttyname",
+    "address": "0x71742acfc4"
+  },
+  {
+    "type": "function",
+    "name": "__system_property_read",
+    "address": "0x71742b0cac"
+  },
+  {
+    "type": "function",
+    "name": "tcsendbreak",
+    "address": "0x71742b165c"
+  },
+  {
+    "type": "function",
+    "name": "lseek64",
+    "address": "0x71742ed2c0"
+  },
+  {
+    "type": "function",
+    "name": "pthread_mutexattr_setprotocol",
+    "address": "0x7174301ab0"
+  },
+  {
+    "type": "function",
+    "name": "fdopendir",
+    "address": "0x71742a3dbc"
+  },
+  {
+    "type": "function",
+    "name": "gethostbyname_r",
+    "address": "0x71742bb070"
+  },
+  {
+    "type": "function",
+    "name": "mlockall",
+    "address": "0x71742ed3a0"
+  },
+  {
+    "type": "function",
+    "name": "wcstod",
+    "address": "0x71742b1f94"
+  },
+  {
+    "type": "function",
+    "name": "__isnanf",
+    "address": "0x71742a60d4"
+  },
+  {
+    "type": "function",
+    "name": "isfinitef",
+    "address": "0x71742a60fc"
+  },
+  {
+    "type": "function",
+    "name": "strtof_l",
+    "address": "0x71742af50c"
+  },
+  {
+    "type": "function",
+    "name": "strtoq",
+    "address": "0x71742afb88"
+  },
+  {
+    "type": "function",
+    "name": "wcstoul",
+    "address": "0x71742e6af0"
+  },
+  {
+    "type": "function",
+    "name": "sleep",
+    "address": "0x71742c8480"
+  },
+  {
+    "type": "function",
+    "name": "sigdelset64",
+    "address": "0x71742adebc"
+  },
+  {
+    "type": "function",
+    "name": "isalpha",
+    "address": "0x71742e56c4"
+  },
+  {
+    "type": "function",
+    "name": "setpwent",
+    "address": "0x71742a761c"
+  },
+  {
+    "type": "function",
+    "name": "mbsnrtowcs",
+    "address": "0x71742b196c"
+  },
+  {
+    "type": "function",
+    "name": "wcstof",
+    "address": "0x71742b1db8"
+  },
+  {
+    "type": "function",
+    "name": "wcwidth",
+    "address": "0x71742b3120"
+  },
+  {
+    "type": "function",
+    "name": "android_gethostbyaddrfornet",
+    "address": "0x71742bc0c4"
+  },
+  {
+    "type": "function",
+    "name": "pthread_cond_init",
+    "address": "0x71743004d0"
+  },
+  {
+    "type": "function",
+    "name": "__res_queriesmatch",
+    "address": "0x71742c4d48"
+  },
+  {
+    "type": "function",
+    "name": "remove",
+    "address": "0x71742fbef0"
+  },
+  {
+    "type": "function",
+    "name": "listen",
+    "address": "0x71742ed240"
+  },
+  {
+    "type": "function",
+    "name": "gethostbyaddr",
+    "address": "0x71742bbfec"
+  },
+  {
+    "type": "function",
+    "name": "android_net_res_stats_get_info_for_net",
+    "address": "0x71742c0180"
+  },
+  {
+    "type": "function",
+    "name": "__fbufsize",
+    "address": "0x71742fd304"
+  },
+  {
+    "type": "function",
+    "name": "__fwriting",
+    "address": "0x71742fd318"
+  },
+  {
+    "type": "function",
+    "name": "fchmod",
+    "address": "0x71742a4e40"
+  },
+  {
+    "type": "function",
+    "name": "_Exit",
+    "address": "0x71742ecb60"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawnattr_getsigmask64",
+    "address": "0x71742aef60"
+  },
+  {
+    "type": "function",
+    "name": "__isnanl",
+    "address": "0x71742a6268"
+  },
+  {
+    "type": "function",
+    "name": "isfinitel",
+    "address": "0x71742a6288"
+  },
+  {
+    "type": "function",
+    "name": "__fp_nquery",
+    "address": "0x71742c0c64"
+  },
+  {
+    "type": "function",
+    "name": "wcstok",
+    "address": "0x71742cb3b0"
+  },
+  {
+    "type": "function",
+    "name": "putwc",
+    "address": "0x71742fbebc"
+  },
+  {
+    "type": "function",
+    "name": "epoll_wait",
+    "address": "0x71742aff68"
+  },
+  {
+    "type": "function",
+    "name": "wcstol",
+    "address": "0x71742e6248"
+  },
+  {
+    "type": "function",
+    "name": "iswprint",
+    "address": "0x71742b2410"
+  },
+  {
+    "type": "function",
+    "name": "towctrans_l",
+    "address": "0x71742b311c"
+  },
+  {
+    "type": "function",
+    "name": "getpgrp",
+    "address": "0x71742a6ae8"
+  },
+  {
+    "type": "function",
+    "name": "getgrnam",
+    "address": "0x71742a79a4"
+  },
+  {
+    "type": "function",
+    "name": "endmntent",
+    "address": "0x71742ab630"
+  },
+  {
+    "type": "function",
+    "name": "mmap64",
+    "address": "0x71742ed3c0"
+  },
+  {
+    "type": "function",
+    "name": "link",
+    "address": "0x71742aab74"
+  },
+  {
+    "type": "function",
+    "name": "sigblock",
+    "address": "0x71742addb0"
+  },
+  {
+    "type": "function",
+    "name": "fallocate",
+    "address": "0x71742ecd80"
+  },
+  {
+    "type": "function",
+    "name": "getopt",
+    "address": "0x71742c85e8"
+  },
+  {
+    "type": "function",
+    "name": "pthread_mutexattr_setpshared",
+    "address": "0x7174301a64"
+  },
+  {
+    "type": "function",
+    "name": "mkostemp",
+    "address": "0x71742e9d5c"
+  },
+  {
+    "type": "function",
+    "name": "strtok_r",
+    "address": "0x71742ec3d0"
+  },
+  {
+    "type": "function",
+    "name": "bind",
+    "address": "0x71742ecbc0"
+  },
+  {
+    "type": "function",
+    "name": "pthread_condattr_getclock",
+    "address": "0x7174300478"
+  },
+  {
+    "type": "function",
+    "name": "readdir64_r",
+    "address": "0x71742a3fd0"
+  },
+  {
+    "type": "function",
+    "name": "sem_open",
+    "address": "0x71742ad734"
+  },
+  {
+    "type": "function",
+    "name": "malloc_backtrace",
+    "address": "0x7174260ff4"
+  },
+  {
+    "type": "function",
+    "name": "pthread_rwlock_rdlock",
+    "address": "0x717430288c"
+  },
+  {
+    "type": "function",
+    "name": "sem_timedwait",
+    "address": "0x71742ad878"
+  },
+  {
+    "type": "function",
+    "name": "sigqueue",
+    "address": "0x71742ae404"
+  },
+  {
+    "type": "function",
+    "name": "ferror",
+    "address": "0x71742fa1fc"
+  },
+  {
+    "type": "function",
+    "name": "mknod",
+    "address": "0x71742ab4a8"
+  },
+  {
+    "type": "function",
+    "name": "fallocate64",
+    "address": "0x71742ecd80"
+  },
+  {
+    "type": "function",
+    "name": "gethostent",
+    "address": "0x71742bc1dc"
+  },
+  {
+    "type": "function",
+    "name": "setns",
+    "address": "0x71742ed9c0"
+  },
+  {
+    "type": "function",
+    "name": "fscanf",
+    "address": "0x71742fb5fc"
+  },
+  {
+    "type": "function",
+    "name": "pthread_attr_getschedparam",
+    "address": "0x71742ffde0"
+  },
+  {
+    "type": "function",
+    "name": "utimensat",
+    "address": "0x71742ede20"
+  },
+  {
+    "type": "function",
+    "name": "sem_destroy",
+    "address": "0x71742ad72c"
+  },
+  {
+    "type": "function",
+    "name": "signalfd64",
+    "address": "0x71742b0214"
+  },
+  {
+    "type": "function",
+    "name": "__system_property_foreach",
+    "address": "0x71742b0d94"
+  },
+  {
+    "type": "function",
+    "name": "strerror",
+    "address": "0x71742af674"
+  },
+  {
+    "type": "function",
+    "name": "lchown",
+    "address": "0x71742aa680"
+  },
+  {
+    "type": "function",
+    "name": "strncat",
+    "address": "0x71742ddd9c"
+  },
+  {
+    "type": "function",
+    "name": "verrx",
+    "address": "0x71742e59dc"
+  },
+  {
+    "type": "function",
+    "name": "pwritev64",
+    "address": "0x71742ed5e0"
+  },
+  {
+    "type": "function",
+    "name": "ctime_r",
+    "address": "0x71742eea34"
+  },
+  {
+    "type": "function",
+    "name": "__fsetlocking",
+    "address": "0x71742fd380"
+  },
+  {
+    "type": "function",
+    "name": "__pthread_cleanup_pop",
+    "address": "0x71743011bc"
+  },
+  {
+    "type": "function",
+    "name": "mbrtoc32",
+    "address": "0x71742ab0f4"
+  },
+  {
+    "type": "function",
+    "name": "epoll_create1",
+    "address": "0x71742ecd00"
+  },
+  {
+    "type": "function",
+    "name": "signalfd",
+    "address": "0x71742b01bc"
+  },
+  {
+    "type": "function",
+    "name": "ns_name_compress",
+    "address": "0x71742b417c"
+  },
+  {
+    "type": "function",
+    "name": "__fgets_chk",
+    "address": "0x71742c73dc"
+  },
+  {
+    "type": "function",
+    "name": "recvmmsg",
+    "address": "0x71742ed6c0"
+  },
+  {
+    "type": "function",
+    "name": "posix_fallocate",
+    "address": "0x71742ac7c0"
+  },
+  {
+    "type": "function",
+    "name": "syslog",
+    "address": "0x71742b0790"
+  },
+  {
+    "type": "function",
+    "name": "iswpunct",
+    "address": "0x71742b25cc"
+  },
+  {
+    "type": "function",
+    "name": "setfsgid",
+    "address": "0x71742ed900"
+  },
+  {
+    "type": "function",
+    "name": "wcsnrtombs",
+    "address": "0x71742b1b7c"
+  },
+  {
+    "type": "function",
+    "name": "mbstowcs",
+    "address": "0x71742e5d90"
+  },
+  {
+    "type": "function",
+    "name": "sched_get_priority_min",
+    "address": "0x71742ed760"
+  },
+  {
+    "type": "function",
+    "name": "openpty",
+    "address": "0x71742ad130"
+  },
+  {
+    "type": "function",
+    "name": "ns_initparse",
+    "address": "0x71742b4408"
+  },
+  {
+    "type": "function",
+    "name": "strcspn",
+    "address": "0x71742ec108"
+  },
+  {
+    "type": "function",
+    "name": "wcslcat",
+    "address": "0x71742cb014"
+  },
+  {
+    "type": "function",
+    "name": "fwrite_unlocked",
+    "address": "0x71742fb500"
+  },
+  {
+    "type": "function",
+    "name": "vprintf",
+    "address": "0x71742fc6a4"
+  },
+  {
+    "type": "function",
+    "name": "pthread_rwlock_trywrlock",
+    "address": "0x71743030f8"
+  },
+  {
+    "type": "function",
+    "name": "_longjmp",
+    "address": "0x717429f080"
+  },
+  {
+    "type": "function",
+    "name": "lstat64",
+    "address": "0x71742aaf8c"
+  },
+  {
+    "type": "function",
+    "name": "send",
+    "address": "0x71742adb1c"
+  },
+  {
+    "type": "function",
+    "name": "__system_property_wait_any",
+    "address": "0x71742b0d4c"
+  },
+  {
+    "type": "function",
+    "name": "wcscoll_l",
+    "address": "0x71742b1d90"
+  },
+  {
+    "type": "function",
+    "name": "adjtimex",
+    "address": "0x71742ecba0"
+  },
+  {
+    "type": "function",
+    "name": "ftruncate64",
+    "address": "0x71742ecee0"
+  },
+  {
+    "type": "function",
+    "name": "pthread_barrier_wait",
+    "address": "0x71743001f0"
+  },
+  {
+    "type": "function",
+    "name": "tcflow",
+    "address": "0x71742b15e0"
+  },
+  {
+    "type": "function",
+    "name": "getaddrinfo",
+    "address": "0x71742b84f4"
+  },
+  {
+    "type": "function",
+    "name": "div",
+    "address": "0x71742eb390"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawnattr_getschedpolicy",
+    "address": "0x71742aeffc"
+  },
+  {
+    "type": "function",
+    "name": "__res_mailok",
+    "address": "0x71742c08c8"
+  },
+  {
+    "type": "function",
+    "name": "ctermid",
+    "address": "0x71742faaa0"
+  },
+  {
+    "type": "function",
+    "name": "getnetbyaddr",
+    "address": "0x71742abbec"
+  },
+  {
+    "type": "function",
+    "name": "pthread_attr_init",
+    "address": "0x71742ffca8"
+  },
+  {
+    "type": "function",
+    "name": "wcstof_l",
+    "address": "0x71742b1da0"
+  },
+  {
+    "type": "function",
+    "name": "realloc",
+    "address": "0x71742604d4"
+  },
+  {
+    "type": "variable",
+    "name": "optopt",
+    "address": "0x71743082c0"
+  },
+  {
+    "type": "function",
+    "name": "hsearch",
+    "address": "0x71742c917c"
+  },
+  {
+    "type": "function",
+    "name": "ctime",
+    "address": "0x71742ee9b4"
+  },
+  {
+    "type": "function",
+    "name": "ttyname_r",
+    "address": "0x71742ad000"
+  },
+  {
+    "type": "function",
+    "name": "readahead",
+    "address": "0x71742ed640"
+  },
+  {
+    "type": "function",
+    "name": "pthread_condattr_destroy",
+    "address": "0x71743004bc"
+  },
+  {
+    "type": "function",
+    "name": "endhostent",
+    "address": "0x71742be0dc"
+  },
+  {
+    "type": "function",
+    "name": "fgetln",
+    "address": "0x71742e8a8c"
+  },
+  {
+    "type": "function",
+    "name": "klogctl",
+    "address": "0x71742ed1e0"
+  },
+  {
+    "type": "function",
+    "name": "setgid",
+    "address": "0x71742ed940"
+  },
+  {
+    "type": "function",
+    "name": "feof_unlocked",
+    "address": "0x71742fa130"
+  },
+  {
+    "type": "function",
+    "name": "endnetent",
+    "address": "0x71742abbe4"
+  },
+  {
+    "type": "function",
+    "name": "fpathconf",
+    "address": "0x71742ac250"
+  },
+  {
+    "type": "function",
+    "name": "tmpnam",
+    "address": "0x71742ea7d8"
+  },
+  {
+    "type": "function",
+    "name": "inet_addr",
+    "address": "0x71742a207c"
+  },
+  {
+    "type": "function",
+    "name": "__write_chk",
+    "address": "0x71742c81e4"
+  },
+  {
+    "type": "function",
+    "name": "android_fdsan_exchange_owner_tag",
+    "address": "0x71742a56f8"
+  },
+  {
+    "type": "function",
+    "name": "ioctl",
+    "address": "0x71742aa308"
+  },
+  {
+    "type": "function",
+    "name": "catgets",
+    "address": "0x71742abd64"
+  },
+  {
+    "type": "function",
+    "name": "acct",
+    "address": "0x71742ecb80"
+  },
+  {
+    "type": "function",
+    "name": "getrusage",
+    "address": "0x71742ed080"
+  },
+  {
+    "type": "function",
+    "name": "pthread_attr_setstack",
+    "address": "0x71742ffe74"
+  },
+  {
+    "type": "function",
+    "name": "vfork",
+    "address": "0x717429f250"
+  },
+  {
+    "type": "function",
+    "name": "wcstold",
+    "address": "0x71742b2170"
+  },
+  {
+    "type": "function",
+    "name": "sem_unlink",
+    "address": "0x71742ad79c"
+  },
+  {
+    "type": "function",
+    "name": "gethostbyaddr_r",
+    "address": "0x71742bb670"
+  },
+  {
+    "type": "function",
+    "name": "getsubopt",
+    "address": "0x71742eb4f4"
+  },
+  {
+    "type": "function",
+    "name": "wctrans",
+    "address": "0x71742b2f58"
+  },
+  {
+    "type": "function",
+    "name": "__res_send_setqhook",
+    "address": "0x71742c0f40"
+  },
+  {
+    "type": "function",
+    "name": "sendfile",
+    "address": "0x71742ed860"
+  },
+  {
+    "type": "function",
+    "name": "__res_send_setrhook",
+    "address": "0x71742c0f50"
+  },
+  {
+    "type": "function",
+    "name": "prlimit64",
+    "address": "0x71742ed560"
+  },
+  {
+    "type": "function",
+    "name": "read",
+    "address": "0x71742ed620"
+  },
+  {
+    "type": "function",
+    "name": "android_fdsan_get_owner_tag",
+    "address": "0x71742a56bc"
+  },
+  {
+    "type": "function",
+    "name": "getpgid",
+    "address": "0x71742ecfc0"
+  },
+  {
+    "type": "function",
+    "name": "tcgetpgrp",
+    "address": "0x71742b16a0"
+  },
+  {
+    "type": "function",
+    "name": "iswgraph_l",
+    "address": "0x71742b27f4"
+  },
+  {
+    "type": "function",
+    "name": "getsid",
+    "address": "0x71742ed0a0"
+  },
+  {
+    "type": "function",
+    "name": "feof",
+    "address": "0x71742fa15c"
+  },
+  {
+    "type": "function",
+    "name": "wmemmove",
+    "address": "0x717429edb0"
+  },
+  {
+    "type": "function",
+    "name": "readdir64",
+    "address": "0x71742a3f0c"
+  },
+  {
+    "type": "function",
+    "name": "execl",
+    "address": "0x71742a465c"
+  },
+  {
+    "type": "function",
+    "name": "__res_ownok",
+    "address": "0x71742c076c"
+  },
+  {
+    "type": "function",
+    "name": "swprintf",
+    "address": "0x71742fc57c"
+  },
+  {
+    "type": "function",
+    "name": "mbsinit",
+    "address": "0x71742b193c"
+  },
+  {
+    "type": "function",
+    "name": "sigrelse",
+    "address": "0x71742ae49c"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawnattr_getpgroup",
+    "address": "0x71742aef10"
+  },
+  {
+    "type": "function",
+    "name": "vwarn",
+    "address": "0x71742e5a54"
+  },
+  {
+    "type": "function",
+    "name": "setjmp",
+    "address": "0x717429eeb0"
+  },
+  {
+    "type": "function",
+    "name": "__res_nsearch",
+    "address": "0x71742c46a0"
+  },
+  {
+    "type": "function",
+    "name": "pthread_cond_wait",
+    "address": "0x717430060c"
+  },
+  {
+    "type": "function",
+    "name": "clock_nanosleep",
+    "address": "0x71742a39fc"
+  },
+  {
+    "type": "function",
+    "name": "sync_file_range",
+    "address": "0x71742afed0"
+  },
+  {
+    "type": "function",
+    "name": "wcstoll",
+    "address": "0x71742e6674"
+  },
+  {
+    "type": "function",
+    "name": "fgetwc",
+    "address": "0x71742e8d6c"
+  },
+  {
+    "type": "function",
+    "name": "strlcpy",
+    "address": "0x71742ddd58"
+  },
+  {
+    "type": "variable",
+    "name": "__system_property_area__",
+    "address": "0x71743115a0"
+  },
+  {
+    "type": "function",
+    "name": "fileno",
+    "address": "0x71742fa018"
+  },
+  {
+    "type": "function",
+    "name": "removexattr",
+    "address": "0x71742ed700"
+  },
+  {
+    "type": "function",
+    "name": "sync",
+    "address": "0x71742edc40"
+  },
+  {
+    "type": "function",
+    "name": "_setjmp",
+    "address": "0x717429eec0"
+  },
+  {
+    "type": "function",
+    "name": "timer_settime",
+    "address": "0x71742accb0"
+  },
+  {
+    "type": "function",
+    "name": "sigset",
+    "address": "0x71742ae534"
+  },
+  {
+    "type": "function",
+    "name": "pthread_barrierattr_getpshared",
+    "address": "0x7174300174"
+  },
+  {
+    "type": "function",
+    "name": "pthread_rwlockattr_init",
+    "address": "0x717430276c"
+  },
+  {
+    "type": "function",
+    "name": "kill",
+    "address": "0x71742ed1c0"
+  },
+  {
+    "type": "function",
+    "name": "iswpunct_l",
+    "address": "0x71742b2860"
+  },
+  {
+    "type": "function",
+    "name": "utime",
+    "address": "0x71742d6068"
+  },
+  {
+    "type": "function",
+    "name": "if_freenameindex",
+    "address": "0x71742abb94"
+  },
+  {
+    "type": "function",
+    "name": "getpeername",
+    "address": "0x71742ecfa0"
+  },
+  {
+    "type": "function",
+    "name": "err",
+    "address": "0x71742e4aa0"
+  },
+  {
+    "type": "function",
+    "name": "getopt_long",
+    "address": "0x71742c8d50"
+  },
+  {
+    "type": "function",
+    "name": "lsearch",
+    "address": "0x71742eb748"
+  },
+  {
+    "type": "function",
+    "name": "unshare",
+    "address": "0x71742ede00"
+  },
+  {
+    "type": "function",
+    "name": "execv",
+    "address": "0x71742a498c"
+  },
+  {
+    "type": "function",
+    "name": "__isnan",
+    "address": "0x71742a60c8"
+  },
+  {
+    "type": "function",
+    "name": "sigismember",
+    "address": "0x71742ae14c"
+  },
+  {
+    "type": "function",
+    "name": "sched_setparam",
+    "address": "0x71742ed800"
+  },
+  {
+    "type": "function",
+    "name": "msgget",
+    "address": "0x71742aff98"
+  },
+  {
+    "type": "function",
+    "name": "iswblank",
+    "address": "0x71742b23a4"
+  },
+  {
+    "type": "function",
+    "name": "localtime_r",
+    "address": "0x71742ee7ec"
+  },
+  {
+    "type": "function",
+    "name": "timer_create",
+    "address": "0x71742ac8ec"
+  },
+  {
+    "type": "function",
+    "name": "capget",
+    "address": "0x71742ecbe0"
+  },
+  {
+    "type": "function",
+    "name": "malloc_iterate",
+    "address": "0x71742605b4"
+  },
+  {
+    "type": "function",
+    "name": "sigpause",
+    "address": "0x71742ae26c"
+  },
+  {
+    "type": "function",
+    "name": "writev",
+    "address": "0x71742edea0"
+  },
+  {
+    "type": "function",
+    "name": "process_vm_writev",
+    "address": "0x71742ed5a0"
+  },
+  {
+    "type": "function",
+    "name": "iswupper_l",
+    "address": "0x71742b2914"
+  },
+  {
+    "type": "function",
+    "name": "endgrent",
+    "address": "0x71742a7e30"
+  },
+  {
+    "type": "function",
+    "name": "getmntent_r",
+    "address": "0x71742ab4e0"
+  },
+  {
+    "type": "function",
+    "name": "chroot",
+    "address": "0x71742ecc40"
+  },
+  {
+    "type": "function",
+    "name": "fts_read",
+    "address": "0x71742f70c0"
+  },
+  {
+    "type": "function",
+    "name": "getutent",
+    "address": "0x71742d60e0"
+  },
+  {
+    "type": "function",
+    "name": "fstatat64",
+    "address": "0x71742ecea0"
+  },
+  {
+    "type": "function",
+    "name": "socketpair",
+    "address": "0x71742edba0"
+  },
+  {
+    "type": "function",
+    "name": "__libc_current_sigrtmin",
+    "address": "0x71742a1ecc"
+  },
+  {
+    "type": "function",
+    "name": "sigemptyset",
+    "address": "0x71742ade14"
+  },
+  {
+    "type": "function",
+    "name": "wmemcpy",
+    "address": "0x71742cb4a4"
+  },
+  {
+    "type": "function",
+    "name": "hdestroy",
+    "address": "0x71742c9144"
+  },
+  {
+    "type": "function",
+    "name": "mkdtemp",
+    "address": "0x71742e9d78"
+  },
+  {
+    "type": "function",
+    "name": "pthread_key_create",
+    "address": "0x71743017f4"
+  },
+  {
+    "type": "function",
+    "name": "strtoumax",
+    "address": "0x71742afda0"
+  },
+  {
+    "type": "function",
+    "name": "lutimes",
+    "address": "0x71742b02c8"
+  },
+  {
+    "type": "function",
+    "name": "__system_property_add",
+    "address": "0x71742b0d18"
+  },
+  {
+    "type": "function",
+    "name": "execvpe",
+    "address": "0x71742a49ac"
+  },
+  {
+    "type": "function",
+    "name": "regfree",
+    "address": "0x71742dcdf8"
+  },
+  {
+    "type": "function",
+    "name": "ftok",
+    "address": "0x71742e561c"
+  },
+  {
+    "type": "function",
+    "name": "fgetws",
+    "address": "0x71742e8dc0"
+  },
+  {
+    "type": "function",
+    "name": "fgetxattr",
+    "address": "0x71742a5de4"
+  },
+  {
+    "type": "function",
+    "name": "qsort",
+    "address": "0x71742c94e0"
+  },
+  {
+    "type": "function",
+    "name": "cfmakeraw",
+    "address": "0x71742b14a8"
+  },
+  {
+    "type": "function",
+    "name": "setreuid",
+    "address": "0x71742eda80"
+  },
+  {
+    "type": "function",
+    "name": "epoll_pwait64",
+    "address": "0x71742aff60"
+  },
+  {
+    "type": "function",
+    "name": "_toupper",
+    "address": "0x71742e58b0"
+  },
+  {
+    "type": "function",
+    "name": "strcasestr",
+    "address": "0x71742ec070"
+  },
+  {
+    "type": "function",
+    "name": "__strrchr_chk",
+    "address": "0x71742c7eb4"
+  },
+  {
+    "type": "function",
+    "name": "ffs",
+    "address": "0x71742a5dd0"
+  },
+  {
+    "type": "function",
+    "name": "gethostname",
+    "address": "0x71742a6978"
+  },
+  {
+    "type": "function",
+    "name": "iswupper",
+    "address": "0x71742b2458"
+  },
+  {
+    "type": "function",
+    "name": "inet_lnaof",
+    "address": "0x71742e7b7c"
+  },
+  {
+    "type": "function",
+    "name": "lldiv",
+    "address": "0x71742eb718"
+  },
+  {
+    "type": "function",
+    "name": "dprintf",
+    "address": "0x71742faac4"
+  },
+  {
+    "type": "function",
+    "name": "strndup",
+    "address": "0x71742ec190"
+  },
+  {
+    "type": "function",
+    "name": "setgroups",
+    "address": "0x71742ed960"
+  },
+  {
+    "type": "function",
+    "name": "fwprintf",
+    "address": "0x71742fb790"
+  },
+  {
+    "type": "function",
+    "name": "ispunct_l",
+    "address": "0x71742a3d0c"
+  },
+  {
+    "type": "function",
+    "name": "pthread_getname_np",
+    "address": "0x717430353c"
+  },
+  {
+    "type": "function",
+    "name": "__memcpy_chk",
+    "address": "0x71742c8330"
+  },
+  {
+    "type": "function",
+    "name": "ftrylockfile",
+    "address": "0x71742a5fbc"
+  },
+  {
+    "type": "function",
+    "name": "__ctype_get_mb_cur_max",
+    "address": "0x71742aab90"
+  },
+  {
+    "type": "function",
+    "name": "strerror_l",
+    "address": "0x71742af744"
+  },
+  {
+    "type": "function",
+    "name": "msgrcv",
+    "address": "0x71742affb8"
+  },
+  {
+    "type": "function",
+    "name": "wcrtomb",
+    "address": "0x71742b1b68"
+  },
+  {
+    "type": "function",
+    "name": "timerfd_create",
+    "address": "0x71742edce0"
+  },
+  {
+    "type": "function",
+    "name": "malloc_disable",
+    "address": "0x71742605d0"
+  },
+  {
+    "type": "function",
+    "name": "toupper",
+    "address": "0x71742e5914"
+  },
+  {
+    "type": "function",
+    "name": "android_fdsan_get_error_level",
+    "address": "0x71742a5b64"
+  },
+  {
+    "type": "function",
+    "name": "iconv_open",
+    "address": "0x71742a9110"
+  },
+  {
+    "type": "function",
+    "name": "umount",
+    "address": "0x71742b1900"
+  },
+  {
+    "type": "function",
+    "name": "truncate64",
+    "address": "0x71742edd60"
+  },
+  {
+    "type": "function",
+    "name": "getsockname",
+    "address": "0x71742ed0c0"
+  },
+  {
+    "type": "function",
+    "name": "strcat",
+    "address": "0x71742ddca8"
+  },
+  {
+    "type": "function",
+    "name": "sched_getscheduler",
+    "address": "0x71742ed7a0"
+  },
+  {
+    "type": "function",
+    "name": "_flushlbf",
+    "address": "0x71742fd368"
+  },
+  {
+    "type": "function",
+    "name": "aligned_alloc",
+    "address": "0x7174260454"
+  },
+  {
+    "type": "function",
+    "name": "malloc_enable",
+    "address": "0x71742605ec"
+  },
+  {
+    "type": "function",
+    "name": "fchmodat",
+    "address": "0x71742a4f20"
+  },
+  {
+    "type": "function",
+    "name": "futimesat",
+    "address": "0x71742b0370"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_finalize",
+    "address": "0x7174303de4"
+  },
+  {
+    "type": "function",
+    "name": "strncmp",
+    "address": "0x717429eae0"
+  },
+  {
+    "type": "function",
+    "name": "isupper_l",
+    "address": "0x71742a3d14"
+  },
+  {
+    "type": "function",
+    "name": "fstatfs",
+    "address": "0x71742af370"
+  },
+  {
+    "type": "function",
+    "name": "posix_spawnattr_getsigdefault64",
+    "address": "0x71742aefb0"
+  },
+  {
+    "type": "function",
+    "name": "_resolv_delete_cache_for_net",
+    "address": "0x71742bf820"
+  },
+  {
+    "type": "function",
+    "name": "nrand48",
+    "address": "0x71742dd054"
+  },
+  {
+    "type": "function",
+    "name": "mount",
+    "address": "0x71742ed3e0"
+  },
+  {
+    "type": "function",
+    "name": "ftell",
+    "address": "0x71742fa698"
+  },
+  {
+    "type": "function",
+    "name": "pthread_join",
+    "address": "0x71743015e0"
+  },
+  {
+    "type": "function",
+    "name": "getpt",
+    "address": "0x71742ace34"
+  },
+  {
+    "type": "function",
+    "name": "srand",
+    "address": "0x71742ad464"
+  },
+  {
+    "type": "function",
+    "name": "strerror_r",
+    "address": "0x71742af53c"
+  },
+  {
+    "type": "function",
+    "name": "mbsrtowcs",
+    "address": "0x71742b1b58"
+  },
+  {
+    "type": "function",
+    "name": "getgroups",
+    "address": "0x71742ecf60"
+  },
+  {
+    "type": "function",
+    "name": "preadv64",
+    "address": "0x71742ed540"
+  },
+  {
+    "type": "function",
+    "name": "__memrchr_chk",
+    "address": "0x71742c7670"
+  },
+  {
+    "type": "function",
+    "name": "prctl",
+    "address": "0x71742ed500"
+  },
+  {
+    "type": "function",
+    "name": "mkstemp",
+    "address": "0x71742e9d4c"
+  },
+  {
+    "type": "function",
+    "name": "strxfrm_l",
+    "address": "0x71742af748"
+  },
+  {
+    "type": "function",
+    "name": "imaxabs",
+    "address": "0x71742eb694"
+  },
+  {
+    "type": "function",
+    "name": "__system_property_area_serial",
+    "address": "0x71742b0c8c"
+  },
+  {
+    "type": "function",
+    "name": "eventfd_write",
+    "address": "0x71742a4600"
+  },
+  {
+    "type": "function",
+    "name": "newlocale",
+    "address": "0x71742aacb0"
+  },
+  {
+    "type": "function",
+    "name": "hasmntopt",
+    "address": "0x71742ab64c"
+  },
+  {
+    "type": "variable",
+    "name": "daylight",
+    "address": "0x717431121c"
+  },
+  {
+    "type": "function",
+    "name": "sprintf",
+    "address": "0x71742fc35c"
+  },
+  {
+    "type": "function",
+    "name": "vfwscanf",
+    "address": "0x71742fba1c"
+  },
+  {
+    "type": "function",
+    "name": "malloc_info",
+    "address": "0x71742602f4"
+  },
+  {
+    "type": "function",
+    "name": "iscntrl",
+    "address": "0x71742e5708"
+  },
+  {
+    "type": "function",
+    "name": "android_fdsan_get_tag_type",
+    "address": "0x71742a505c"
+  },
+  {
+    "type": "function",
+    "name": "lockf",
+    "address": "0x71742aaf88"
+  },
+  {
+    "type": "function",
+    "name": "strtol_l",
+    "address": "0x71742af510"
+  },
+  {
+    "type": "function",
+    "name": "setservent",
+    "address": "0x71742bdd48"
+  },
+  {
+    "type": "function",
+    "name": "funopen",
+    "address": "0x71742fa8bc"
+  },
+  {
+    "type": "function",
+    "name": "posix_memalign",
+    "address": "0x7174260438"
+  },
+  {
+    "type": "function",
+    "name": "getline",
+    "address": "0x71742fbbac"
+  },
+  {
+    "type": "function",
+    "name": "__strlcpy_chk",
+    "address": "0x71742c7cc0"
+  },
+  {
+    "type": "function",
+    "name": "atoll",
+    "address": "0x71742af950"
+  },
+  {
+    "type": "function",
+    "name": "epoll_pwait",
+    "address": "0x71742aff08"
+  },
+  {
+    "type": "function",
+    "name": "glob",
+    "address": "0x71742cb524"
+  },
+  {
+    "type": "function",
+    "name": "fchown",
+    "address": "0x71742ecdc0"
+  },
+  {
+    "type": "function",
+    "name": "setenv",
+    "address": "0x71742eb9dc"
+  },
+  {
+    "type": "function",
+    "name": "dup",
+    "address": "0x71742eccc0"
+  },
+  {
+    "type": "function",
+    "name": "fileno_unlocked",
+    "address": "0x71742f9fcc"
+  },
+  {
+    "type": "function",
+    "name": "clock_gettime",
+    "address": "0x717429d98c"
+  },
+  {
+    "type": "function",
+    "name": "get_phys_pages",
+    "address": "0x71742b069c"
+  },
+  {
+    "type": "function",
+    "name": "getcwd",
+    "address": "0x71742a66c4"
+  },
+  {
+    "type": "function",
+    "name": "sighold",
+    "address": "0x71742adfd4"
+  },
+  {
+    "type": "function",
+    "name": "readv",
+    "address": "0x71742ed680"
+  },
+  {
+    "type": "function",
+    "name": "__umask_chk",
+    "address": "0x71742c7ef4"
+  },
+  {
+    "type": "function",
+    "name": "cfgetospeed",
+    "address": "0x71742b1498"
+  },
+  {
+    "type": "function",
+    "name": "tmpfile",
+    "address": "0x71742b1794"
+  },
+  {
+    "type": "function",
+    "name": "umask",
+    "address": "0x71742edd80"
+  },
+  {
+    "type": "function",
+    "name": "wcscat",
+    "address": "0x71742caf08"
+  },
+  {
+    "type": "function",
+    "name": "iswblank_l",
+    "address": "0x71742b26a4"
+  },
+  {
+    "type": "function",
+    "name": "memcmp",
+    "address": "0x717429e000"
+  },
+  {
+    "type": "variable",
+    "name": "tzname",
+    "address": "0x7174309438"
+  },
+  {
+    "type": "function",
+    "name": "wcstoul_l",
+    "address": "0x71742b1dac"
+  },
+  {
+    "type": "variable",
+    "name": "opterr",
+    "address": "0x71743082b8"
+  },
+  {
+    "type": "function",
+    "name": "pthread_condattr_getpshared",
+    "address": "0x7174300438"
+  },
+  {
+    "type": "function",
+    "name": "strcasecmp",
+    "address": "0x71742ebff8"
+  },
+  {
+    "type": "function",
+    "name": "__isnormalf",
+    "address": "0x71742a6150"
+  },
+  {
+    "type": "function",
+    "name": "mkfifoat",
+    "address": "0x71742ab498"
+  },
+  {
+    "type": "function",
+    "name": "wcscasecmp",
+    "address": "0x71742caea4"
+  },
+  {
+    "type": "function",
+    "name": "ldexp",
+    "address": "0x71742c8344"
+  },
+  {
+    "type": "function",
+    "name": "isdigit",
+    "address": "0x71742e5734"
+  },
+  {
+    "type": "function",
+    "name": "quotactl",
+    "address": "0x71742ed600"
+  },
+  {
+    "type": "function",
+    "name": "setbuf",
+    "address": "0x71742fc0b0"
+  },
+  {
+    "type": "function",
+    "name": "strnlen",
+    "address": "0x717429ecf0"
+  },
+  {
+    "type": "function",
+    "name": "wmempcpy",
+    "address": "0x71742b3240"
+  },
+  {
+    "type": "function",
+    "name": "pthread_spin_destroy",
+    "address": "0x717430399c"
+  },
+  {
+    "type": "function",
+    "name": "__isnormal",
+    "address": "0x71742a6118"
+  },
+  {
+    "type": "function",
+    "name": "isnanf",
+    "address": "0x71742a60d4"
+  },
+  {
+    "type": "function",
+    "name": "mkstemp64",
+    "address": "0x71742aa69c"
+  },
+  {
+    "type": "function",
+    "name": "__res_nclose",
+    "address": "0x71742c3f60"
+  },
+  {
+    "type": "function",
+    "name": "__sym_ntop",
+    "address": "0x71742c2388"
+  },
+  {
+    "type": "function",
+    "name": "pthread_mutexattr_getpshared",
+    "address": "0x7174301a9c"
+  },
+  {
+    "type": "function",
+    "name": "__p_secstodate",
+    "address": "0x71742c35e8"
+  },
+  {
+    "type": "function",
+    "name": "pthread_condattr_init",
+    "address": "0x717430042c"
+  },
+  {
+    "type": "function",
+    "name": "strxfrm",
+    "address": "0x71742ec45c"
+  },
+  {
+    "type": "function",
+    "name": "__sym_ntos",
+    "address": "0x71742c22e8"
+  },
+  {
+    "type": "function",
+    "name": "rand_r",
+    "address": "0x71742dd0ec"
+  },
+  {
+    "type": "function",
+    "name": "labs",
+    "address": "0x71742eb6d0"
+  },
+  {
+    "type": "function",
+    "name": "tsearch",
+    "address": "0x71742ebd60"
+  },
+  {
+    "type": "function",
+    "name": "perror",
+    "address": "0x71742fbc0c"
+  },
+  {
+    "type": "function",
+    "name": "__isnormall",
+    "address": "0x71742a62ec"
+  },
+  {
+    "type": "function",
+    "name": "btowc",
+    "address": "0x71742e5cfc"
+  },
+  {
+    "type": "function",
+    "name": "pthread_detach",
+    "address": "0x7174301110"
+  },
+  {
+    "type": "function",
+    "name": "__strcpy_chk",
+    "address": "0x71742c82c0"
+  },
+  {
+    "type": "function",
+    "name": "pselect",
+    "address": "0x71742ac5a0"
+  },
+  {
+    "type": "function",
+    "name": "eventfd",
+    "address": "0x71742ecd40"
+  },
+  {
+    "type": "function",
+    "name": "pthread_condattr_setpshared",
+    "address": "0x717430044c"
+  },
+  {
+    "type": "function",
+    "name": "pthread_spin_init",
+    "address": "0x7174303984"
+  },
+  {
+    "type": "function",
+    "name": "isnanl",
+    "address": "0x71742a6268"
+  },
+  {
+    "type": "function",
+    "name": "sigsuspend",
+    "address": "0x71742ae6d4"
+  },
+  {
+    "type": "function",
+    "name": "res_init",
+    "address": "0x71742c0a58"
+  },
+  {
+    "type": "function",
+    "name": "__loc_aton",
+    "address": "0x71742c27ac"
+  },
+  {
+    "type": "function",
+    "name": "init_module",
+    "address": "0x71742ed140"
+  },
+  {
+    "type": "function",
+    "name": "sigaddset64",
+    "address": "0x71742add3c"
+  },
+  {
+    "type": "function",
+    "name": "catclose",
+    "address": "0x71742abd6c"
+  },
+  {
+    "type": "function",
+    "name": "_resolv_flush_cache_for_net",
+    "address": "0x71742bf784"
+  },
+  {
+    "type": "function",
+    "name": "munlockall",
+    "address": "0x71742ed460"
+  },
+  {
+    "type": "function",
+    "name": "settimeofday",
+    "address": "0x71742edb00"
+  },
+  {
+    "type": "function",
+    "name": "__sched_cpufree",
+    "address": "0x71742f8144"
+  },
+  {
+    "type": "function",
+    "name": "fsetpos64",
+    "address": "0x71742fa668"
+  },
+  {
+    "type": "function",
+    "name": "wprintf",
+    "address": "0x71742fc944"
+  },
+  {
+    "type": "function",
+    "name": "stpcpy",
+    "address": "0x717429e520"
+  },
+  {
+    "type": "function",
+    "name": "wcscoll",
+    "address": "0x71742e5e18"
+  },
+  {
+    "type": "function",
+    "name": "getopt_long_only",
+    "address": "0x71742c8d58"
+  },
+  {
+    "type": "function",
+    "name": "pthread_attr_setguardsize",
+    "address": "0x71742ffea8"
+  },
+  {
+    "type": "function",
+    "name": "abort",
+    "address": "0x71742a1ed4"
+  },
+  {
+    "type": "function",
+    "name": "pthread_mutexattr_init",
+    "address": "0x71743019f4"
+  },
+  {
+    "type": "function",
+    "name": "fopen",
+    "address": "0x71742f9668"
+  },
+  {
+    "type": "function",
+    "name": "readdir_r",
+    "address": "0x71742a3fd0"
+  },
+  {
+    "type": "function",
+    "name": "setresuid",
+    "address": "0x71742eda60"
+  },
+  {
+    "type": "function",
+    "name": "wcspbrk",
+    "address": "0x71742cb280"
+  },
+  {
+    "type": "function",
+    "name": "isnan",
+    "address": "0x71742a60c8"
+  },
+  {
+    "type": "function",
+    "name": "statfs",
+    "address": "0x71742af3a0"
+  },
+  {
+    "type": "function",
+    "name": "regcomp",
+    "address": "0x71742d6478"
+  },
+  {
+    "type": "function",
+    "name": "vdprintf",
+    "address": "0x71742ead3c"
+  },
+  {
+    "type": "function",
+    "name": "strstr",
+    "address": "0x71742ec2bc"
+  },
+  {
+    "type": "function",
+    "name": "sigpending64",
+    "address": "0x71742ae3fc"
+  },
+  {
+    "type": "function",
+    "name": "mmap",
+    "address": "0x71742ed3c0"
+  },
+  {
+    "type": "function",
+    "name": "isblank_l",
+    "address": "0x71742a3ce8"
+  },
+  {
+    "type": "function",
+    "name": "asprintf",
+    "address": "0x71742faa0c"
+  },
+  {
+    "type": "function",
+    "name": "geteuid",
+    "address": "0x71742ecf20"
+  },
+  {
+    "type": "function",
+    "name": "sethostname",
+    "address": "0x71742ed980"
+  },
+  {
+    "type": "function",
+    "name": "getc",
+    "address": "0x71742fad80"
+  },
+  {
+    "type": "function",
+    "name": "tcsetpgrp",
+    "address": "0x71742b16f8"
+  },
+  {
+    "type": "function",
+    "name": "__res_isourserver",
+    "address": "0x71742c0f60"
+  },
+  {
+    "type": "function",
+    "name": "__loc_ntoa",
+    "address": "0x71742c30fc"
+  },
+  {
+    "type": "function",
+    "name": "calloc",
+    "address": "0x717426023c"
+  },
+  {
+    "type": "function",
+    "name": "getpriority",
+    "address": "0x71742a6b2c"
+  },
+  {
+    "type": "function",
+    "name": "mbrtowc",
+    "address": "0x71742b1958"
+  },
+  {
+    "type": "function",
+    "name": "gethostbyname",
+    "address": "0x71742bbd6c"
+  },
+  {
+    "type": "function",
+    "name": "pthread_rwlockattr_getkind_np",
+    "address": "0x71743027d4"
+  },
+  {
+    "type": "function",
+    "name": "wcstol_l",
+    "address": "0x71742b1da4"
+  },
+  {
+    "type": "function",
+    "name": "strptime_l",
+    "address": "0x71742f3bbc"
+  },
+  {
+    "type": "function",
+    "name": "pthread_mutex_timedlock_monotonic_np",
+    "address": "0x71743024f4"
+  },
+  {
+    "type": "function",
+    "name": "ftruncate",
+    "address": "0x71742ecee0"
+  },
+  {
+    "type": "function",
+    "name": "posix_openpt",
+    "address": "0x71742ace44"
+  },
+  {
+    "type": "function",
+    "name": "sigpending",
+    "address": "0x71742ae390"
+  },
+  {
+    "type": "function",
+    "name": "getresuid",
+    "address": "0x71742ed040"
+  },
+  {
+    "type": "function",
+    "name": "fgetpos",
+    "address": "0x71742fa82c"
+  },
+  {
+    "type": "function",
+    "name": "strtoull",
+    "address": "0x71742afd9c"
+  },
+  {
+    "type": "function",
+    "name": "islower",
+    "address": "0x71742e5790"
+  },
+  {
+    "type": "function",
+    "name": "getlogin",
+    "address": "0x71742a7588"
+  },
+  {
+    "type": "function",
+    "name": "fputwc",
+    "address": "0x71742e9140"
+  },
+  {
+    "type": "function",
+    "name": "prlimit",
+    "address": "0x71742ed560"
+  },
+  {
+    "type": "function",
+    "name": "close",
+    "address": "0x71742a5b80"
+  },
+  {
+    "type": "function",
+    "name": "sigsetjmp",
+    "address": "0x717429eed0"
+  },
+  {
+    "type": "function",
+    "name": "__strncpy_chk",
+    "address": "0x71742c7db8"
+  },
+  {
+    "type": "function",
+    "name": "popen",
+    "address": "0x71742fd0b4"
+  },
+  {
+    "type": "function",
+    "name": "__freading",
+    "address": "0x71742fd30c"
+  },
+  {
+    "type": "function",
+    "name": "android_set_abort_message",
+    "address": "0x717429de08"
+  },
+  {
+    "type": "function",
+    "name": "setxattr",
+    "address": "0x71742edb40"
+  },
+  {
+    "type": "function",
+    "name": "futimens",
+    "address": "0x71742a66b4"
+  },
+  {
+    "type": "function",
+    "name": "res_query",
+    "address": "0x71742c0e48"
+  },
+  {
+    "type": "function",
+    "name": "wcstoimax",
+    "address": "0x71742e5e1c"
+  },
+  {
+    "type": "function",
+    "name": "fwide",
+    "address": "0x71742e95e8"
+  },
+  {
+    "type": "function",
+    "name": "remque",
+    "address": "0x71742eb848"
+  },
+  {
+    "type": "variable",
+    "name": "__sF",
+    "address": "0x7174309448"
+  },
+  {
+    "type": "function",
+    "name": "sched_get_priority_max",
+    "address": "0x71742ed740"
+  },
+  {
+    "type": "function",
+    "name": "pthread_attr_setschedpolicy",
+    "address": "0x71742ffdb4"
+  },
+  {
+    "type": "function",
+    "name": "_exit",
+    "address": "0x71742ecb60"
+  },
+  {
+    "type": "function",
+    "name": "gettid",
+    "address": "0x71742a6b50"
+  },
+  {
+    "type": "function",
+    "name": "endprotoent",
+    "address": "0x71742abbe8"
+  },
+  {
+    "type": "function",
+    "name": "__poll_chk",
+    "address": "0x71742c76f0"
+  },
+  {
+    "type": "function",
+    "name": "wcsstr",
+    "address": "0x71742cb330"
+  },
+  {
+    "type": "function",
+    "name": "sigaltstack",
+    "address": "0x71742edb80"
+  },
+  {
+    "type": "function",
+    "name": "fputc_unlocked",
+    "address": "0x71742fb190"
+  },
+  {
+    "type": "function",
+    "name": "setbuffer",
+    "address": "0x71742fc0e4"
+  },
+  {
+    "type": "function",
+    "name": "pthread_rwlockattr_setkind_np",
+    "address": "0x71743027e8"
+  },
+  {
+    "type": "function",
+    "name": "isnormalf",
+    "address": "0x71742a6150"
+  },
+  {
+    "type": "function",
+    "name": "linkat",
+    "address": "0x71742ed220"
+  },
+  {
+    "type": "function",
+    "name": "sigsetmask",
+    "address": "0x71742ae670"
+  },
+  {
+    "type": "function",
+    "name": "ns_get16",
+    "address": "0x71742b42ec"
+  },
+  {
+    "type": "function",
+    "name": "__snprintf_chk",
+    "address": "0x71742c7fa4"
+  },
+  {
+    "type": "function",
+    "name": "getdelim",
+    "address": "0x71742e9670"
+  },
+  {
+    "type": "function",
+    "name": "asctime_r",
+    "address": "0x71742edeb8"
+  },
+  {
+    "type": "function",
+    "name": "mktime",
+    "address": "0x71742eeaf0"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_atexit",
+    "address": "0x7174303c68"
+  },
+  {
+    "type": "function",
+    "name": "isspace",
+    "address": "0x71742e5818"
+  },
+  {
+    "type": "function",
+    "name": "scandir",
+    "address": "0x71742ad62c"
+  },
+  {
+    "type": "function",
+    "name": "__p_time",
+    "address": "0x71742c2750"
+  },
+  {
+    "type": "function",
+    "name": "__freadable",
+    "address": "0x71742fd324"
+  },
+  {
+    "type": "function",
+    "name": "__open_2",
+    "address": "0x71742abe84"
+  },
+  {
+    "type": "function",
+    "name": "dn_expand",
+    "address": "0x71742c05e8"
+  },
+  {
+    "type": "function",
+    "name": "strdup",
+    "address": "0x71742ec140"
+  },
+  {
+    "type": "function",
+    "name": "uname",
+    "address": "0x71742eddc0"
+  },
+  {
+    "type": "function",
+    "name": "cfsetspeed",
+    "address": "0x71742b14e4"
+  },
+  {
+    "type": "function",
+    "name": "memrchr",
+    "address": "0x71742ddc00"
+  },
+  {
+    "type": "function",
+    "name": "wmemset",
+    "address": "0x71742cb4cc"
+  },
+  {
+    "type": "function",
+    "name": "process_vm_readv",
+    "address": "0x71742ed580"
+  },
+  {
+    "type": "function",
+    "name": "longjmp",
+    "address": "0x717429f080"
+  },
+  {
+    "type": "function",
+    "name": "eventfd_read",
+    "address": "0x71742a45e0"
+  },
+  {
+    "type": "function",
+    "name": "nice",
+    "address": "0x71742d5ef8"
+  },
+  {
+    "type": "function",
+    "name": "gets",
+    "address": "0x71742e987c"
+  },
+  {
+    "type": "function",
+    "name": "setregid",
+    "address": "0x71742eda20"
+  },
+  {
+    "type": "function",
+    "name": "pthread_attr_getstack",
+    "address": "0x71742ffe5c"
+  },
+  {
+    "type": "function",
+    "name": "pthread_attr_setscope",
+    "address": "0x7174300134"
+  },
+  {
+    "type": "function",
+    "name": "sigdelset",
+    "address": "0x71742ade48"
+  },
+  {
+    "type": "function",
+    "name": "wcscasecmp_l",
+    "address": "0x71742b1d88"
+  },
+  {
+    "type": "function",
+    "name": "__fwrite_chk",
+    "address": "0x71742c7514"
+  },
+  {
+    "type": "function",
+    "name": "swapon",
+    "address": "0x71742edc00"
+  },
+  {
+    "type": "function",
+    "name": "isnormall",
+    "address": "0x71742a62ec"
+  },
+  {
+    "type": "function",
+    "name": "getdomainname",
+    "address": "0x71742a678c"
+  },
+  {
+    "type": "function",
+    "name": "setdomainname",
+    "address": "0x71742ed8e0"
+  },
+  {
+    "type": "function",
+    "name": "__memset_chk",
+    "address": "0x717429e330"
+  },
+  {
+    "type": "function",
+    "name": "sigaction64",
+    "address": "0x71742adb54"
+  },
+  {
+    "type": "function",
+    "name": "readdir",
+    "address": "0x71742a3f0c"
+  },
+  {
+    "type": "function",
+    "name": "forkpty",
+    "address": "0x71742ad280"
+  },
+  {
+    "type": "function",
+    "name": "wcstold_l",
+    "address": "0x71742b1db4"
+  },
+  {
+    "type": "function",
+    "name": "__fpurge",
+    "address": "0x71742fd354"
+  },
+  {
+    "type": "function",
+    "name": "unlockpt",
+    "address": "0x71742ad0dc"
+  },
+  {
+    "type": "function",
+    "name": "srandom",
+    "address": "0x71742d59d4"
+  },
+  {
+    "type": "function",
+    "name": "vwscanf",
+    "address": "0x71742fc89c"
+  },
+  {
+    "type": "function",
+    "name": "__vsnprintf_chk",
+    "address": "0x71742c7f1c"
+  },
+  {
+    "type": "function",
+    "name": "strcmp",
+    "address": "0x717429e740"
+  },
+  {
+    "type": "function",
+    "name": "__readlink_chk",
+    "address": "0x71742c7a04"
+  },
+  {
+    "type": "function",
+    "name": "getgrgid",
+    "address": "0x71742a787c"
+  },
+  {
+    "type": "function",
+    "name": "getifaddrs",
+    "address": "0x71742a9b2c"
+  },
+  {
+    "type": "function",
+    "name": "fpurge",
+    "address": "0x71742e8f8c"
+  },
+  {
+    "type": "function",
+    "name": "fputws",
+    "address": "0x71742e919c"
+  },
+  {
+    "type": "function",
+    "name": "ungetwc",
+    "address": "0x71742eab70"
+  },
+  {
+    "type": "function",
+    "name": "sendmsg",
+    "address": "0x71742ed8a0"
+  },
+  {
+    "type": "function",
+    "name": "fts_close",
+    "address": "0x71742f6fdc"
+  },
+  {
+    "type": "function",
+    "name": "localeconv",
+    "address": "0x71742aabec"
+  },
+  {
+    "type": "function",
+    "name": "mknodat",
+    "address": "0x71742ed360"
+  },
+  {
+    "type": "function",
+    "name": "bindresvport",
+    "address": "0x71742abc24"
+  },
+  {
+    "type": "function",
+    "name": "chdir",
+    "address": "0x71742ecc20"
+  },
+  {
+    "type": "function",
+    "name": "pututline",
+    "address": "0x71742f8020"
+  },
+  {
+    "type": "function",
+    "name": "fputs_unlocked",
+    "address": "0x71742fb430"
+  },
+  {
+    "type": "function",
+    "name": "__cmsg_nxthdr",
+    "address": "0x71742a1e60"
+  },
+  {
+    "type": "function",
+    "name": "iswalnum_l",
+    "address": "0x71742b265c"
+  },
+  {
+    "type": "function",
+    "name": "clock_getcpuclockid",
+    "address": "0x71742a3998"
+  },
+  {
+    "type": "function",
+    "name": "telldir",
+    "address": "0x71742a4210"
+  },
+  {
+    "type": "function",
+    "name": "recv",
+    "address": "0x71742ad49c"
+  },
+  {
+    "type": "function",
+    "name": "getservbyport",
+    "address": "0x71742bde28"
+  },
+  {
+    "type": "function",
+    "name": "fstat64",
+    "address": "0x71742ece80"
+  },
+  {
+    "type": "function",
+    "name": "shutdown",
+    "address": "0x71742edb60"
+  },
+  {
+    "type": "function",
+    "name": "putc_unlocked",
+    "address": "0x71742fb260"
+  },
+  {
+    "type": "function",
+    "name": "pthread_rwlock_unlock",
+    "address": "0x7174303150"
+  },
+  {
+    "type": "function",
+    "name": "creat64",
+    "address": "0x71742abd90"
+  },
+  {
+    "type": "function",
+    "name": "__memmove_chk",
+    "address": "0x71742c75c8"
+  },
+  {
+    "type": "function",
+    "name": "initstate",
+    "address": "0x71742d5ae4"
+  },
+  {
+    "type": "function",
+    "name": "isascii",
+    "address": "0x71742e589c"
+  },
+  {
+    "type": "function",
+    "name": "inotify_init1",
+    "address": "0x71742ed180"
+  },
+  {
+    "type": "function",
+    "name": "ns_name_unpack",
+    "address": "0x71742b3c24"
+  },
+  {
+    "type": "function",
+    "name": "wcsdup",
+    "address": "0x71742cafd0"
+  }
+]

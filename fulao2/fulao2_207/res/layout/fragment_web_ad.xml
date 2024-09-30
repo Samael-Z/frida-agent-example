@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/web_top_progressbar" android:layout_width="fill_parent" android:layout_height="2.0dip" android:max="100" android:progress="1" android:indeterminate="false" android:progressDrawable="@drawable/shape_progressbar_white" style="?android:progressBarStyleHorizontal" />
+    <com.ilulutv.fulao2.other.custom.LollipopFixedWebView android:id="@id/fl_web_ad" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/web_top_progressbar" />
+    <include android:id="@id/layout_oops" android:visibility="gone" layout="@layout/item_oops" />
+</RelativeLayout>

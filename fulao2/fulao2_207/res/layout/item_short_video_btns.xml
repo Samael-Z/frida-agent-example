@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_short_video_btns_container" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_short_video_btns" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_share_short_video" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/pure_white" android:layout_gravity="center_horizontal" android:id="@id/tv_short_video_btns" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/player_speed_title" android:shadowColor="#99000000" android:shadowDx="0.0" android:shadowDy="2.0" android:shadowRadius="4.0" />
+</LinearLayout>

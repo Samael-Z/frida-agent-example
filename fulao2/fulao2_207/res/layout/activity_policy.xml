@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layout_toolbar" layout="@layout/toolbar_general" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/tabs" android:background="@color/pure_white" android:layout_width="0.0dip" android:layout_height="44.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/layout_toolbar" app:tabGravity="fill" app:tabIndicatorFullWidth="false" app:tabMaxWidth="0.0dip" app:tabMode="scrollable" style="@style/AppTabLayout" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/view_pager" android:background="@color/pure_white" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/tabs" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/web_top_progressbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:max="100" android:progress="1" android:indeterminate="false" android:progressDrawable="@drawable/shape_progressbar_white" style="?android:progressBarStyleHorizontal" />
+    <com.ilulutv.fulao2.other.custom.LollipopFixedWebView android:id="@id/wv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/web_top_progressbar" />
+    <RelativeLayout android:id="@id/load_rl" android:background="@drawable/shape_pink_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_loading" android:scaleType="centerCrop" />
+        <ImageView android:background="@color/black_0_t30" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="65.0dip" android:layout_alignParentBottom="true">
+            <ProgressBar android:id="@id/web_central_progressbar" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="16.0dip" android:max="100" android:progress="1" android:indeterminate="false" android:progressDrawable="@drawable/shape_progressbar_white" android:layout_marginStart="80.0dip" android:layout_marginEnd="80.0dip" style="?android:progressBarStyleHorizontal" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/pure_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/payment_loading" android:shadowColor="@color/text_shadow" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="2.0" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

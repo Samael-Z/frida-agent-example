@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar_general" layout="@layout/toolbar_general" />
+    <com.ilulutv.fulao2.other.custom.OverScrollLayout android:layout_width="0.0dip" android:layout_height="0.0dip" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar_general">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.ilulutv.fulao2.other.custom.OverScrollLayout>
+    <FrameLayout android:id="@id/fl_oops_header_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar_general" />
+    <include android:id="@id/layout_oops" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="@dimen/dp_10" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/fl_oops_header_container" layout="@layout/item_oops" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_progress" android:padding="10.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <include layout="@layout/item_load_more" />
+    </LinearLayout>
+    <com.ilulutv.fulao2.other.custom.CustomExpandableLayout android:id="@id/cel_select_action_bar" android:background="@color/pure_white" android:layout_width="0.0dip" android:layout_height="wrap_content" app:el_duration="300" app:el_expanded="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <RelativeLayout android:id="@id/rl_select_action_bar" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/ll_check_box_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dp_10">
+                <CheckBox android:layout_gravity="center_vertical" android:id="@id/check_box_action_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="" android:textOff="" app:buttonTint="@color/checkbox_filter_tint" />
+                <TextView android:textSize="@dimen/sp_14" android:textColor="@color/black_0_t38" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/favorite_select_all" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/fl_copy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true">
+                <TextView android:textSize="@dimen/sp_14" android:textColor="@color/red_3" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_copy" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/favorite_copy" />
+                <pl.droidsonroids.gif.GifImageView android:layout_gravity="center_vertical" android:id="@id/gif_copy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gif_rotate" />
+            </FrameLayout>
+            <TextView android:textSize="@dimen/sp_14" android:textColor="@color/red_3" android:gravity="center" android:id="@id/tv_delete" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/favorite_delete_video" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/fl_copy" />
+            <TextView android:textSize="@dimen/sp_14" android:textColor="@color/black_0_t38" android:gravity="center" android:id="@id/tv_cancel" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/favorite_cancel" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/tv_delete" />
+        </RelativeLayout>
+    </com.ilulutv.fulao2.other.custom.CustomExpandableLayout>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/cdl_snack_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

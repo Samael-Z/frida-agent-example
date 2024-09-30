@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fl_mf_func_btns" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/selector_transparent_white">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_mf_func_btns" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/iv_mf_func_btns" android:layout_width="28.0dip" android:layout_height="28.0dip" />
+            <TextView android:textSize="@dimen/sp_14" android:textColor="@color/black_000" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/tv_mf_func_btns" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

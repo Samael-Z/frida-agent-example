@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/pure_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout_toolbar" layout="@layout/toolbar_general" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycle_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="2.0dip" android:layout_below="@id/layout_toolbar" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_progress" android:background="@drawable/shape_black_transparent_curved" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <include layout="@layout/item_load_more" />
+    </LinearLayout>
+</RelativeLayout>

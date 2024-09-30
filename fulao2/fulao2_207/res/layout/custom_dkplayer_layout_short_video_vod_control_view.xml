@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/vod_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/iv_back" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_margin="10.0dip" android:src="@drawable/custom_player_back" />
+            <ImageView android:id="@id/iv_play_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_play_btn" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/iv_pause_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_pause" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/iv_replay" android:padding="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_replay_1" android:layout_centerInParent="true" />
+            <LinearLayout android:layout_gravity="end|bottom|center" android:orientation="vertical" android:id="@id/ll_control_buttons_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/ll_seekbar_container" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+            <RelativeLayout android:orientation="vertical" android:id="@id/rl_detail_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/ll_time" android:layout_marginEnd="24.0dip" android:layout_toStartOf="@id/ll_control_buttons_container">
+                <TextView android:textSize="14.0sp" android:textColor="@color/pure_white" android:ellipsize="end" android:layout_gravity="bottom" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:layout_above="@id/rv_top" android:layout_marginStart="10.0dip" />
+                <androidx.recyclerview.widget.RecyclerView android:layout_gravity="bottom" android:id="@id/rv_original" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_above="@id/expandable_layout_bottom_history" android:layout_marginStart="10.0dip" />
+                <androidx.recyclerview.widget.RecyclerView android:layout_gravity="bottom" android:id="@id/rv_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_above="@id/expandable_layout_bottom_history" android:layout_marginStart="10.0dip" />
+                <com.ilulutv.fulao2.other.custom.CustomExpandableLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/expandable_layout_bottom_history" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/tv_expand_collapse" android:layout_marginStart="10.0dip" app:el_duration="100" app:el_expanded="false">
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </com.ilulutv.fulao2.other.custom.CustomExpandableLayout>
+                <TextView android:textSize="14.0sp" android:textColor="@color/white_0_t60" android:layout_gravity="bottom" android:id="@id/tv_expand_collapse" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/player_tag_expand" android:layout_alignParentBottom="true" android:layout_marginStart="10.0dip" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/ll_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/ll_seekbar_container">
+                <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/curr_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_10" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_0_t60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" / " />
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_0_t60" android:id="@id/total_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/ll_seekbar_container" android:background="@drawable/dkplayer_shape_stardard_controller_bottom_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dkplayer_controller_height" android:layout_alignParentBottom="true">
+                <SeekBar android:layout_gravity="center_vertical" android:id="@id/seekBar" android:background="@null" android:layout_width="0.0dip" android:layout_height="40.0dip" android:maxHeight="2.0dip" android:max="1000" android:progressDrawable="@drawable/dkplayer_layer_progress_bar" android:minHeight="2.0dip" android:thumb="@drawable/dkplayer_seekbar_thumb" android:thumbOffset="0.0dip" android:layout_weight="1.0" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="bottom" android:id="@id/bottom_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:max="1000" android:progressDrawable="@drawable/dkplayer_layer_progress_bar" style="?android:progressBarStyleHorizontal" />
+</FrameLayout>

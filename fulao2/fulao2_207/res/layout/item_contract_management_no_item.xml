@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="16.0sp" android:textColor="@color/item_title_gray" android:gravity="center" android:layout_gravity="center" android:id="@id/history_no_record" android:background="@color/pure_white" android:paddingTop="@dimen/dp_40" android:paddingBottom="@dimen/dp_40" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/contract_management_history_no_record"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

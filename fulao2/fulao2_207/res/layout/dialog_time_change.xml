@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/shape_white_curved" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@color/dialog_adult_text_title_gray" android:id="@id/text_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="30.0dip" android:text="@string/dialog_time_change_title" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" />
+    <View android:background="@color/dialog_adult_line_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="20.0dip" />
+    <RelativeLayout android:id="@id/tc_one_rv" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="30.0dip" android:paddingEnd="30.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/dialog_adult_text_message_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_time_change_one" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/tc_one_iv" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/selector_clarify_btn" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:background="@color/dialog_adult_line_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:id="@id/tc_five_rv" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="30.0dip" android:paddingEnd="30.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/dialog_adult_text_message_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_time_change_five" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/tc_five_iv" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/selector_clarify_btn" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:background="@color/dialog_adult_line_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:id="@id/tc_ten_rv" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="30.0dip" android:paddingEnd="30.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/dialog_adult_text_message_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_time_change_ten" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/tc_ten_iv" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/selector_clarify_btn" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:background="@color/dialog_adult_line_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <RelativeLayout android:id="@id/tc_rl_negative" android:background="@drawable/selector_dialog_left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/line">
+            <TextView android:textSize="14.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_time_change_negative" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <View android:id="@id/line" android:background="@color/dialog_adult_line_gray" android:layout_width="1.0dip" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" android:layout_centerInParent="true" />
+        <RelativeLayout android:id="@id/tc_rl_positive" android:background="@drawable/selector_dialog_right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toEndOf="@id/line">
+            <TextView android:textSize="14.0sp" android:textColor="@color/dialog_adult_text_ok_red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_time_change_positive" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
